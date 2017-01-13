@@ -1,0 +1,1416 @@
+# Logfile created on 2017-01-12 18:52:31 +0100 by logger.rb/53141
+I, [2017-01-12T18:55:55.578133 #13136]  INFO -- : Net::HTTP::Get: /account/login.html
+D, [2017-01-12T18:55:55.578206 #13136] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-01-12T18:55:55.578232 #13136] DEBUG -- : request-header: accept => */*
+D, [2017-01-12T18:55:55.578253 #13136] DEBUG -- : request-header: user-agent => Mechanize/2.7.5 Ruby/2.3.0p0 (http://github.com/sparklemotion/mechanize/)
+D, [2017-01-12T18:55:55.578274 #13136] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-01-12T18:55:55.578294 #13136] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-01-12T18:55:55.578319 #13136] DEBUG -- : request-header: host => www.marktplaats.nl
+I, [2017-01-12T18:55:55.825365 #13136]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-01-12T18:55:55.825539 #13136] DEBUG -- : response-header: cache-control => no-store
+D, [2017-01-12T18:55:55.825589 #13136] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-01-12T18:55:55.825631 #13136] DEBUG -- : response-header: content-language => en-US
+D, [2017-01-12T18:55:55.825671 #13136] DEBUG -- : response-header: content-length => 5888
+D, [2017-01-12T18:55:55.825712 #13136] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2017-01-12T18:55:55.825754 #13136] DEBUG -- : response-header: date => Thu, 12 Jan 2017 17:55:55 GMT
+D, [2017-01-12T18:55:55.825795 #13136] DEBUG -- : response-header: expires => Thu, 01 Jan 1970 00:00:00 GMT
+D, [2017-01-12T18:55:55.825836 #13136] DEBUG -- : response-header: pragma => no-cache
+D, [2017-01-12T18:55:55.825878 #13136] DEBUG -- : response-header: set-cookie => luckynumber=1695724475;Path=/;Domain=.marktplaats.nl;Expires=Fri, 12-Jan-2018 17:55:55 GMT, MpSession="";Version=1;Path=/;Expires=Thu, 01-Jan-1970 00:00:00 GMT;Max-Age=0, MpSession=92700dec-f689-4efb-bcad-1a1afac51d35;Path=/;Domain=.marktplaats.nl
+D, [2017-01-12T18:55:55.825920 #13136] DEBUG -- : response-header: vary => Accept-Encoding, User-Agent
+D, [2017-01-12T18:55:55.825960 #13136] DEBUG -- : response-header: x-frame-options => SAMEORIGIN
+D, [2017-01-12T18:55:55.826173 #13136] DEBUG -- : Read 3497 bytes (3497 total)
+D, [2017-01-12T18:55:55.826280 #13136] DEBUG -- : Read 2391 bytes (5888 total)
+D, [2017-01-12T18:55:55.826466 #13136] DEBUG -- : gzip response
+D, [2017-01-12T18:55:55.843721 #13136] DEBUG -- : saved cookie: luckynumber=1695724475
+D, [2017-01-12T18:55:55.844198 #13136] DEBUG -- : saved cookie: MpSession=
+D, [2017-01-12T18:55:55.844387 #13136] DEBUG -- : saved cookie: MpSession=92700dec-f689-4efb-bcad-1a1afac51d35
+I, [2017-01-12T19:05:04.420799 #13350]  INFO -- : Net::HTTP::Get: /account/login.html
+D, [2017-01-12T19:05:04.420860 #13350] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-01-12T19:05:04.420884 #13350] DEBUG -- : request-header: accept => */*
+D, [2017-01-12T19:05:04.420907 #13350] DEBUG -- : request-header: user-agent => Mechanize/2.7.5 Ruby/2.3.0p0 (http://github.com/sparklemotion/mechanize/)
+D, [2017-01-12T19:05:04.420928 #13350] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-01-12T19:05:04.420947 #13350] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-01-12T19:05:04.420965 #13350] DEBUG -- : request-header: host => www.marktplaats.nl
+I, [2017-01-12T19:05:05.045443 #13350]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-01-12T19:05:05.045589 #13350] DEBUG -- : response-header: cache-control => no-store
+D, [2017-01-12T19:05:05.045640 #13350] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-01-12T19:05:05.045685 #13350] DEBUG -- : response-header: content-language => en-US
+D, [2017-01-12T19:05:05.045728 #13350] DEBUG -- : response-header: content-length => 5887
+D, [2017-01-12T19:05:05.045773 #13350] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2017-01-12T19:05:05.045819 #13350] DEBUG -- : response-header: date => Thu, 12 Jan 2017 18:05:05 GMT
+D, [2017-01-12T19:05:05.045863 #13350] DEBUG -- : response-header: expires => Thu, 01 Jan 1970 00:00:00 GMT
+D, [2017-01-12T19:05:05.045938 #13350] DEBUG -- : response-header: pragma => no-cache
+D, [2017-01-12T19:05:05.045987 #13350] DEBUG -- : response-header: set-cookie => luckynumber=132709807;Path=/;Domain=.marktplaats.nl;Expires=Fri, 12-Jan-2018 18:05:05 GMT, MpSession="";Version=1;Path=/;Expires=Thu, 01-Jan-1970 00:00:00 GMT;Max-Age=0, MpSession=4cc6ec90-c421-46bf-b432-fff843d10f42;Path=/;Domain=.marktplaats.nl
+D, [2017-01-12T19:05:05.046031 #13350] DEBUG -- : response-header: vary => Accept-Encoding, User-Agent
+D, [2017-01-12T19:05:05.046073 #13350] DEBUG -- : response-header: x-frame-options => SAMEORIGIN
+D, [2017-01-12T19:05:05.046340 #13350] DEBUG -- : Read 3498 bytes (3498 total)
+D, [2017-01-12T19:05:05.046489 #13350] DEBUG -- : Read 2389 bytes (5887 total)
+D, [2017-01-12T19:05:05.046679 #13350] DEBUG -- : gzip response
+D, [2017-01-12T19:05:05.057931 #13350] DEBUG -- : saved cookie: luckynumber=132709807
+D, [2017-01-12T19:05:05.058264 #13350] DEBUG -- : saved cookie: MpSession=
+D, [2017-01-12T19:05:05.058379 #13350] DEBUG -- : saved cookie: MpSession=4cc6ec90-c421-46bf-b432-fff843d10f42
+I, [2017-01-12T19:06:56.693476 #13350]  INFO -- : Net::HTTP::Get: /account/login.html
+D, [2017-01-12T19:06:56.693789 #13350] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-01-12T19:06:56.693900 #13350] DEBUG -- : request-header: accept => */*
+D, [2017-01-12T19:06:56.693924 #13350] DEBUG -- : request-header: user-agent => Mechanize/2.7.5 Ruby/2.3.0p0 (http://github.com/sparklemotion/mechanize/)
+D, [2017-01-12T19:06:56.693945 #13350] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-01-12T19:06:56.693966 #13350] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-01-12T19:06:56.693986 #13350] DEBUG -- : request-header: host => www.marktplaats.nl
+I, [2017-01-12T19:06:57.333956 #13350]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-01-12T19:06:57.334075 #13350] DEBUG -- : response-header: cache-control => no-store
+D, [2017-01-12T19:06:57.334131 #13350] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-01-12T19:06:57.334188 #13350] DEBUG -- : response-header: content-language => en-US
+D, [2017-01-12T19:06:57.334243 #13350] DEBUG -- : response-header: content-length => 5893
+D, [2017-01-12T19:06:57.334273 #13350] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2017-01-12T19:06:57.334297 #13350] DEBUG -- : response-header: date => Thu, 12 Jan 2017 18:06:57 GMT
+D, [2017-01-12T19:06:57.334319 #13350] DEBUG -- : response-header: expires => Thu, 01 Jan 1970 00:00:00 GMT
+D, [2017-01-12T19:06:57.334341 #13350] DEBUG -- : response-header: pragma => no-cache
+D, [2017-01-12T19:06:57.334363 #13350] DEBUG -- : response-header: set-cookie => luckynumber=349120722;Path=/;Domain=.marktplaats.nl;Expires=Fri, 12-Jan-2018 18:06:57 GMT, MpSession="";Version=1;Path=/;Expires=Thu, 01-Jan-1970 00:00:00 GMT;Max-Age=0, MpSession=1ec3dcd8-4763-40c8-8846-0e4fc346d45c;Path=/;Domain=.marktplaats.nl
+D, [2017-01-12T19:06:57.334387 #13350] DEBUG -- : response-header: vary => Accept-Encoding, User-Agent
+D, [2017-01-12T19:06:57.334408 #13350] DEBUG -- : response-header: x-frame-options => SAMEORIGIN
+D, [2017-01-12T19:06:57.334511 #13350] DEBUG -- : Read 3498 bytes (3498 total)
+D, [2017-01-12T19:06:57.334642 #13350] DEBUG -- : Read 2395 bytes (5893 total)
+D, [2017-01-12T19:06:57.334849 #13350] DEBUG -- : gzip response
+D, [2017-01-12T19:06:57.336820 #13350] DEBUG -- : saved cookie: luckynumber=349120722
+D, [2017-01-12T19:06:57.337024 #13350] DEBUG -- : saved cookie: MpSession=
+D, [2017-01-12T19:06:57.337135 #13350] DEBUG -- : saved cookie: MpSession=1ec3dcd8-4763-40c8-8846-0e4fc346d45c
+I, [2017-01-12T19:07:43.552494 #13350]  INFO -- : Net::HTTP::Get: /account/login.html
+D, [2017-01-12T19:07:43.552558 #13350] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-01-12T19:07:43.552583 #13350] DEBUG -- : request-header: accept => */*
+D, [2017-01-12T19:07:43.552605 #13350] DEBUG -- : request-header: user-agent => Mechanize/2.7.5 Ruby/2.3.0p0 (http://github.com/sparklemotion/mechanize/)
+D, [2017-01-12T19:07:43.552642 #13350] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-01-12T19:07:43.552664 #13350] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-01-12T19:07:43.552685 #13350] DEBUG -- : request-header: host => www.marktplaats.nl
+I, [2017-01-12T19:07:44.216127 #13350]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-01-12T19:07:44.216217 #13350] DEBUG -- : response-header: cache-control => no-store
+D, [2017-01-12T19:07:44.216252 #13350] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-01-12T19:07:44.216305 #13350] DEBUG -- : response-header: content-language => en-US
+D, [2017-01-12T19:07:44.216346 #13350] DEBUG -- : response-header: content-length => 5893
+D, [2017-01-12T19:07:44.216389 #13350] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2017-01-12T19:07:44.216429 #13350] DEBUG -- : response-header: date => Thu, 12 Jan 2017 18:07:44 GMT
+D, [2017-01-12T19:07:44.216467 #13350] DEBUG -- : response-header: expires => Thu, 01 Jan 1970 00:00:00 GMT
+D, [2017-01-12T19:07:44.216505 #13350] DEBUG -- : response-header: pragma => no-cache
+D, [2017-01-12T19:07:44.216546 #13350] DEBUG -- : response-header: set-cookie => luckynumber=886451545;Path=/;Domain=.marktplaats.nl;Expires=Fri, 12-Jan-2018 18:07:44 GMT, MpSession="";Version=1;Path=/;Expires=Thu, 01-Jan-1970 00:00:00 GMT;Max-Age=0, MpSession=f8fda43d-ea01-498f-81d0-57b51abfe776;Path=/;Domain=.marktplaats.nl
+D, [2017-01-12T19:07:44.216603 #13350] DEBUG -- : response-header: vary => Accept-Encoding, User-Agent
+D, [2017-01-12T19:07:44.216638 #13350] DEBUG -- : response-header: x-frame-options => SAMEORIGIN
+D, [2017-01-12T19:07:44.216755 #13350] DEBUG -- : Read 3498 bytes (3498 total)
+D, [2017-01-12T19:07:44.216872 #13350] DEBUG -- : Read 2395 bytes (5893 total)
+D, [2017-01-12T19:07:44.216988 #13350] DEBUG -- : gzip response
+D, [2017-01-12T19:07:44.219811 #13350] DEBUG -- : saved cookie: luckynumber=886451545
+D, [2017-01-12T19:07:44.220326 #13350] DEBUG -- : saved cookie: MpSession=
+D, [2017-01-12T19:07:44.220568 #13350] DEBUG -- : saved cookie: MpSession=f8fda43d-ea01-498f-81d0-57b51abfe776
+I, [2017-01-12T19:08:38.160068 #13350]  INFO -- : Net::HTTP::Get: /account/login.html
+D, [2017-01-12T19:08:38.160153 #13350] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-01-12T19:08:38.160224 #13350] DEBUG -- : request-header: accept => */*
+D, [2017-01-12T19:08:38.160248 #13350] DEBUG -- : request-header: user-agent => Mechanize/2.7.5 Ruby/2.3.0p0 (http://github.com/sparklemotion/mechanize/)
+D, [2017-01-12T19:08:38.160271 #13350] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-01-12T19:08:38.160293 #13350] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-01-12T19:08:38.160314 #13350] DEBUG -- : request-header: host => www.marktplaats.nl
+I, [2017-01-12T19:08:38.770303 #13350]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-01-12T19:08:38.770375 #13350] DEBUG -- : response-header: cache-control => no-store
+D, [2017-01-12T19:08:38.770399 #13350] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-01-12T19:08:38.770471 #13350] DEBUG -- : response-header: content-language => en-US
+D, [2017-01-12T19:08:38.770492 #13350] DEBUG -- : response-header: content-length => 5902
+D, [2017-01-12T19:08:38.770513 #13350] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2017-01-12T19:08:38.770534 #13350] DEBUG -- : response-header: date => Thu, 12 Jan 2017 18:08:38 GMT
+D, [2017-01-12T19:08:38.770555 #13350] DEBUG -- : response-header: expires => Thu, 01 Jan 1970 00:00:00 GMT
+D, [2017-01-12T19:08:38.770575 #13350] DEBUG -- : response-header: pragma => no-cache
+D, [2017-01-12T19:08:38.770596 #13350] DEBUG -- : response-header: set-cookie => luckynumber=494651079;Path=/;Domain=.marktplaats.nl;Expires=Fri, 12-Jan-2018 18:08:38 GMT, MpSession="";Version=1;Path=/;Expires=Thu, 01-Jan-1970 00:00:00 GMT;Max-Age=0, MpSession=2bd9c5ef-7c58-45fa-a96c-fde1a76974c6;Path=/;Domain=.marktplaats.nl
+D, [2017-01-12T19:08:38.770632 #13350] DEBUG -- : response-header: vary => Accept-Encoding, User-Agent
+D, [2017-01-12T19:08:38.770653 #13350] DEBUG -- : response-header: x-frame-options => SAMEORIGIN
+D, [2017-01-12T19:08:38.770782 #13350] DEBUG -- : Read 3498 bytes (3498 total)
+D, [2017-01-12T19:08:38.770916 #13350] DEBUG -- : Read 2404 bytes (5902 total)
+D, [2017-01-12T19:08:38.771033 #13350] DEBUG -- : gzip response
+D, [2017-01-12T19:08:38.773082 #13350] DEBUG -- : saved cookie: luckynumber=494651079
+D, [2017-01-12T19:08:38.773327 #13350] DEBUG -- : saved cookie: MpSession=
+D, [2017-01-12T19:08:38.773445 #13350] DEBUG -- : saved cookie: MpSession=2bd9c5ef-7c58-45fa-a96c-fde1a76974c6
+I, [2017-01-12T19:08:55.499950 #13350]  INFO -- : Net::HTTP::Get: /account/login.html
+D, [2017-01-12T19:08:55.500010 #13350] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-01-12T19:08:55.500034 #13350] DEBUG -- : request-header: accept => */*
+D, [2017-01-12T19:08:55.500057 #13350] DEBUG -- : request-header: user-agent => Mechanize/2.7.5 Ruby/2.3.0p0 (http://github.com/sparklemotion/mechanize/)
+D, [2017-01-12T19:08:55.500078 #13350] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-01-12T19:08:55.500099 #13350] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-01-12T19:08:55.500120 #13350] DEBUG -- : request-header: host => www.marktplaats.nl
+I, [2017-01-12T19:08:55.713104 #13350]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-01-12T19:08:55.713175 #13350] DEBUG -- : response-header: cache-control => no-store
+D, [2017-01-12T19:08:55.713199 #13350] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-01-12T19:08:55.713220 #13350] DEBUG -- : response-header: content-language => en-US
+D, [2017-01-12T19:08:55.713241 #13350] DEBUG -- : response-header: content-length => 5901
+D, [2017-01-12T19:08:55.713263 #13350] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2017-01-12T19:08:55.713284 #13350] DEBUG -- : response-header: date => Thu, 12 Jan 2017 18:08:55 GMT
+D, [2017-01-12T19:08:55.713305 #13350] DEBUG -- : response-header: expires => Thu, 01 Jan 1970 00:00:00 GMT
+D, [2017-01-12T19:08:55.713325 #13350] DEBUG -- : response-header: pragma => no-cache
+D, [2017-01-12T19:08:55.713347 #13350] DEBUG -- : response-header: set-cookie => luckynumber=662883207;Path=/;Domain=.marktplaats.nl;Expires=Fri, 12-Jan-2018 18:08:55 GMT, MpSession="";Version=1;Path=/;Expires=Thu, 01-Jan-1970 00:00:00 GMT;Max-Age=0, MpSession=7262e3c1-fe35-4212-89ad-32c861c0bce5;Path=/;Domain=.marktplaats.nl
+D, [2017-01-12T19:08:55.713368 #13350] DEBUG -- : response-header: vary => Accept-Encoding, User-Agent
+D, [2017-01-12T19:08:55.713389 #13350] DEBUG -- : response-header: x-frame-options => SAMEORIGIN
+D, [2017-01-12T19:08:55.713470 #13350] DEBUG -- : Read 3498 bytes (3498 total)
+D, [2017-01-12T19:08:55.713688 #13350] DEBUG -- : Read 2403 bytes (5901 total)
+D, [2017-01-12T19:08:55.713796 #13350] DEBUG -- : gzip response
+D, [2017-01-12T19:08:55.716438 #13350] DEBUG -- : saved cookie: luckynumber=662883207
+D, [2017-01-12T19:08:55.716702 #13350] DEBUG -- : saved cookie: MpSession=
+D, [2017-01-12T19:08:55.716846 #13350] DEBUG -- : saved cookie: MpSession=7262e3c1-fe35-4212-89ad-32c861c0bce5
+I, [2017-01-12T19:09:13.285430 #13350]  INFO -- : Net::HTTP::Get: /account/login.html
+D, [2017-01-12T19:09:13.285485 #13350] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-01-12T19:09:13.285509 #13350] DEBUG -- : request-header: accept => */*
+D, [2017-01-12T19:09:13.285531 #13350] DEBUG -- : request-header: user-agent => Mechanize/2.7.5 Ruby/2.3.0p0 (http://github.com/sparklemotion/mechanize/)
+D, [2017-01-12T19:09:13.285553 #13350] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-01-12T19:09:13.285574 #13350] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-01-12T19:09:13.285608 #13350] DEBUG -- : request-header: host => www.marktplaats.nl
+I, [2017-01-12T19:09:13.900211 #13350]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-01-12T19:09:13.900321 #13350] DEBUG -- : response-header: cache-control => no-store
+D, [2017-01-12T19:09:13.900361 #13350] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-01-12T19:09:13.900397 #13350] DEBUG -- : response-header: content-language => en-US
+D, [2017-01-12T19:09:13.900440 #13350] DEBUG -- : response-header: content-length => 5890
+D, [2017-01-12T19:09:13.900475 #13350] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2017-01-12T19:09:13.900509 #13350] DEBUG -- : response-header: date => Thu, 12 Jan 2017 18:09:13 GMT
+D, [2017-01-12T19:09:13.900542 #13350] DEBUG -- : response-header: expires => Thu, 01 Jan 1970 00:00:00 GMT
+D, [2017-01-12T19:09:13.900573 #13350] DEBUG -- : response-header: pragma => no-cache
+D, [2017-01-12T19:09:13.900609 #13350] DEBUG -- : response-header: set-cookie => luckynumber=997957708;Path=/;Domain=.marktplaats.nl;Expires=Fri, 12-Jan-2018 18:09:13 GMT, MpSession="";Version=1;Path=/;Expires=Thu, 01-Jan-1970 00:00:00 GMT;Max-Age=0, MpSession=c9fdd808-bf42-4b28-b3a5-35dc2965f06e;Path=/;Domain=.marktplaats.nl
+D, [2017-01-12T19:09:13.900644 #13350] DEBUG -- : response-header: vary => Accept-Encoding, User-Agent
+D, [2017-01-12T19:09:13.900678 #13350] DEBUG -- : response-header: x-frame-options => SAMEORIGIN
+D, [2017-01-12T19:09:13.900894 #13350] DEBUG -- : Read 3498 bytes (3498 total)
+D, [2017-01-12T19:09:13.900991 #13350] DEBUG -- : Read 2392 bytes (5890 total)
+D, [2017-01-12T19:09:13.901122 #13350] DEBUG -- : gzip response
+D, [2017-01-12T19:09:13.904317 #13350] DEBUG -- : saved cookie: luckynumber=997957708
+D, [2017-01-12T19:09:13.904612 #13350] DEBUG -- : saved cookie: MpSession=
+D, [2017-01-12T19:09:13.904775 #13350] DEBUG -- : saved cookie: MpSession=c9fdd808-bf42-4b28-b3a5-35dc2965f06e
+I, [2017-01-12T19:09:13.909171 #13350]  INFO -- : form encoding: utf-8
+D, [2017-01-12T19:09:13.909625 #13350] DEBUG -- : query: "j_username=matthijs.h.j%40Live.nl&j_password=tijger1997&remember_me=true&success_url=http%3A%2F%2Fwww.marktplaats.nl%2F&failure_url=https%3A%2F%2Fwww.marktplaats.nl%2Faccount%2Flogin.html%3Ftarget%3Dhttp%253a%252f%252fwww.marktplaats.nl%252f&target=&nl.marktplaats.xsrf.token=1484244553881.b634c3c4ff1fb3901a123bd1482ff848"
+I, [2017-01-12T19:09:13.910376 #13350]  INFO -- : Net::HTTP::Post: /accounts/authentication/login
+D, [2017-01-12T19:09:13.910435 #13350] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-01-12T19:09:13.910460 #13350] DEBUG -- : request-header: accept => */*
+D, [2017-01-12T19:09:13.910482 #13350] DEBUG -- : request-header: user-agent => Mechanize/2.7.5 Ruby/2.3.0p0 (http://github.com/sparklemotion/mechanize/)
+D, [2017-01-12T19:09:13.910591 #13350] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-01-12T19:09:13.910614 #13350] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-01-12T19:09:13.910636 #13350] DEBUG -- : request-header: cookie => MpSession=c9fdd808-bf42-4b28-b3a5-35dc2965f06e; luckynumber=997957708
+D, [2017-01-12T19:09:13.910657 #13350] DEBUG -- : request-header: host => auth.marktplaats.nl
+D, [2017-01-12T19:09:13.910686 #13350] DEBUG -- : request-header: referer => https://www.marktplaats.nl/account/login.html
+D, [2017-01-12T19:09:13.910709 #13350] DEBUG -- : request-header: content-type => application/x-www-form-urlencoded
+D, [2017-01-12T19:09:13.910730 #13350] DEBUG -- : request-header: content-length => 322
+I, [2017-01-12T19:09:14.342925 #13350]  INFO -- : status: Net::HTTPFound 1.1 302 Found
+D, [2017-01-12T19:09:14.343051 #13350] DEBUG -- : response-header: content-length => 0
+D, [2017-01-12T19:09:14.343105 #13350] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2017-01-12T19:09:14.343155 #13350] DEBUG -- : response-header: date => Thu, 12 Jan 2017 18:09:14 GMT
+D, [2017-01-12T19:09:14.343200 #13350] DEBUG -- : response-header: expires => Thu, 01 Jan 1970 00:00:00 GMT
+D, [2017-01-12T19:09:14.343277 #13350] DEBUG -- : response-header: location => http://www.marktplaats.nl/
+D, [2017-01-12T19:09:14.343326 #13350] DEBUG -- : response-header: set-cookie => MpSession="";Version=1;Path=/;Expires=Thu, 01-Jan-1970 00:00:00 GMT;Max-Age=0, MpSession=c9fdd808-bf42-4b28-b3a5-35dc2965f06e;Path=/;Domain=.marktplaats.nl, luckynumber=997957708;Path=/;Domain=.marktplaats.nl;Expires=Fri, 12-Jan-2018 18:09:14 GMT, MpSecurity=MjAyNjc2NTM6MTUxNTc4MDU1NDI4MDoyZWU2ZmNhMTY4YTg2NDcyMTgzNWQ5OTMyNjRkNGYxYTQwYmEyYmYw;Path=/;Domain=.marktplaats.nl;Expires=Fri, 12-Jan-2018 18:09:13 GMT;HttpOnly, MpSslSecurity=MjAyNjc2NTM6MTUxNTc4MDU1NDI4MDplYTllYjA0NWY3YzUxNDIxZjI4YWQ3YWQzNTg4NDY0OGM3OWVlOWM1;Path=/;Domain=.marktplaats.nl;Expires=Fri, 12-Jan-2018 18:09:13 GMT;Secure;HttpOnly, luid=/AVUYb/RFRcBlfgHgnog5MRVglozE9JB;Path=/;Domain=.marktplaats.nl;Expires=Sun, 10-Jan-2027 18:09:14 GMT;HttpOnly
+D, [2017-01-12T19:09:14.343477 #13350] DEBUG -- : Read 0 bytes (0 total)
+D, [2017-01-12T19:09:14.344703 #13350] DEBUG -- : saved cookie: MpSession=
+D, [2017-01-12T19:09:14.344967 #13350] DEBUG -- : saved cookie: MpSession=c9fdd808-bf42-4b28-b3a5-35dc2965f06e
+D, [2017-01-12T19:09:14.345505 #13350] DEBUG -- : saved cookie: luckynumber=997957708
+D, [2017-01-12T19:09:14.345890 #13350] DEBUG -- : saved cookie: MpSecurity=MjAyNjc2NTM6MTUxNTc4MDU1NDI4MDoyZWU2ZmNhMTY4YTg2NDcyMTgzNWQ5OTMyNjRkNGYxYTQwYmEyYmYw
+D, [2017-01-12T19:09:14.346217 #13350] DEBUG -- : saved cookie: MpSslSecurity=MjAyNjc2NTM6MTUxNTc4MDU1NDI4MDplYTllYjA0NWY3YzUxNDIxZjI4YWQ3YWQzNTg4NDY0OGM3OWVlOWM1
+D, [2017-01-12T19:09:14.346663 #13350] DEBUG -- : saved cookie: luid=/AVUYb/RFRcBlfgHgnog5MRVglozE9JB
+I, [2017-01-12T19:09:14.346769 #13350]  INFO -- : follow redirect to: http://www.marktplaats.nl/
+I, [2017-01-12T19:09:14.347703 #13350]  INFO -- : Net::HTTP::Get: /
+D, [2017-01-12T19:09:14.347751 #13350] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-01-12T19:09:14.347785 #13350] DEBUG -- : request-header: accept => */*
+D, [2017-01-12T19:09:14.347818 #13350] DEBUG -- : request-header: user-agent => Mechanize/2.7.5 Ruby/2.3.0p0 (http://github.com/sparklemotion/mechanize/)
+D, [2017-01-12T19:09:14.347851 #13350] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-01-12T19:09:14.347883 #13350] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-01-12T19:09:14.347915 #13350] DEBUG -- : request-header: cookie => MpSecurity=MjAyNjc2NTM6MTUxNTc4MDU1NDI4MDoyZWU2ZmNhMTY4YTg2NDcyMTgzNWQ5OTMyNjRkNGYxYTQwYmEyYmYw; MpSession=c9fdd808-bf42-4b28-b3a5-35dc2965f06e; luckynumber=997957708; luid=/AVUYb/RFRcBlfgHgnog5MRVglozE9JB
+D, [2017-01-12T19:09:14.347947 #13350] DEBUG -- : request-header: host => www.marktplaats.nl
+I, [2017-01-12T19:09:14.880980 #13350]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-01-12T19:09:14.881136 #13350] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-01-12T19:09:14.881201 #13350] DEBUG -- : response-header: content-language => en-US
+D, [2017-01-12T19:09:14.881257 #13350] DEBUG -- : response-header: content-length => 24116
+D, [2017-01-12T19:09:14.881313 #13350] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2017-01-12T19:09:14.881369 #13350] DEBUG -- : response-header: date => Thu, 12 Jan 2017 18:09:14 GMT
+D, [2017-01-12T19:09:14.881424 #13350] DEBUG -- : response-header: expires => Thu, 01 Jan 1970 00:00:00 GMT
+D, [2017-01-12T19:09:14.881483 #13350] DEBUG -- : response-header: set-cookie => luckynumber=997957708;Path=/;Domain=.marktplaats.nl;Expires=Fri, 12-Jan-2018 18:09:14 GMT, MpSession="";Version=1;Path=/;Expires=Thu, 01-Jan-1970 00:00:00 GMT;Max-Age=0, MpSession=c9fdd808-bf42-4b28-b3a5-35dc2965f06e;Path=/;Domain=.marktplaats.nl, pc=1165LX;Path=/;Domain=.marktplaats.nl;Expires=Fri, 12-Jan-2018 18:09:14 GMT
+D, [2017-01-12T19:09:14.881540 #13350] DEBUG -- : response-header: vary => Accept-Encoding, User-Agent
+D, [2017-01-12T19:09:14.881595 #13350] DEBUG -- : response-header: x-frame-options => SAMEORIGIN
+D, [2017-01-12T19:09:14.881802 #13350] DEBUG -- : Read 1777 bytes (1777 total)
+D, [2017-01-12T19:09:14.881986 #13350] DEBUG -- : Read 5308 bytes (7085 total)
+D, [2017-01-12T19:09:14.919555 #13350] DEBUG -- : Read 3636 bytes (10721 total)
+D, [2017-01-12T19:09:14.919750 #13350] DEBUG -- : Read 1212 bytes (11933 total)
+D, [2017-01-12T19:09:14.920876 #13350] DEBUG -- : Read 2424 bytes (14357 total)
+D, [2017-01-12T19:09:14.922422 #13350] DEBUG -- : Read 1212 bytes (15569 total)
+D, [2017-01-12T19:09:14.922549 #13350] DEBUG -- : Read 1212 bytes (16781 total)
+D, [2017-01-12T19:09:14.959808 #13350] DEBUG -- : Read 1212 bytes (17993 total)
+D, [2017-01-12T19:09:14.960050 #13350] DEBUG -- : Read 3636 bytes (21629 total)
+D, [2017-01-12T19:09:14.961085 #13350] DEBUG -- : Read 1212 bytes (22841 total)
+D, [2017-01-12T19:09:14.961423 #13350] DEBUG -- : Read 1275 bytes (24116 total)
+D, [2017-01-12T19:09:14.961848 #13350] DEBUG -- : gzip response
+D, [2017-01-12T19:09:14.980292 #13350] DEBUG -- : saved cookie: luckynumber=997957708
+D, [2017-01-12T19:09:14.980502 #13350] DEBUG -- : saved cookie: MpSession=
+D, [2017-01-12T19:09:14.980611 #13350] DEBUG -- : saved cookie: MpSession=c9fdd808-bf42-4b28-b3a5-35dc2965f06e
+D, [2017-01-12T19:09:14.980850 #13350] DEBUG -- : saved cookie: pc=1165LX
+I, [2017-01-12T19:23:33.151606 #13350]  INFO -- : Net::HTTP::Get: /account/login.html
+D, [2017-01-12T19:23:33.151871 #13350] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-01-12T19:23:33.151913 #13350] DEBUG -- : request-header: accept => */*
+D, [2017-01-12T19:23:33.151940 #13350] DEBUG -- : request-header: user-agent => Mechanize/2.7.5 Ruby/2.3.0p0 (http://github.com/sparklemotion/mechanize/)
+D, [2017-01-12T19:23:33.151962 #13350] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-01-12T19:23:33.151984 #13350] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-01-12T19:23:33.152004 #13350] DEBUG -- : request-header: host => www.marktplaats.nl
+I, [2017-01-12T19:23:33.529153 #13350]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-01-12T19:23:33.529331 #13350] DEBUG -- : response-header: cache-control => no-store
+D, [2017-01-12T19:23:33.529412 #13350] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-01-12T19:23:33.529459 #13350] DEBUG -- : response-header: content-language => en-US
+D, [2017-01-12T19:23:33.529500 #13350] DEBUG -- : response-header: content-length => 5885
+D, [2017-01-12T19:23:33.529542 #13350] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2017-01-12T19:23:33.529584 #13350] DEBUG -- : response-header: date => Thu, 12 Jan 2017 18:23:33 GMT
+D, [2017-01-12T19:23:33.529625 #13350] DEBUG -- : response-header: expires => Thu, 01 Jan 1970 00:00:00 GMT
+D, [2017-01-12T19:23:33.530002 #13350] DEBUG -- : response-header: pragma => no-cache
+D, [2017-01-12T19:23:33.530061 #13350] DEBUG -- : response-header: set-cookie => luckynumber=476124479;Path=/;Domain=.marktplaats.nl;Expires=Fri, 12-Jan-2018 18:23:33 GMT, MpSession="";Version=1;Path=/;Expires=Thu, 01-Jan-1970 00:00:00 GMT;Max-Age=0, MpSession=aabfb6f2-e6ec-4a67-8db4-7d0da382fda5;Path=/;Domain=.marktplaats.nl
+D, [2017-01-12T19:23:33.530104 #13350] DEBUG -- : response-header: vary => Accept-Encoding, User-Agent
+D, [2017-01-12T19:23:33.530144 #13350] DEBUG -- : response-header: x-frame-options => SAMEORIGIN
+D, [2017-01-12T19:23:33.530310 #13350] DEBUG -- : Read 3498 bytes (3498 total)
+D, [2017-01-12T19:23:33.530420 #13350] DEBUG -- : Read 2387 bytes (5885 total)
+D, [2017-01-12T19:23:33.530585 #13350] DEBUG -- : gzip response
+D, [2017-01-12T19:23:33.534082 #13350] DEBUG -- : saved cookie: luckynumber=476124479
+D, [2017-01-12T19:23:33.534508 #13350] DEBUG -- : saved cookie: MpSession=
+D, [2017-01-12T19:23:33.534696 #13350] DEBUG -- : saved cookie: MpSession=aabfb6f2-e6ec-4a67-8db4-7d0da382fda5
+I, [2017-01-12T19:23:33.540044 #13350]  INFO -- : form encoding: utf-8
+D, [2017-01-12T19:23:33.540446 #13350] DEBUG -- : query: "j_username=matthijs.h.j%40Live.nl&j_password=tijger1997&remember_me=true&success_url=http%3A%2F%2Fwww.marktplaats.nl%2F&failure_url=https%3A%2F%2Fwww.marktplaats.nl%2Faccount%2Flogin.html%3Ftarget%3Dhttp%253a%252f%252fwww.marktplaats.nl%252f&target=&nl.marktplaats.xsrf.token=1484245413504.c0f219e89ed39e5325b3885741ec4e19"
+I, [2017-01-12T19:23:33.541035 #13350]  INFO -- : Net::HTTP::Post: /accounts/authentication/login
+D, [2017-01-12T19:23:33.541066 #13350] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-01-12T19:23:33.541087 #13350] DEBUG -- : request-header: accept => */*
+D, [2017-01-12T19:23:33.541107 #13350] DEBUG -- : request-header: user-agent => Mechanize/2.7.5 Ruby/2.3.0p0 (http://github.com/sparklemotion/mechanize/)
+D, [2017-01-12T19:23:33.541127 #13350] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-01-12T19:23:33.541150 #13350] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-01-12T19:23:33.541170 #13350] DEBUG -- : request-header: cookie => MpSession=aabfb6f2-e6ec-4a67-8db4-7d0da382fda5; luckynumber=476124479
+D, [2017-01-12T19:23:33.541189 #13350] DEBUG -- : request-header: host => auth.marktplaats.nl
+D, [2017-01-12T19:23:33.541212 #13350] DEBUG -- : request-header: referer => https://www.marktplaats.nl/account/login.html
+D, [2017-01-12T19:23:33.541232 #13350] DEBUG -- : request-header: content-type => application/x-www-form-urlencoded
+D, [2017-01-12T19:23:33.541251 #13350] DEBUG -- : request-header: content-length => 322
+I, [2017-01-12T19:23:33.944802 #13350]  INFO -- : status: Net::HTTPFound 1.1 302 Found
+D, [2017-01-12T19:23:33.944913 #13350] DEBUG -- : response-header: content-length => 0
+D, [2017-01-12T19:23:33.944952 #13350] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2017-01-12T19:23:33.944975 #13350] DEBUG -- : response-header: date => Thu, 12 Jan 2017 18:23:33 GMT
+D, [2017-01-12T19:23:33.944996 #13350] DEBUG -- : response-header: expires => Thu, 01 Jan 1970 00:00:00 GMT
+D, [2017-01-12T19:23:33.945018 #13350] DEBUG -- : response-header: location => http://www.marktplaats.nl/
+D, [2017-01-12T19:23:33.945138 #13350] DEBUG -- : response-header: set-cookie => MpSession="";Version=1;Path=/;Expires=Thu, 01-Jan-1970 00:00:00 GMT;Max-Age=0, MpSession=aabfb6f2-e6ec-4a67-8db4-7d0da382fda5;Path=/;Domain=.marktplaats.nl, luckynumber=476124479;Path=/;Domain=.marktplaats.nl;Expires=Fri, 12-Jan-2018 18:23:33 GMT, MpSecurity=MjAyNjc2NTM6MTUxNTc4MTQxMzg5NjpkMTllOTBiOGZhNjFlOTM2NmUzOTkwMDczZTQyODkzNWVkOWY5MDA0;Path=/;Domain=.marktplaats.nl;Expires=Fri, 12-Jan-2018 18:23:32 GMT;HttpOnly, MpSslSecurity=MjAyNjc2NTM6MTUxNTc4MTQxMzg5NjoxN2MxNDViNTRiYWY5N2JmYzZkMzMwYTg3ZWNjYmZhYjY4YWQxMzRl;Path=/;Domain=.marktplaats.nl;Expires=Fri, 12-Jan-2018 18:23:32 GMT;Secure;HttpOnly, luid=/AVUYb/RFRdp8T9GlSI4//61WQkuq1FP;Path=/;Domain=.marktplaats.nl;Expires=Sun, 10-Jan-2027 18:23:33 GMT;HttpOnly
+D, [2017-01-12T19:23:33.945250 #13350] DEBUG -- : Read 0 bytes (0 total)
+D, [2017-01-12T19:23:33.945917 #13350] DEBUG -- : saved cookie: MpSession=
+D, [2017-01-12T19:23:33.946077 #13350] DEBUG -- : saved cookie: MpSession=aabfb6f2-e6ec-4a67-8db4-7d0da382fda5
+D, [2017-01-12T19:23:33.946442 #13350] DEBUG -- : saved cookie: luckynumber=476124479
+D, [2017-01-12T19:23:33.946689 #13350] DEBUG -- : saved cookie: MpSecurity=MjAyNjc2NTM6MTUxNTc4MTQxMzg5NjpkMTllOTBiOGZhNjFlOTM2NmUzOTkwMDczZTQyODkzNWVkOWY5MDA0
+D, [2017-01-12T19:23:33.946935 #13350] DEBUG -- : saved cookie: MpSslSecurity=MjAyNjc2NTM6MTUxNTc4MTQxMzg5NjoxN2MxNDViNTRiYWY5N2JmYzZkMzMwYTg3ZWNjYmZhYjY4YWQxMzRl
+D, [2017-01-12T19:23:33.947265 #13350] DEBUG -- : saved cookie: luid=/AVUYb/RFRdp8T9GlSI4//61WQkuq1FP
+I, [2017-01-12T19:23:33.947343 #13350]  INFO -- : follow redirect to: http://www.marktplaats.nl/
+I, [2017-01-12T19:23:33.948052 #13350]  INFO -- : Net::HTTP::Get: /
+D, [2017-01-12T19:23:33.948091 #13350] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-01-12T19:23:33.948113 #13350] DEBUG -- : request-header: accept => */*
+D, [2017-01-12T19:23:33.948140 #13350] DEBUG -- : request-header: user-agent => Mechanize/2.7.5 Ruby/2.3.0p0 (http://github.com/sparklemotion/mechanize/)
+D, [2017-01-12T19:23:33.948176 #13350] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-01-12T19:23:33.948198 #13350] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-01-12T19:23:33.948226 #13350] DEBUG -- : request-header: cookie => MpSecurity=MjAyNjc2NTM6MTUxNTc4MTQxMzg5NjpkMTllOTBiOGZhNjFlOTM2NmUzOTkwMDczZTQyODkzNWVkOWY5MDA0; MpSession=aabfb6f2-e6ec-4a67-8db4-7d0da382fda5; luckynumber=476124479; luid=/AVUYb/RFRdp8T9GlSI4//61WQkuq1FP
+D, [2017-01-12T19:23:33.948247 #13350] DEBUG -- : request-header: host => www.marktplaats.nl
+I, [2017-01-12T19:23:34.477772 #13350]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-01-12T19:23:34.478117 #13350] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-01-12T19:23:34.478171 #13350] DEBUG -- : response-header: content-language => en-US
+D, [2017-01-12T19:23:34.478212 #13350] DEBUG -- : response-header: content-length => 23814
+D, [2017-01-12T19:23:34.478253 #13350] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2017-01-12T19:23:34.478294 #13350] DEBUG -- : response-header: date => Thu, 12 Jan 2017 18:23:34 GMT
+D, [2017-01-12T19:23:34.478334 #13350] DEBUG -- : response-header: expires => Thu, 01 Jan 1970 00:00:00 GMT
+D, [2017-01-12T19:23:34.478375 #13350] DEBUG -- : response-header: set-cookie => luckynumber=476124479;Path=/;Domain=.marktplaats.nl;Expires=Fri, 12-Jan-2018 18:23:34 GMT, MpSession="";Version=1;Path=/;Expires=Thu, 01-Jan-1970 00:00:00 GMT;Max-Age=0, MpSession=aabfb6f2-e6ec-4a67-8db4-7d0da382fda5;Path=/;Domain=.marktplaats.nl, pc=1165LX;Path=/;Domain=.marktplaats.nl;Expires=Fri, 12-Jan-2018 18:23:34 GMT
+D, [2017-01-12T19:23:34.478425 #13350] DEBUG -- : response-header: vary => Accept-Encoding, User-Agent
+D, [2017-01-12T19:23:34.478465 #13350] DEBUG -- : response-header: x-frame-options => SAMEORIGIN
+D, [2017-01-12T19:23:34.478605 #13350] DEBUG -- : Read 1777 bytes (1777 total)
+D, [2017-01-12T19:23:34.478758 #13350] DEBUG -- : Read 7732 bytes (9509 total)
+D, [2017-01-12T19:23:34.527247 #13350] DEBUG -- : Read 2424 bytes (11933 total)
+D, [2017-01-12T19:23:34.530227 #13350] DEBUG -- : Read 4848 bytes (16781 total)
+D, [2017-01-12T19:23:34.530347 #13350] DEBUG -- : Read 3636 bytes (20417 total)
+D, [2017-01-12T19:23:34.530443 #13350] DEBUG -- : Read 1212 bytes (21629 total)
+D, [2017-01-12T19:23:34.573069 #13350] DEBUG -- : Read 2185 bytes (23814 total)
+D, [2017-01-12T19:23:34.573462 #13350] DEBUG -- : gzip response
+D, [2017-01-12T19:23:34.591445 #13350] DEBUG -- : saved cookie: luckynumber=476124479
+D, [2017-01-12T19:23:34.592104 #13350] DEBUG -- : saved cookie: MpSession=
+D, [2017-01-12T19:23:34.592376 #13350] DEBUG -- : saved cookie: MpSession=aabfb6f2-e6ec-4a67-8db4-7d0da382fda5
+D, [2017-01-12T19:23:34.592965 #13350] DEBUG -- : saved cookie: pc=1165LX
+I, [2017-01-12T19:26:44.794449 #13350]  INFO -- : Net::HTTP::Get: /account/login.html
+D, [2017-01-12T19:26:44.794759 #13350] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-01-12T19:26:44.794795 #13350] DEBUG -- : request-header: accept => */*
+D, [2017-01-12T19:26:44.794817 #13350] DEBUG -- : request-header: user-agent => Mechanize/2.7.5 Ruby/2.3.0p0 (http://github.com/sparklemotion/mechanize/)
+D, [2017-01-12T19:26:44.794839 #13350] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-01-12T19:26:44.794860 #13350] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-01-12T19:26:44.794881 #13350] DEBUG -- : request-header: host => www.marktplaats.nl
+I, [2017-01-12T19:26:45.404456 #13350]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-01-12T19:26:45.404573 #13350] DEBUG -- : response-header: cache-control => no-store
+D, [2017-01-12T19:26:45.404621 #13350] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-01-12T19:26:45.404676 #13350] DEBUG -- : response-header: content-language => en-US
+D, [2017-01-12T19:26:45.404728 #13350] DEBUG -- : response-header: content-length => 5927
+D, [2017-01-12T19:26:45.405810 #13350] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2017-01-12T19:26:45.405853 #13350] DEBUG -- : response-header: date => Thu, 12 Jan 2017 18:26:45 GMT
+D, [2017-01-12T19:26:45.405887 #13350] DEBUG -- : response-header: expires => Thu, 01 Jan 1970 00:00:00 GMT
+D, [2017-01-12T19:26:45.405919 #13350] DEBUG -- : response-header: pragma => no-cache
+D, [2017-01-12T19:26:45.405954 #13350] DEBUG -- : response-header: set-cookie => luckynumber=1082334990;Path=/;Domain=.marktplaats.nl;Expires=Fri, 12-Jan-2018 18:26:45 GMT, MpSession="";Version=1;Path=/;Expires=Thu, 01-Jan-1970 00:00:00 GMT;Max-Age=0, MpSession=1e863cdb-6abb-4359-aa2e-3b3560c45c08;Path=/;Domain=.marktplaats.nl
+D, [2017-01-12T19:26:45.405987 #13350] DEBUG -- : response-header: vary => Accept-Encoding, User-Agent
+D, [2017-01-12T19:26:45.406021 #13350] DEBUG -- : response-header: x-frame-options => SAMEORIGIN
+D, [2017-01-12T19:26:45.406256 #13350] DEBUG -- : Read 3497 bytes (3497 total)
+D, [2017-01-12T19:26:45.406379 #13350] DEBUG -- : Read 2430 bytes (5927 total)
+D, [2017-01-12T19:26:45.406541 #13350] DEBUG -- : gzip response
+D, [2017-01-12T19:26:45.409625 #13350] DEBUG -- : saved cookie: luckynumber=1082334990
+D, [2017-01-12T19:26:45.409917 #13350] DEBUG -- : saved cookie: MpSession=
+D, [2017-01-12T19:26:45.410075 #13350] DEBUG -- : saved cookie: MpSession=1e863cdb-6abb-4359-aa2e-3b3560c45c08
+I, [2017-01-12T19:26:45.412915 #13350]  INFO -- : form encoding: utf-8
+D, [2017-01-12T19:26:45.413216 #13350] DEBUG -- : query: "j_username=matthijs.h.j%40Live.nl&j_password=tijger1997&remember_me=true&success_url=http%3A%2F%2Fwww.marktplaats.nl%2F&failure_url=https%3A%2F%2Fwww.marktplaats.nl%2Faccount%2Flogin.html%3Ftarget%3Dhttp%253a%252f%252fwww.marktplaats.nl%252f&target=&nl.marktplaats.xsrf.token=1484245605379.ee095576bee0c063c8c31ae48acd725b"
+I, [2017-01-12T19:26:45.413705 #13350]  INFO -- : Net::HTTP::Post: /accounts/authentication/login
+D, [2017-01-12T19:26:45.413736 #13350] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-01-12T19:26:45.413761 #13350] DEBUG -- : request-header: accept => */*
+D, [2017-01-12T19:26:45.413781 #13350] DEBUG -- : request-header: user-agent => Mechanize/2.7.5 Ruby/2.3.0p0 (http://github.com/sparklemotion/mechanize/)
+D, [2017-01-12T19:26:45.413801 #13350] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-01-12T19:26:45.413820 #13350] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-01-12T19:26:45.413838 #13350] DEBUG -- : request-header: cookie => MpSession=1e863cdb-6abb-4359-aa2e-3b3560c45c08; luckynumber=1082334990
+D, [2017-01-12T19:26:45.413857 #13350] DEBUG -- : request-header: host => auth.marktplaats.nl
+D, [2017-01-12T19:26:45.413881 #13350] DEBUG -- : request-header: referer => https://www.marktplaats.nl/account/login.html
+D, [2017-01-12T19:26:45.413903 #13350] DEBUG -- : request-header: content-type => application/x-www-form-urlencoded
+D, [2017-01-12T19:26:45.413923 #13350] DEBUG -- : request-header: content-length => 322
+I, [2017-01-12T19:26:46.531907 #13350]  INFO -- : status: Net::HTTPFound 1.1 302 Found
+D, [2017-01-12T19:26:46.532021 #13350] DEBUG -- : response-header: content-length => 0
+D, [2017-01-12T19:26:46.532070 #13350] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2017-01-12T19:26:46.532112 #13350] DEBUG -- : response-header: date => Thu, 12 Jan 2017 18:26:46 GMT
+D, [2017-01-12T19:26:46.532153 #13350] DEBUG -- : response-header: expires => Thu, 01 Jan 1970 00:00:00 GMT
+D, [2017-01-12T19:26:46.532193 #13350] DEBUG -- : response-header: location => http://www.marktplaats.nl/
+D, [2017-01-12T19:26:46.532243 #13350] DEBUG -- : response-header: set-cookie => MpSession="";Version=1;Path=/;Expires=Thu, 01-Jan-1970 00:00:00 GMT;Max-Age=0, MpSession=1e863cdb-6abb-4359-aa2e-3b3560c45c08;Path=/;Domain=.marktplaats.nl, luckynumber=1082334990;Path=/;Domain=.marktplaats.nl;Expires=Fri, 12-Jan-2018 18:26:46 GMT, MpSecurity=MjAyNjc2NTM6MTUxNTc4MTYwNjQxMjozYWE1YjNjNDQyNDk0ZTI3MzhkMjMwZDQ5ZjY2MmRiODUzMzE4YTNi;Path=/;Domain=.marktplaats.nl;Expires=Fri, 12-Jan-2018 18:26:45 GMT;HttpOnly, MpSslSecurity=MjAyNjc2NTM6MTUxNTc4MTYwNjQxMjpmOGExOWI3ZDBmYmU5ODAyOTVhOGEwMzRkZTk1OTNjM2E3NWI3ZWU1;Path=/;Domain=.marktplaats.nl;Expires=Fri, 12-Jan-2018 18:26:45 GMT;Secure;HttpOnly, luid=/AVUYb/RFRdp8T9GlSI4//DgVtB5YXvQ;Path=/;Domain=.marktplaats.nl;Expires=Sun, 10-Jan-2027 18:26:46 GMT;HttpOnly
+D, [2017-01-12T19:26:46.532400 #13350] DEBUG -- : Read 0 bytes (0 total)
+D, [2017-01-12T19:26:46.533597 #13350] DEBUG -- : saved cookie: MpSession=
+D, [2017-01-12T19:26:46.533844 #13350] DEBUG -- : saved cookie: MpSession=1e863cdb-6abb-4359-aa2e-3b3560c45c08
+D, [2017-01-12T19:26:46.534377 #13350] DEBUG -- : saved cookie: luckynumber=1082334990
+D, [2017-01-12T19:26:46.534790 #13350] DEBUG -- : saved cookie: MpSecurity=MjAyNjc2NTM6MTUxNTc4MTYwNjQxMjozYWE1YjNjNDQyNDk0ZTI3MzhkMjMwZDQ5ZjY2MmRiODUzMzE4YTNi
+D, [2017-01-12T19:26:46.535115 #13350] DEBUG -- : saved cookie: MpSslSecurity=MjAyNjc2NTM6MTUxNTc4MTYwNjQxMjpmOGExOWI3ZDBmYmU5ODAyOTVhOGEwMzRkZTk1OTNjM2E3NWI3ZWU1
+D, [2017-01-12T19:26:46.535539 #13350] DEBUG -- : saved cookie: luid=/AVUYb/RFRdp8T9GlSI4//DgVtB5YXvQ
+I, [2017-01-12T19:26:46.535644 #13350]  INFO -- : follow redirect to: http://www.marktplaats.nl/
+I, [2017-01-12T19:26:46.536535 #13350]  INFO -- : Net::HTTP::Get: /
+D, [2017-01-12T19:26:46.536587 #13350] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-01-12T19:26:46.536622 #13350] DEBUG -- : request-header: accept => */*
+D, [2017-01-12T19:26:46.536654 #13350] DEBUG -- : request-header: user-agent => Mechanize/2.7.5 Ruby/2.3.0p0 (http://github.com/sparklemotion/mechanize/)
+D, [2017-01-12T19:26:46.536686 #13350] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-01-12T19:26:46.536718 #13350] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-01-12T19:26:46.536749 #13350] DEBUG -- : request-header: cookie => MpSecurity=MjAyNjc2NTM6MTUxNTc4MTYwNjQxMjozYWE1YjNjNDQyNDk0ZTI3MzhkMjMwZDQ5ZjY2MmRiODUzMzE4YTNi; MpSession=1e863cdb-6abb-4359-aa2e-3b3560c45c08; luckynumber=1082334990; luid=/AVUYb/RFRdp8T9GlSI4//DgVtB5YXvQ
+D, [2017-01-12T19:26:46.536780 #13350] DEBUG -- : request-header: host => www.marktplaats.nl
+I, [2017-01-12T19:26:47.305908 #13350]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-01-12T19:26:47.306001 #13350] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-01-12T19:26:47.306037 #13350] DEBUG -- : response-header: content-language => en-US
+D, [2017-01-12T19:26:47.306069 #13350] DEBUG -- : response-header: content-length => 23975
+D, [2017-01-12T19:26:47.306101 #13350] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2017-01-12T19:26:47.306140 #13350] DEBUG -- : response-header: date => Thu, 12 Jan 2017 18:26:46 GMT
+D, [2017-01-12T19:26:47.306172 #13350] DEBUG -- : response-header: expires => Thu, 01 Jan 1970 00:00:00 GMT
+D, [2017-01-12T19:26:47.306205 #13350] DEBUG -- : response-header: set-cookie => luckynumber=1082334990;Path=/;Domain=.marktplaats.nl;Expires=Fri, 12-Jan-2018 18:26:46 GMT, MpSession="";Version=1;Path=/;Expires=Thu, 01-Jan-1970 00:00:00 GMT;Max-Age=0, MpSession=1e863cdb-6abb-4359-aa2e-3b3560c45c08;Path=/;Domain=.marktplaats.nl, pc=1165LX;Path=/;Domain=.marktplaats.nl;Expires=Fri, 12-Jan-2018 18:26:46 GMT
+D, [2017-01-12T19:26:47.306238 #13350] DEBUG -- : response-header: vary => Accept-Encoding, User-Agent
+D, [2017-01-12T19:26:47.306269 #13350] DEBUG -- : response-header: x-frame-options => SAMEORIGIN
+D, [2017-01-12T19:26:47.306389 #13350] DEBUG -- : Read 1776 bytes (1776 total)
+D, [2017-01-12T19:26:47.306580 #13350] DEBUG -- : Read 5308 bytes (7084 total)
+D, [2017-01-12T19:26:48.563338 #13350] DEBUG -- : Read 2424 bytes (9508 total)
+D, [2017-01-12T19:26:48.563593 #13350] DEBUG -- : Read 4848 bytes (14356 total)
+D, [2017-01-12T19:26:48.563713 #13350] DEBUG -- : Read 2424 bytes (16780 total)
+D, [2017-01-12T19:26:48.563958 #13350] DEBUG -- : Read 1212 bytes (17992 total)
+D, [2017-01-12T19:26:48.609249 #13350] DEBUG -- : Read 1212 bytes (19204 total)
+D, [2017-01-12T19:26:48.610822 #13350] DEBUG -- : Read 2424 bytes (21628 total)
+D, [2017-01-12T19:26:48.611014 #13350] DEBUG -- : Read 2347 bytes (23975 total)
+D, [2017-01-12T19:26:48.611257 #13350] DEBUG -- : gzip response
+D, [2017-01-12T19:26:48.626508 #13350] DEBUG -- : saved cookie: luckynumber=1082334990
+D, [2017-01-12T19:26:48.626723 #13350] DEBUG -- : saved cookie: MpSession=
+D, [2017-01-12T19:26:48.626837 #13350] DEBUG -- : saved cookie: MpSession=1e863cdb-6abb-4359-aa2e-3b3560c45c08
+D, [2017-01-12T19:26:48.628325 #13350] DEBUG -- : saved cookie: pc=1165LX
+I, [2017-01-12T19:27:02.815732 #13350]  INFO -- : Net::HTTP::Get: /account/login.html
+D, [2017-01-12T19:27:02.815783 #13350] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-01-12T19:27:02.815911 #13350] DEBUG -- : request-header: accept => */*
+D, [2017-01-12T19:27:02.815933 #13350] DEBUG -- : request-header: user-agent => Mechanize/2.7.5 Ruby/2.3.0p0 (http://github.com/sparklemotion/mechanize/)
+D, [2017-01-12T19:27:02.815954 #13350] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-01-12T19:27:02.815974 #13350] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-01-12T19:27:02.815993 #13350] DEBUG -- : request-header: host => www.marktplaats.nl
+I, [2017-01-12T19:27:03.125218 #13350]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-01-12T19:27:03.125371 #13350] DEBUG -- : response-header: cache-control => no-store
+D, [2017-01-12T19:27:03.125420 #13350] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-01-12T19:27:03.125462 #13350] DEBUG -- : response-header: content-language => en-US
+D, [2017-01-12T19:27:03.125503 #13350] DEBUG -- : response-header: content-length => 5891
+D, [2017-01-12T19:27:03.125546 #13350] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2017-01-12T19:27:03.125588 #13350] DEBUG -- : response-header: date => Thu, 12 Jan 2017 18:27:03 GMT
+D, [2017-01-12T19:27:03.125630 #13350] DEBUG -- : response-header: expires => Thu, 01 Jan 1970 00:00:00 GMT
+D, [2017-01-12T19:27:03.125670 #13350] DEBUG -- : response-header: pragma => no-cache
+D, [2017-01-12T19:27:03.125712 #13350] DEBUG -- : response-header: set-cookie => luckynumber=946419699;Path=/;Domain=.marktplaats.nl;Expires=Fri, 12-Jan-2018 18:27:03 GMT, MpSession="";Version=1;Path=/;Expires=Thu, 01-Jan-1970 00:00:00 GMT;Max-Age=0, MpSession=c5c2dc82-68ef-4506-bef0-c4ec79508241;Path=/;Domain=.marktplaats.nl
+D, [2017-01-12T19:27:03.125761 #13350] DEBUG -- : response-header: vary => Accept-Encoding, User-Agent
+D, [2017-01-12T19:27:03.125795 #13350] DEBUG -- : response-header: x-frame-options => SAMEORIGIN
+D, [2017-01-12T19:27:03.125894 #13350] DEBUG -- : Read 3498 bytes (3498 total)
+D, [2017-01-12T19:27:03.125979 #13350] DEBUG -- : Read 2393 bytes (5891 total)
+D, [2017-01-12T19:27:03.126110 #13350] DEBUG -- : gzip response
+D, [2017-01-12T19:27:03.129210 #13350] DEBUG -- : saved cookie: luckynumber=946419699
+D, [2017-01-12T19:27:03.129613 #13350] DEBUG -- : saved cookie: MpSession=
+D, [2017-01-12T19:27:03.129812 #13350] DEBUG -- : saved cookie: MpSession=c5c2dc82-68ef-4506-bef0-c4ec79508241
+I, [2017-01-12T19:27:03.133289 #13350]  INFO -- : form encoding: utf-8
+D, [2017-01-12T19:27:03.133571 #13350] DEBUG -- : query: "j_username=matthijs.h.j%40Live.nl&j_password=tijger1997&remember_me=true&success_url=http%3A%2F%2Fwww.marktplaats.nl%2F&failure_url=https%3A%2F%2Fwww.marktplaats.nl%2Faccount%2Flogin.html%3Ftarget%3Dhttp%253a%252f%252fwww.marktplaats.nl%252f&target=&nl.marktplaats.xsrf.token=1484245623100.2311ea113accbbbb6328b782c06cf638"
+I, [2017-01-12T19:27:03.134114 #13350]  INFO -- : Net::HTTP::Post: /accounts/authentication/login
+D, [2017-01-12T19:27:03.134157 #13350] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-01-12T19:27:03.134180 #13350] DEBUG -- : request-header: accept => */*
+D, [2017-01-12T19:27:03.134201 #13350] DEBUG -- : request-header: user-agent => Mechanize/2.7.5 Ruby/2.3.0p0 (http://github.com/sparklemotion/mechanize/)
+D, [2017-01-12T19:27:03.134247 #13350] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-01-12T19:27:03.134270 #13350] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-01-12T19:27:03.134291 #13350] DEBUG -- : request-header: cookie => MpSession=c5c2dc82-68ef-4506-bef0-c4ec79508241; luckynumber=946419699
+D, [2017-01-12T19:27:03.134311 #13350] DEBUG -- : request-header: host => auth.marktplaats.nl
+D, [2017-01-12T19:27:03.134336 #13350] DEBUG -- : request-header: referer => https://www.marktplaats.nl/account/login.html
+D, [2017-01-12T19:27:03.134358 #13350] DEBUG -- : request-header: content-type => application/x-www-form-urlencoded
+D, [2017-01-12T19:27:03.134377 #13350] DEBUG -- : request-header: content-length => 322
+I, [2017-01-12T19:27:03.609772 #13350]  INFO -- : status: Net::HTTPFound 1.1 302 Found
+D, [2017-01-12T19:27:03.609892 #13350] DEBUG -- : response-header: content-length => 0
+D, [2017-01-12T19:27:03.609941 #13350] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2017-01-12T19:27:03.609985 #13350] DEBUG -- : response-header: date => Thu, 12 Jan 2017 18:27:03 GMT
+D, [2017-01-12T19:27:03.610027 #13350] DEBUG -- : response-header: expires => Thu, 01 Jan 1970 00:00:00 GMT
+D, [2017-01-12T19:27:03.610069 #13350] DEBUG -- : response-header: location => http://www.marktplaats.nl/
+D, [2017-01-12T19:27:03.610114 #13350] DEBUG -- : response-header: set-cookie => MpSession="";Version=1;Path=/;Expires=Thu, 01-Jan-1970 00:00:00 GMT;Max-Age=0, MpSession=c5c2dc82-68ef-4506-bef0-c4ec79508241;Path=/;Domain=.marktplaats.nl, luckynumber=946419699;Path=/;Domain=.marktplaats.nl;Expires=Fri, 12-Jan-2018 18:27:03 GMT, MpSecurity=MjAyNjc2NTM6MTUxNTc4MTYyMzU0NDo0NmI5YTFlMzFhMzQzODM0OTRkZTM5NmE2NmRlNTUzZjI4N2U1MzJj;Path=/;Domain=.marktplaats.nl;Expires=Fri, 12-Jan-2018 18:27:02 GMT;HttpOnly, MpSslSecurity=MjAyNjc2NTM6MTUxNTc4MTYyMzU0NDo0MjQ1YzRmNDE2NzYzYWFkMmUxZWE4NzRmODNkMmY4NGFmMmE5MGU3;Path=/;Domain=.marktplaats.nl;Expires=Fri, 12-Jan-2018 18:27:02 GMT;Secure;HttpOnly, luid=/AVUYb/RFRdp8T9GlSI4/xe23wOxtD8H;Path=/;Domain=.marktplaats.nl;Expires=Sun, 10-Jan-2027 18:27:03 GMT;HttpOnly
+D, [2017-01-12T19:27:03.610249 #13350] DEBUG -- : Read 0 bytes (0 total)
+D, [2017-01-12T19:27:03.611240 #13350] DEBUG -- : saved cookie: MpSession=
+D, [2017-01-12T19:27:03.611492 #13350] DEBUG -- : saved cookie: MpSession=c5c2dc82-68ef-4506-bef0-c4ec79508241
+D, [2017-01-12T19:27:03.611890 #13350] DEBUG -- : saved cookie: luckynumber=946419699
+D, [2017-01-12T19:27:03.612329 #13350] DEBUG -- : saved cookie: MpSecurity=MjAyNjc2NTM6MTUxNTc4MTYyMzU0NDo0NmI5YTFlMzFhMzQzODM0OTRkZTM5NmE2NmRlNTUzZjI4N2U1MzJj
+D, [2017-01-12T19:27:03.612825 #13350] DEBUG -- : saved cookie: MpSslSecurity=MjAyNjc2NTM6MTUxNTc4MTYyMzU0NDo0MjQ1YzRmNDE2NzYzYWFkMmUxZWE4NzRmODNkMmY4NGFmMmE5MGU3
+D, [2017-01-12T19:27:03.613285 #13350] DEBUG -- : saved cookie: luid=/AVUYb/RFRdp8T9GlSI4/xe23wOxtD8H
+I, [2017-01-12T19:27:03.613426 #13350]  INFO -- : follow redirect to: http://www.marktplaats.nl/
+I, [2017-01-12T19:27:03.614068 #13350]  INFO -- : Net::HTTP::Get: /
+D, [2017-01-12T19:27:03.614101 #13350] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-01-12T19:27:03.614124 #13350] DEBUG -- : request-header: accept => */*
+D, [2017-01-12T19:27:03.614168 #13350] DEBUG -- : request-header: user-agent => Mechanize/2.7.5 Ruby/2.3.0p0 (http://github.com/sparklemotion/mechanize/)
+D, [2017-01-12T19:27:03.614191 #13350] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-01-12T19:27:03.614212 #13350] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-01-12T19:27:03.614235 #13350] DEBUG -- : request-header: cookie => MpSecurity=MjAyNjc2NTM6MTUxNTc4MTYyMzU0NDo0NmI5YTFlMzFhMzQzODM0OTRkZTM5NmE2NmRlNTUzZjI4N2U1MzJj; MpSession=c5c2dc82-68ef-4506-bef0-c4ec79508241; luckynumber=946419699; luid=/AVUYb/RFRdp8T9GlSI4/xe23wOxtD8H
+D, [2017-01-12T19:27:03.614257 #13350] DEBUG -- : request-header: host => www.marktplaats.nl
+I, [2017-01-12T19:27:04.195679 #13350]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-01-12T19:27:04.195864 #13350] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-01-12T19:27:04.195921 #13350] DEBUG -- : response-header: content-language => en-US
+D, [2017-01-12T19:27:04.195965 #13350] DEBUG -- : response-header: content-length => 23912
+D, [2017-01-12T19:27:04.196009 #13350] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2017-01-12T19:27:04.196052 #13350] DEBUG -- : response-header: date => Thu, 12 Jan 2017 18:27:03 GMT
+D, [2017-01-12T19:27:04.196094 #13350] DEBUG -- : response-header: expires => Thu, 01 Jan 1970 00:00:00 GMT
+D, [2017-01-12T19:27:04.196139 #13350] DEBUG -- : response-header: set-cookie => luckynumber=946419699;Path=/;Domain=.marktplaats.nl;Expires=Fri, 12-Jan-2018 18:27:03 GMT, MpSession="";Version=1;Path=/;Expires=Thu, 01-Jan-1970 00:00:00 GMT;Max-Age=0, MpSession=c5c2dc82-68ef-4506-bef0-c4ec79508241;Path=/;Domain=.marktplaats.nl, pc=1165LX;Path=/;Domain=.marktplaats.nl;Expires=Fri, 12-Jan-2018 18:27:03 GMT
+D, [2017-01-12T19:27:04.196184 #13350] DEBUG -- : response-header: vary => Accept-Encoding, User-Agent
+D, [2017-01-12T19:27:04.196227 #13350] DEBUG -- : response-header: x-frame-options => SAMEORIGIN
+D, [2017-01-12T19:27:04.196381 #13350] DEBUG -- : Read 3449 bytes (3449 total)
+D, [2017-01-12T19:27:04.196514 #13350] DEBUG -- : Read 4848 bytes (8297 total)
+D, [2017-01-12T19:27:04.240948 #13350] DEBUG -- : Read 1212 bytes (9509 total)
+D, [2017-01-12T19:27:04.242298 #13350] DEBUG -- : Read 3636 bytes (13145 total)
+D, [2017-01-12T19:27:04.242444 #13350] DEBUG -- : Read 3636 bytes (16781 total)
+D, [2017-01-12T19:27:04.242593 #13350] DEBUG -- : Read 2424 bytes (19205 total)
+D, [2017-01-12T19:27:04.287892 #13350] DEBUG -- : Read 2424 bytes (21629 total)
+D, [2017-01-12T19:27:04.288757 #13350] DEBUG -- : Read 2283 bytes (23912 total)
+D, [2017-01-12T19:27:04.289032 #13350] DEBUG -- : gzip response
+D, [2017-01-12T19:27:04.306949 #13350] DEBUG -- : saved cookie: luckynumber=946419699
+D, [2017-01-12T19:27:04.307308 #13350] DEBUG -- : saved cookie: MpSession=
+D, [2017-01-12T19:27:04.307530 #13350] DEBUG -- : saved cookie: MpSession=c5c2dc82-68ef-4506-bef0-c4ec79508241
+D, [2017-01-12T19:27:04.307836 #13350] DEBUG -- : saved cookie: pc=1165LX
+I, [2017-01-12T19:27:21.684850 #13350]  INFO -- : Net::HTTP::Get: /account/login.html
+D, [2017-01-12T19:27:21.685037 #13350] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-01-12T19:27:21.685073 #13350] DEBUG -- : request-header: accept => */*
+D, [2017-01-12T19:27:21.685098 #13350] DEBUG -- : request-header: user-agent => Mechanize/2.7.5 Ruby/2.3.0p0 (http://github.com/sparklemotion/mechanize/)
+D, [2017-01-12T19:27:21.685120 #13350] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-01-12T19:27:21.685141 #13350] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-01-12T19:27:21.685161 #13350] DEBUG -- : request-header: host => www.marktplaats.nl
+I, [2017-01-12T19:27:22.427433 #13350]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-01-12T19:27:22.427525 #13350] DEBUG -- : response-header: cache-control => no-store
+D, [2017-01-12T19:27:22.427562 #13350] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-01-12T19:27:22.427595 #13350] DEBUG -- : response-header: content-language => en-US
+D, [2017-01-12T19:27:22.427626 #13350] DEBUG -- : response-header: content-length => 5891
+D, [2017-01-12T19:27:22.427658 #13350] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2017-01-12T19:27:22.427690 #13350] DEBUG -- : response-header: date => Thu, 12 Jan 2017 18:27:22 GMT
+D, [2017-01-12T19:27:22.427722 #13350] DEBUG -- : response-header: expires => Thu, 01 Jan 1970 00:00:00 GMT
+D, [2017-01-12T19:27:22.427753 #13350] DEBUG -- : response-header: pragma => no-cache
+D, [2017-01-12T19:27:22.427787 #13350] DEBUG -- : response-header: set-cookie => luckynumber=1969336472;Path=/;Domain=.marktplaats.nl;Expires=Fri, 12-Jan-2018 18:27:22 GMT, MpSession="";Version=1;Path=/;Expires=Thu, 01-Jan-1970 00:00:00 GMT;Max-Age=0, MpSession=ef65fca5-2ea1-47a9-b88b-120b2516c011;Path=/;Domain=.marktplaats.nl
+D, [2017-01-12T19:27:22.427839 #13350] DEBUG -- : response-header: vary => Accept-Encoding, User-Agent
+D, [2017-01-12T19:27:22.427874 #13350] DEBUG -- : response-header: x-frame-options => SAMEORIGIN
+D, [2017-01-12T19:27:22.428037 #13350] DEBUG -- : Read 3497 bytes (3497 total)
+D, [2017-01-12T19:27:22.428205 #13350] DEBUG -- : Read 2394 bytes (5891 total)
+D, [2017-01-12T19:27:22.428393 #13350] DEBUG -- : gzip response
+D, [2017-01-12T19:27:22.431493 #13350] DEBUG -- : saved cookie: luckynumber=1969336472
+D, [2017-01-12T19:27:22.431824 #13350] DEBUG -- : saved cookie: MpSession=
+D, [2017-01-12T19:27:22.432011 #13350] DEBUG -- : saved cookie: MpSession=ef65fca5-2ea1-47a9-b88b-120b2516c011
+I, [2017-01-12T19:27:22.435521 #13350]  INFO -- : form encoding: utf-8
+D, [2017-01-12T19:27:22.435995 #13350] DEBUG -- : query: "j_username=matthijs.h.j%40Live.nl&j_password=tijger1997&remember_me=true&success_url=http%3A%2F%2Fwww.marktplaats.nl%2F&failure_url=https%3A%2F%2Fwww.marktplaats.nl%2Faccount%2Flogin.html%3Ftarget%3Dhttp%253a%252f%252fwww.marktplaats.nl%252f&target=&nl.marktplaats.xsrf.token=1484245642402.1065e712c2a21842c6b38e02c2290ed"
+I, [2017-01-12T19:27:22.436704 #13350]  INFO -- : Net::HTTP::Post: /accounts/authentication/login
+D, [2017-01-12T19:27:22.436746 #13350] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-01-12T19:27:22.436770 #13350] DEBUG -- : request-header: accept => */*
+D, [2017-01-12T19:27:22.436792 #13350] DEBUG -- : request-header: user-agent => Mechanize/2.7.5 Ruby/2.3.0p0 (http://github.com/sparklemotion/mechanize/)
+D, [2017-01-12T19:27:22.436813 #13350] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-01-12T19:27:22.436834 #13350] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-01-12T19:27:22.436854 #13350] DEBUG -- : request-header: cookie => MpSession=ef65fca5-2ea1-47a9-b88b-120b2516c011; luckynumber=1969336472
+D, [2017-01-12T19:27:22.436875 #13350] DEBUG -- : request-header: host => auth.marktplaats.nl
+D, [2017-01-12T19:27:22.436900 #13350] DEBUG -- : request-header: referer => https://www.marktplaats.nl/account/login.html
+D, [2017-01-12T19:27:22.436922 #13350] DEBUG -- : request-header: content-type => application/x-www-form-urlencoded
+D, [2017-01-12T19:27:22.436942 #13350] DEBUG -- : request-header: content-length => 321
+I, [2017-01-12T19:27:23.554129 #13350]  INFO -- : status: Net::HTTPFound 1.1 302 Found
+D, [2017-01-12T19:27:23.554281 #13350] DEBUG -- : response-header: content-length => 0
+D, [2017-01-12T19:27:23.554335 #13350] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2017-01-12T19:27:23.554379 #13350] DEBUG -- : response-header: date => Thu, 12 Jan 2017 18:27:23 GMT
+D, [2017-01-12T19:27:23.554421 #13350] DEBUG -- : response-header: expires => Thu, 01 Jan 1970 00:00:00 GMT
+D, [2017-01-12T19:27:23.554461 #13350] DEBUG -- : response-header: location => http://www.marktplaats.nl/
+D, [2017-01-12T19:27:23.554505 #13350] DEBUG -- : response-header: set-cookie => MpSession="";Version=1;Path=/;Expires=Thu, 01-Jan-1970 00:00:00 GMT;Max-Age=0, MpSession=ef65fca5-2ea1-47a9-b88b-120b2516c011;Path=/;Domain=.marktplaats.nl, luckynumber=1969336472;Path=/;Domain=.marktplaats.nl;Expires=Fri, 12-Jan-2018 18:27:23 GMT, MpSecurity=MjAyNjc2NTM6MTUxNTc4MTY0MzUwNzplMWYwYWE4MDE3ZjViODQ5ZjQ2ZDRlYWVlZTY1ZDFhNjU0YzY5YWRk;Path=/;Domain=.marktplaats.nl;Expires=Fri, 12-Jan-2018 18:27:22 GMT;HttpOnly, MpSslSecurity=MjAyNjc2NTM6MTUxNTc4MTY0MzUwODoyYjQwZDZjMDE2Nzk1NTg0M2QyNTFkOTI4ODVkYWViNWViNTViY2Qy;Path=/;Domain=.marktplaats.nl;Expires=Fri, 12-Jan-2018 18:27:22 GMT;Secure;HttpOnly, luid=/AVUYb/RFRdp8T9GlSI4/x7kL2y+vExw;Path=/;Domain=.marktplaats.nl;Expires=Sun, 10-Jan-2027 18:27:23 GMT;HttpOnly
+D, [2017-01-12T19:27:23.554769 #13350] DEBUG -- : Read 0 bytes (0 total)
+D, [2017-01-12T19:27:23.555711 #13350] DEBUG -- : saved cookie: MpSession=
+D, [2017-01-12T19:27:23.555962 #13350] DEBUG -- : saved cookie: MpSession=ef65fca5-2ea1-47a9-b88b-120b2516c011
+D, [2017-01-12T19:27:23.556380 #13350] DEBUG -- : saved cookie: luckynumber=1969336472
+D, [2017-01-12T19:27:23.556780 #13350] DEBUG -- : saved cookie: MpSecurity=MjAyNjc2NTM6MTUxNTc4MTY0MzUwNzplMWYwYWE4MDE3ZjViODQ5ZjQ2ZDRlYWVlZTY1ZDFhNjU0YzY5YWRk
+D, [2017-01-12T19:27:23.557436 #13350] DEBUG -- : saved cookie: MpSslSecurity=MjAyNjc2NTM6MTUxNTc4MTY0MzUwODoyYjQwZDZjMDE2Nzk1NTg0M2QyNTFkOTI4ODVkYWViNWViNTViY2Qy
+D, [2017-01-12T19:27:23.557746 #13350] DEBUG -- : saved cookie: luid=/AVUYb/RFRdp8T9GlSI4/x7kL2y+vExw
+I, [2017-01-12T19:27:23.557844 #13350]  INFO -- : follow redirect to: http://www.marktplaats.nl/
+I, [2017-01-12T19:27:23.558663 #13350]  INFO -- : Net::HTTP::Get: /
+D, [2017-01-12T19:27:23.558708 #13350] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-01-12T19:27:23.558742 #13350] DEBUG -- : request-header: accept => */*
+D, [2017-01-12T19:27:23.558774 #13350] DEBUG -- : request-header: user-agent => Mechanize/2.7.5 Ruby/2.3.0p0 (http://github.com/sparklemotion/mechanize/)
+D, [2017-01-12T19:27:23.558807 #13350] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-01-12T19:27:23.558838 #13350] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-01-12T19:27:23.558870 #13350] DEBUG -- : request-header: cookie => MpSecurity=MjAyNjc2NTM6MTUxNTc4MTY0MzUwNzplMWYwYWE4MDE3ZjViODQ5ZjQ2ZDRlYWVlZTY1ZDFhNjU0YzY5YWRk; MpSession=ef65fca5-2ea1-47a9-b88b-120b2516c011; luckynumber=1969336472; luid=/AVUYb/RFRdp8T9GlSI4/x7kL2y+vExw
+D, [2017-01-12T19:27:23.558902 #13350] DEBUG -- : request-header: host => www.marktplaats.nl
+I, [2017-01-12T19:27:24.148109 #13350]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-01-12T19:27:24.148226 #13350] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-01-12T19:27:24.148273 #13350] DEBUG -- : response-header: content-language => en-US
+D, [2017-01-12T19:27:24.148314 #13350] DEBUG -- : response-header: content-length => 24012
+D, [2017-01-12T19:27:24.148355 #13350] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2017-01-12T19:27:24.148396 #13350] DEBUG -- : response-header: date => Thu, 12 Jan 2017 18:27:23 GMT
+D, [2017-01-12T19:27:24.148436 #13350] DEBUG -- : response-header: expires => Thu, 01 Jan 1970 00:00:00 GMT
+D, [2017-01-12T19:27:24.148591 #13350] DEBUG -- : response-header: set-cookie => luckynumber=1969336472;Path=/;Domain=.marktplaats.nl;Expires=Fri, 12-Jan-2018 18:27:23 GMT, MpSession="";Version=1;Path=/;Expires=Thu, 01-Jan-1970 00:00:00 GMT;Max-Age=0, MpSession=ef65fca5-2ea1-47a9-b88b-120b2516c011;Path=/;Domain=.marktplaats.nl, pc=1165LX;Path=/;Domain=.marktplaats.nl;Expires=Fri, 12-Jan-2018 18:27:23 GMT
+D, [2017-01-12T19:27:24.148635 #13350] DEBUG -- : response-header: vary => Accept-Encoding, User-Agent
+D, [2017-01-12T19:27:24.148675 #13350] DEBUG -- : response-header: x-frame-options => SAMEORIGIN
+D, [2017-01-12T19:27:24.148814 #13350] DEBUG -- : Read 2988 bytes (2988 total)
+D, [2017-01-12T19:27:24.148940 #13350] DEBUG -- : Read 7732 bytes (10720 total)
+D, [2017-01-12T19:27:24.311337 #13350] DEBUG -- : Read 2424 bytes (13144 total)
+D, [2017-01-12T19:27:24.311620 #13350] DEBUG -- : Read 4848 bytes (17992 total)
+D, [2017-01-12T19:27:24.311712 #13350] DEBUG -- : Read 2424 bytes (20416 total)
+D, [2017-01-12T19:27:24.311803 #13350] DEBUG -- : Read 1212 bytes (21628 total)
+D, [2017-01-12T19:27:24.311875 #13350] DEBUG -- : Read 1212 bytes (22840 total)
+D, [2017-01-12T19:27:24.311989 #13350] DEBUG -- : Read 1172 bytes (24012 total)
+D, [2017-01-12T19:27:24.312174 #13350] DEBUG -- : gzip response
+D, [2017-01-12T19:27:24.327672 #13350] DEBUG -- : saved cookie: luckynumber=1969336472
+D, [2017-01-12T19:27:24.327893 #13350] DEBUG -- : saved cookie: MpSession=
+D, [2017-01-12T19:27:24.328011 #13350] DEBUG -- : saved cookie: MpSession=ef65fca5-2ea1-47a9-b88b-120b2516c011
+D, [2017-01-12T19:27:24.328200 #13350] DEBUG -- : saved cookie: pc=1165LX
+I, [2017-01-12T19:28:29.930896 #13350]  INFO -- : Net::HTTP::Get: /account/login.html
+D, [2017-01-12T19:28:29.931048 #13350] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-01-12T19:28:29.931116 #13350] DEBUG -- : request-header: accept => */*
+D, [2017-01-12T19:28:29.931147 #13350] DEBUG -- : request-header: user-agent => Mechanize/2.7.5 Ruby/2.3.0p0 (http://github.com/sparklemotion/mechanize/)
+D, [2017-01-12T19:28:29.931177 #13350] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-01-12T19:28:29.931215 #13350] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-01-12T19:28:29.931239 #13350] DEBUG -- : request-header: host => www.marktplaats.nl
+I, [2017-01-12T19:28:30.639383 #13350]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-01-12T19:28:30.639453 #13350] DEBUG -- : response-header: cache-control => no-store
+D, [2017-01-12T19:28:30.639477 #13350] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-01-12T19:28:30.639498 #13350] DEBUG -- : response-header: content-language => en-US
+D, [2017-01-12T19:28:30.639518 #13350] DEBUG -- : response-header: content-length => 5910
+D, [2017-01-12T19:28:30.639539 #13350] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2017-01-12T19:28:30.639560 #13350] DEBUG -- : response-header: date => Thu, 12 Jan 2017 18:28:30 GMT
+D, [2017-01-12T19:28:30.639580 #13350] DEBUG -- : response-header: expires => Thu, 01 Jan 1970 00:00:00 GMT
+D, [2017-01-12T19:28:30.639600 #13350] DEBUG -- : response-header: pragma => no-cache
+D, [2017-01-12T19:28:30.639622 #13350] DEBUG -- : response-header: set-cookie => luckynumber=1452615746;Path=/;Domain=.marktplaats.nl;Expires=Fri, 12-Jan-2018 18:28:30 GMT, MpSession="";Version=1;Path=/;Expires=Thu, 01-Jan-1970 00:00:00 GMT;Max-Age=0, MpSession=da5686e1-42dd-4cfe-99d9-0c761d73dd5a;Path=/;Domain=.marktplaats.nl
+D, [2017-01-12T19:28:30.639648 #13350] DEBUG -- : response-header: vary => Accept-Encoding, User-Agent
+D, [2017-01-12T19:28:30.639668 #13350] DEBUG -- : response-header: x-frame-options => SAMEORIGIN
+D, [2017-01-12T19:28:30.639923 #13350] DEBUG -- : Read 3497 bytes (3497 total)
+D, [2017-01-12T19:28:30.639995 #13350] DEBUG -- : Read 2413 bytes (5910 total)
+D, [2017-01-12T19:28:30.640090 #13350] DEBUG -- : gzip response
+D, [2017-01-12T19:28:30.642176 #13350] DEBUG -- : saved cookie: luckynumber=1452615746
+D, [2017-01-12T19:28:30.642409 #13350] DEBUG -- : saved cookie: MpSession=
+D, [2017-01-12T19:28:30.642537 #13350] DEBUG -- : saved cookie: MpSession=da5686e1-42dd-4cfe-99d9-0c761d73dd5a
+I, [2017-01-12T19:28:30.645709 #13350]  INFO -- : form encoding: utf-8
+D, [2017-01-12T19:28:30.646149 #13350] DEBUG -- : query: "j_username=matthijs.h.j%40Live.nl&j_password=tijger1997&remember_me=true&success_url=http%3A%2F%2Fwww.marktplaats.nl%2F&failure_url=https%3A%2F%2Fwww.marktplaats.nl%2Faccount%2Flogin.html%3Ftarget%3Dhttp%253a%252f%252fwww.marktplaats.nl%252f&target=&nl.marktplaats.xsrf.token=1484245710611.bf38c13a341fb529d758e4ee32ed7044"
+I, [2017-01-12T19:28:30.646743 #13350]  INFO -- : Net::HTTP::Post: /accounts/authentication/login
+D, [2017-01-12T19:28:30.646781 #13350] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-01-12T19:28:30.646804 #13350] DEBUG -- : request-header: accept => */*
+D, [2017-01-12T19:28:30.646827 #13350] DEBUG -- : request-header: user-agent => Mechanize/2.7.5 Ruby/2.3.0p0 (http://github.com/sparklemotion/mechanize/)
+D, [2017-01-12T19:28:30.646852 #13350] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-01-12T19:28:30.646874 #13350] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-01-12T19:28:30.646897 #13350] DEBUG -- : request-header: cookie => MpSession=da5686e1-42dd-4cfe-99d9-0c761d73dd5a; luckynumber=1452615746
+D, [2017-01-12T19:28:30.646920 #13350] DEBUG -- : request-header: host => auth.marktplaats.nl
+D, [2017-01-12T19:28:30.646951 #13350] DEBUG -- : request-header: referer => https://www.marktplaats.nl/account/login.html
+D, [2017-01-12T19:28:30.646974 #13350] DEBUG -- : request-header: content-type => application/x-www-form-urlencoded
+D, [2017-01-12T19:28:30.647015 #13350] DEBUG -- : request-header: content-length => 322
+I, [2017-01-12T19:28:31.546918 #13350]  INFO -- : status: Net::HTTPFound 1.1 302 Found
+D, [2017-01-12T19:28:31.547073 #13350] DEBUG -- : response-header: content-length => 0
+D, [2017-01-12T19:28:31.547126 #13350] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2017-01-12T19:28:31.547172 #13350] DEBUG -- : response-header: date => Thu, 12 Jan 2017 18:28:31 GMT
+D, [2017-01-12T19:28:31.547214 #13350] DEBUG -- : response-header: expires => Thu, 01 Jan 1970 00:00:00 GMT
+D, [2017-01-12T19:28:31.547257 #13350] DEBUG -- : response-header: location => http://www.marktplaats.nl/
+D, [2017-01-12T19:28:31.547303 #13350] DEBUG -- : response-header: set-cookie => MpSession="";Version=1;Path=/;Expires=Thu, 01-Jan-1970 00:00:00 GMT;Max-Age=0, MpSession=da5686e1-42dd-4cfe-99d9-0c761d73dd5a;Path=/;Domain=.marktplaats.nl, luckynumber=1452615746;Path=/;Domain=.marktplaats.nl;Expires=Fri, 12-Jan-2018 18:28:31 GMT, MpSecurity=MjAyNjc2NTM6MTUxNTc4MTcxMTQ5OTpiNzNhNWRlODlhOTJmNjZlMDE1ZmUxNzM2OTJhZjgzN2Y3Y2RjMzJk;Path=/;Domain=.marktplaats.nl;Expires=Fri, 12-Jan-2018 18:28:30 GMT;HttpOnly, MpSslSecurity=MjAyNjc2NTM6MTUxNTc4MTcxMTQ5OTpmYWY5ZTM4ZjM4YTg5OTZkMTgxMjYyNzZhZjJiNjVlYzdmNjVmMzgz;Path=/;Domain=.marktplaats.nl;Expires=Fri, 12-Jan-2018 18:28:30 GMT;Secure;HttpOnly, luid=/AVUYb/RFRdp8T9GlSI4/0hgsFtcnyjN;Path=/;Domain=.marktplaats.nl;Expires=Sun, 10-Jan-2027 18:28:31 GMT;HttpOnly
+D, [2017-01-12T19:28:31.547445 #13350] DEBUG -- : Read 0 bytes (0 total)
+D, [2017-01-12T19:28:31.548380 #13350] DEBUG -- : saved cookie: MpSession=
+D, [2017-01-12T19:28:31.548630 #13350] DEBUG -- : saved cookie: MpSession=da5686e1-42dd-4cfe-99d9-0c761d73dd5a
+D, [2017-01-12T19:28:31.549832 #13350] DEBUG -- : saved cookie: luckynumber=1452615746
+D, [2017-01-12T19:28:31.550241 #13350] DEBUG -- : saved cookie: MpSecurity=MjAyNjc2NTM6MTUxNTc4MTcxMTQ5OTpiNzNhNWRlODlhOTJmNjZlMDE1ZmUxNzM2OTJhZjgzN2Y3Y2RjMzJk
+D, [2017-01-12T19:28:31.550568 #13350] DEBUG -- : saved cookie: MpSslSecurity=MjAyNjc2NTM6MTUxNTc4MTcxMTQ5OTpmYWY5ZTM4ZjM4YTg5OTZkMTgxMjYyNzZhZjJiNjVlYzdmNjVmMzgz
+D, [2017-01-12T19:28:31.550877 #13350] DEBUG -- : saved cookie: luid=/AVUYb/RFRdp8T9GlSI4/0hgsFtcnyjN
+I, [2017-01-12T19:28:31.550975 #13350]  INFO -- : follow redirect to: http://www.marktplaats.nl/
+I, [2017-01-12T19:28:31.551822 #13350]  INFO -- : Net::HTTP::Get: /
+D, [2017-01-12T19:28:31.551868 #13350] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-01-12T19:28:31.551902 #13350] DEBUG -- : request-header: accept => */*
+D, [2017-01-12T19:28:31.551934 #13350] DEBUG -- : request-header: user-agent => Mechanize/2.7.5 Ruby/2.3.0p0 (http://github.com/sparklemotion/mechanize/)
+D, [2017-01-12T19:28:31.551967 #13350] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-01-12T19:28:31.551999 #13350] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-01-12T19:28:31.552031 #13350] DEBUG -- : request-header: cookie => MpSecurity=MjAyNjc2NTM6MTUxNTc4MTcxMTQ5OTpiNzNhNWRlODlhOTJmNjZlMDE1ZmUxNzM2OTJhZjgzN2Y3Y2RjMzJk; MpSession=da5686e1-42dd-4cfe-99d9-0c761d73dd5a; luckynumber=1452615746; luid=/AVUYb/RFRdp8T9GlSI4/0hgsFtcnyjN
+D, [2017-01-12T19:28:31.552062 #13350] DEBUG -- : request-header: host => www.marktplaats.nl
+I, [2017-01-12T19:28:33.124917 #13350]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-01-12T19:28:33.125062 #13350] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-01-12T19:28:33.125141 #13350] DEBUG -- : response-header: content-language => en-US
+D, [2017-01-12T19:28:33.125185 #13350] DEBUG -- : response-header: content-length => 23982
+D, [2017-01-12T19:28:33.125231 #13350] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2017-01-12T19:28:33.125277 #13350] DEBUG -- : response-header: date => Thu, 12 Jan 2017 18:28:31 GMT
+D, [2017-01-12T19:28:33.125371 #13350] DEBUG -- : response-header: expires => Thu, 01 Jan 1970 00:00:00 GMT
+D, [2017-01-12T19:28:33.125432 #13350] DEBUG -- : response-header: set-cookie => luckynumber=1452615746;Path=/;Domain=.marktplaats.nl;Expires=Fri, 12-Jan-2018 18:28:31 GMT, MpSession="";Version=1;Path=/;Expires=Thu, 01-Jan-1970 00:00:00 GMT;Max-Age=0, MpSession=da5686e1-42dd-4cfe-99d9-0c761d73dd5a;Path=/;Domain=.marktplaats.nl, pc=1165LX;Path=/;Domain=.marktplaats.nl;Expires=Fri, 12-Jan-2018 18:28:31 GMT
+D, [2017-01-12T19:28:33.125505 #13350] DEBUG -- : response-header: vary => Accept-Encoding, User-Agent
+D, [2017-01-12T19:28:33.125550 #13350] DEBUG -- : response-header: x-frame-options => SAMEORIGIN
+D, [2017-01-12T19:28:33.125692 #13350] DEBUG -- : Read 1776 bytes (1776 total)
+D, [2017-01-12T19:28:33.125878 #13350] DEBUG -- : Read 10156 bytes (11932 total)
+D, [2017-01-12T19:28:33.166186 #13350] DEBUG -- : Read 3636 bytes (15568 total)
+D, [2017-01-12T19:28:33.166347 #13350] DEBUG -- : Read 3636 bytes (19204 total)
+D, [2017-01-12T19:28:33.166445 #13350] DEBUG -- : Read 2424 bytes (21628 total)
+D, [2017-01-12T19:28:33.166558 #13350] DEBUG -- : Read 2354 bytes (23982 total)
+D, [2017-01-12T19:28:33.166742 #13350] DEBUG -- : gzip response
+D, [2017-01-12T19:28:33.182818 #13350] DEBUG -- : saved cookie: luckynumber=1452615746
+D, [2017-01-12T19:28:33.183045 #13350] DEBUG -- : saved cookie: MpSession=
+D, [2017-01-12T19:28:33.183164 #13350] DEBUG -- : saved cookie: MpSession=da5686e1-42dd-4cfe-99d9-0c761d73dd5a
+D, [2017-01-12T19:28:33.183357 #13350] DEBUG -- : saved cookie: pc=1165LX
+I, [2017-01-12T19:39:48.514904 #13350]  INFO -- : Net::HTTP::Get: /account/login.html
+D, [2017-01-12T19:39:48.515148 #13350] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-01-12T19:39:48.515179 #13350] DEBUG -- : request-header: accept => */*
+D, [2017-01-12T19:39:48.515202 #13350] DEBUG -- : request-header: user-agent => Mechanize/2.7.5 Ruby/2.3.0p0 (http://github.com/sparklemotion/mechanize/)
+D, [2017-01-12T19:39:48.516198 #13350] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-01-12T19:39:48.516760 #13350] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-01-12T19:39:48.517435 #13350] DEBUG -- : request-header: host => www.marktplaats.nl
+I, [2017-01-12T19:39:49.209296 #13350]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-01-12T19:39:49.209393 #13350] DEBUG -- : response-header: cache-control => no-store
+D, [2017-01-12T19:39:49.209418 #13350] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-01-12T19:39:49.209496 #13350] DEBUG -- : response-header: content-language => en-US
+D, [2017-01-12T19:39:49.209525 #13350] DEBUG -- : response-header: content-length => 5885
+D, [2017-01-12T19:39:49.209549 #13350] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2017-01-12T19:39:49.209571 #13350] DEBUG -- : response-header: date => Thu, 12 Jan 2017 18:39:49 GMT
+D, [2017-01-12T19:39:49.209605 #13350] DEBUG -- : response-header: expires => Thu, 01 Jan 1970 00:00:00 GMT
+D, [2017-01-12T19:39:49.209626 #13350] DEBUG -- : response-header: pragma => no-cache
+D, [2017-01-12T19:39:49.209647 #13350] DEBUG -- : response-header: set-cookie => luckynumber=1673744912;Path=/;Domain=.marktplaats.nl;Expires=Fri, 12-Jan-2018 18:39:49 GMT, MpSession="";Version=1;Path=/;Expires=Thu, 01-Jan-1970 00:00:00 GMT;Max-Age=0, MpSession=e5634284-da31-48b8-a25b-0918bbbfd5a6;Path=/;Domain=.marktplaats.nl
+D, [2017-01-12T19:39:49.209668 #13350] DEBUG -- : response-header: vary => Accept-Encoding, User-Agent
+D, [2017-01-12T19:39:49.209688 #13350] DEBUG -- : response-header: x-frame-options => SAMEORIGIN
+D, [2017-01-12T19:39:49.209760 #13350] DEBUG -- : Read 3497 bytes (3497 total)
+D, [2017-01-12T19:39:49.209813 #13350] DEBUG -- : Read 2388 bytes (5885 total)
+D, [2017-01-12T19:39:49.209906 #13350] DEBUG -- : gzip response
+D, [2017-01-12T19:39:49.212068 #13350] DEBUG -- : saved cookie: luckynumber=1673744912
+D, [2017-01-12T19:39:49.212286 #13350] DEBUG -- : saved cookie: MpSession=
+D, [2017-01-12T19:39:49.212429 #13350] DEBUG -- : saved cookie: MpSession=e5634284-da31-48b8-a25b-0918bbbfd5a6
+I, [2017-01-12T19:39:49.214971 #13350]  INFO -- : form encoding: utf-8
+D, [2017-01-12T19:39:49.216159 #13350] DEBUG -- : query: "j_username=matthijs.h.j%40Live.nl&j_password=tijger1997&remember_me=true&success_url=http%3A%2F%2Fwww.marktplaats.nl%2F&failure_url=https%3A%2F%2Fwww.marktplaats.nl%2Faccount%2Flogin.html%3Ftarget%3Dhttp%253a%252f%252fwww.marktplaats.nl%252f&target=&nl.marktplaats.xsrf.token=1484246389181.1bcb8a3ebcbcbdcd05bf73781170d516"
+I, [2017-01-12T19:39:49.216895 #13350]  INFO -- : Net::HTTP::Post: /accounts/authentication/login
+D, [2017-01-12T19:39:49.216936 #13350] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-01-12T19:39:49.216959 #13350] DEBUG -- : request-header: accept => */*
+D, [2017-01-12T19:39:49.216980 #13350] DEBUG -- : request-header: user-agent => Mechanize/2.7.5 Ruby/2.3.0p0 (http://github.com/sparklemotion/mechanize/)
+D, [2017-01-12T19:39:49.217000 #13350] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-01-12T19:39:49.217019 #13350] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-01-12T19:39:49.217039 #13350] DEBUG -- : request-header: cookie => MpSession=e5634284-da31-48b8-a25b-0918bbbfd5a6; luckynumber=1673744912
+D, [2017-01-12T19:39:49.217058 #13350] DEBUG -- : request-header: host => auth.marktplaats.nl
+D, [2017-01-12T19:39:49.217082 #13350] DEBUG -- : request-header: referer => https://www.marktplaats.nl/account/login.html
+D, [2017-01-12T19:39:49.217103 #13350] DEBUG -- : request-header: content-type => application/x-www-form-urlencoded
+D, [2017-01-12T19:39:49.217122 #13350] DEBUG -- : request-header: content-length => 322
+I, [2017-01-12T19:39:50.042254 #13350]  INFO -- : status: Net::HTTPFound 1.1 302 Found
+D, [2017-01-12T19:39:50.042409 #13350] DEBUG -- : response-header: content-length => 0
+D, [2017-01-12T19:39:50.042476 #13350] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2017-01-12T19:39:50.042534 #13350] DEBUG -- : response-header: date => Thu, 12 Jan 2017 18:39:49 GMT
+D, [2017-01-12T19:39:50.042592 #13350] DEBUG -- : response-header: expires => Thu, 01 Jan 1970 00:00:00 GMT
+D, [2017-01-12T19:39:50.042648 #13350] DEBUG -- : response-header: location => http://www.marktplaats.nl/
+D, [2017-01-12T19:39:50.042708 #13350] DEBUG -- : response-header: set-cookie => MpSession="";Version=1;Path=/;Expires=Thu, 01-Jan-1970 00:00:00 GMT;Max-Age=0, MpSession=e5634284-da31-48b8-a25b-0918bbbfd5a6;Path=/;Domain=.marktplaats.nl, luckynumber=1673744912;Path=/;Domain=.marktplaats.nl;Expires=Fri, 12-Jan-2018 18:39:49 GMT, MpSecurity=MjAyNjc2NTM6MTUxNTc4MjM4OTk5MzphYzgxYzI5N2Y3ZDk3ZGU1MDcyOTZmZmJlZWVhMTI3NTVlNjdmYjdk;Path=/;Domain=.marktplaats.nl;Expires=Fri, 12-Jan-2018 18:39:49 GMT;HttpOnly, MpSslSecurity=MjAyNjc2NTM6MTUxNTc4MjM4OTk5Mzo2NGUyMjA3MzMzOTcxNzRiNGRkODlhZTA2YTIxZTM4ODRlZTgwZjdk;Path=/;Domain=.marktplaats.nl;Expires=Fri, 12-Jan-2018 18:39:49 GMT;Secure;HttpOnly, luid=/AVUYb/RFRe87FAbNU9VNO3BB/QI9oa5;Path=/;Domain=.marktplaats.nl;Expires=Sun, 10-Jan-2027 18:39:50 GMT;HttpOnly
+D, [2017-01-12T19:39:50.042885 #13350] DEBUG -- : Read 0 bytes (0 total)
+D, [2017-01-12T19:39:50.043991 #13350] DEBUG -- : saved cookie: MpSession=
+D, [2017-01-12T19:39:50.044240 #13350] DEBUG -- : saved cookie: MpSession=e5634284-da31-48b8-a25b-0918bbbfd5a6
+D, [2017-01-12T19:39:50.044714 #13350] DEBUG -- : saved cookie: luckynumber=1673744912
+D, [2017-01-12T19:39:50.045116 #13350] DEBUG -- : saved cookie: MpSecurity=MjAyNjc2NTM6MTUxNTc4MjM4OTk5MzphYzgxYzI5N2Y3ZDk3ZGU1MDcyOTZmZmJlZWVhMTI3NTVlNjdmYjdk
+D, [2017-01-12T19:39:50.045519 #13350] DEBUG -- : saved cookie: MpSslSecurity=MjAyNjc2NTM6MTUxNTc4MjM4OTk5Mzo2NGUyMjA3MzMzOTcxNzRiNGRkODlhZTA2YTIxZTM4ODRlZTgwZjdk
+D, [2017-01-12T19:39:50.045905 #13350] DEBUG -- : saved cookie: luid=/AVUYb/RFRe87FAbNU9VNO3BB/QI9oa5
+I, [2017-01-12T19:39:50.046128 #13350]  INFO -- : follow redirect to: http://www.marktplaats.nl/
+I, [2017-01-12T19:39:50.047114 #13350]  INFO -- : Net::HTTP::Get: /
+D, [2017-01-12T19:39:50.047160 #13350] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-01-12T19:39:50.047212 #13350] DEBUG -- : request-header: accept => */*
+D, [2017-01-12T19:39:50.047247 #13350] DEBUG -- : request-header: user-agent => Mechanize/2.7.5 Ruby/2.3.0p0 (http://github.com/sparklemotion/mechanize/)
+D, [2017-01-12T19:39:50.047280 #13350] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-01-12T19:39:50.047310 #13350] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-01-12T19:39:50.047342 #13350] DEBUG -- : request-header: cookie => MpSecurity=MjAyNjc2NTM6MTUxNTc4MjM4OTk5MzphYzgxYzI5N2Y3ZDk3ZGU1MDcyOTZmZmJlZWVhMTI3NTVlNjdmYjdk; MpSession=e5634284-da31-48b8-a25b-0918bbbfd5a6; luckynumber=1673744912; luid=/AVUYb/RFRe87FAbNU9VNO3BB/QI9oa5
+D, [2017-01-12T19:39:50.047421 #13350] DEBUG -- : request-header: host => www.marktplaats.nl
+I, [2017-01-12T19:39:50.417953 #13350]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-01-12T19:39:50.418117 #13350] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-01-12T19:39:50.418306 #13350] DEBUG -- : response-header: content-language => en-US
+D, [2017-01-12T19:39:50.418367 #13350] DEBUG -- : response-header: content-length => 23982
+D, [2017-01-12T19:39:50.418424 #13350] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2017-01-12T19:39:50.418481 #13350] DEBUG -- : response-header: date => Thu, 12 Jan 2017 18:39:50 GMT
+D, [2017-01-12T19:39:50.418537 #13350] DEBUG -- : response-header: expires => Thu, 01 Jan 1970 00:00:00 GMT
+D, [2017-01-12T19:39:50.418595 #13350] DEBUG -- : response-header: set-cookie => luckynumber=1673744912;Path=/;Domain=.marktplaats.nl;Expires=Fri, 12-Jan-2018 18:39:50 GMT, MpSession="";Version=1;Path=/;Expires=Thu, 01-Jan-1970 00:00:00 GMT;Max-Age=0, MpSession=e5634284-da31-48b8-a25b-0918bbbfd5a6;Path=/;Domain=.marktplaats.nl, pc=1165LX;Path=/;Domain=.marktplaats.nl;Expires=Fri, 12-Jan-2018 18:39:50 GMT
+D, [2017-01-12T19:39:50.418653 #13350] DEBUG -- : response-header: vary => Accept-Encoding, User-Agent
+D, [2017-01-12T19:39:50.418712 #13350] DEBUG -- : response-header: x-frame-options => SAMEORIGIN
+D, [2017-01-12T19:39:50.418935 #13350] DEBUG -- : Read 2988 bytes (2988 total)
+D, [2017-01-12T19:39:50.419116 #13350] DEBUG -- : Read 6520 bytes (9508 total)
+D, [2017-01-12T19:39:50.460325 #13350] DEBUG -- : Read 3636 bytes (13144 total)
+D, [2017-01-12T19:39:50.460509 #13350] DEBUG -- : Read 1212 bytes (14356 total)
+D, [2017-01-12T19:39:50.461356 #13350] DEBUG -- : Read 2424 bytes (16780 total)
+D, [2017-01-12T19:39:50.461466 #13350] DEBUG -- : Read 2424 bytes (19204 total)
+D, [2017-01-12T19:39:50.503308 #13350] DEBUG -- : Read 2424 bytes (21628 total)
+D, [2017-01-12T19:39:50.504336 #13350] DEBUG -- : Read 2354 bytes (23982 total)
+D, [2017-01-12T19:39:50.504613 #13350] DEBUG -- : gzip response
+D, [2017-01-12T19:39:50.521061 #13350] DEBUG -- : saved cookie: luckynumber=1673744912
+D, [2017-01-12T19:39:50.521282 #13350] DEBUG -- : saved cookie: MpSession=
+D, [2017-01-12T19:39:50.521400 #13350] DEBUG -- : saved cookie: MpSession=e5634284-da31-48b8-a25b-0918bbbfd5a6
+D, [2017-01-12T19:39:50.521640 #13350] DEBUG -- : saved cookie: pc=1165LX
+I, [2017-01-12T19:41:09.425122 #13350]  INFO -- : Net::HTTP::Get: /account/login.html
+D, [2017-01-12T19:41:09.425380 #13350] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-01-12T19:41:09.425443 #13350] DEBUG -- : request-header: accept => */*
+D, [2017-01-12T19:41:09.425476 #13350] DEBUG -- : request-header: user-agent => Mechanize/2.7.5 Ruby/2.3.0p0 (http://github.com/sparklemotion/mechanize/)
+D, [2017-01-12T19:41:09.425500 #13350] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-01-12T19:41:09.425523 #13350] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-01-12T19:41:09.425544 #13350] DEBUG -- : request-header: host => www.marktplaats.nl
+I, [2017-01-12T19:41:10.359788 #13350]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-01-12T19:41:10.359935 #13350] DEBUG -- : response-header: cache-control => no-store
+D, [2017-01-12T19:41:10.360021 #13350] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-01-12T19:41:10.360094 #13350] DEBUG -- : response-header: content-language => en-US
+D, [2017-01-12T19:41:10.360141 #13350] DEBUG -- : response-header: content-length => 5917
+D, [2017-01-12T19:41:10.360181 #13350] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2017-01-12T19:41:10.360244 #13350] DEBUG -- : response-header: date => Thu, 12 Jan 2017 18:41:10 GMT
+D, [2017-01-12T19:41:10.360312 #13350] DEBUG -- : response-header: expires => Thu, 01 Jan 1970 00:00:00 GMT
+D, [2017-01-12T19:41:10.360388 #13350] DEBUG -- : response-header: pragma => no-cache
+D, [2017-01-12T19:41:10.360454 #13350] DEBUG -- : response-header: set-cookie => luckynumber=1566501519;Path=/;Domain=.marktplaats.nl;Expires=Fri, 12-Jan-2018 18:41:10 GMT, MpSession="";Version=1;Path=/;Expires=Thu, 01-Jan-1970 00:00:00 GMT;Max-Age=0, MpSession=8cf71dce-5aec-4b47-8254-611220a0f9ed;Path=/;Domain=.marktplaats.nl
+D, [2017-01-12T19:41:10.360483 #13350] DEBUG -- : response-header: vary => Accept-Encoding, User-Agent
+D, [2017-01-12T19:41:10.360507 #13350] DEBUG -- : response-header: x-frame-options => SAMEORIGIN
+D, [2017-01-12T19:41:10.360655 #13350] DEBUG -- : Read 3497 bytes (3497 total)
+D, [2017-01-12T19:41:10.360831 #13350] DEBUG -- : Read 2420 bytes (5917 total)
+D, [2017-01-12T19:41:10.361037 #13350] DEBUG -- : gzip response
+D, [2017-01-12T19:41:10.363931 #13350] DEBUG -- : saved cookie: luckynumber=1566501519
+D, [2017-01-12T19:41:10.364369 #13350] DEBUG -- : saved cookie: MpSession=
+D, [2017-01-12T19:41:10.364543 #13350] DEBUG -- : saved cookie: MpSession=8cf71dce-5aec-4b47-8254-611220a0f9ed
+I, [2017-01-12T19:41:10.367428 #13350]  INFO -- : form encoding: utf-8
+D, [2017-01-12T19:41:10.367821 #13350] DEBUG -- : query: "j_username=matthijs.h.j%40Live.nl&j_password=tijger1997&remember_me=true&success_url=http%3A%2F%2Fwww.marktplaats.nl%2F&failure_url=https%3A%2F%2Fwww.marktplaats.nl%2Faccount%2Flogin.html%3Ftarget%3Dhttp%253a%252f%252fwww.marktplaats.nl%252f&target=&nl.marktplaats.xsrf.token=1484246470322.e577c573bb436335e35dbc9f8e5e1dcf"
+I, [2017-01-12T19:41:10.368668 #13350]  INFO -- : Net::HTTP::Post: /accounts/authentication/login
+D, [2017-01-12T19:41:10.368738 #13350] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-01-12T19:41:10.368765 #13350] DEBUG -- : request-header: accept => */*
+D, [2017-01-12T19:41:10.368788 #13350] DEBUG -- : request-header: user-agent => Mechanize/2.7.5 Ruby/2.3.0p0 (http://github.com/sparklemotion/mechanize/)
+D, [2017-01-12T19:41:10.368812 #13350] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-01-12T19:41:10.368833 #13350] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-01-12T19:41:10.368856 #13350] DEBUG -- : request-header: cookie => MpSession=8cf71dce-5aec-4b47-8254-611220a0f9ed; luckynumber=1566501519
+D, [2017-01-12T19:41:10.368877 #13350] DEBUG -- : request-header: host => auth.marktplaats.nl
+D, [2017-01-12T19:41:10.368905 #13350] DEBUG -- : request-header: referer => https://www.marktplaats.nl/account/login.html
+D, [2017-01-12T19:41:10.368966 #13350] DEBUG -- : request-header: content-type => application/x-www-form-urlencoded
+D, [2017-01-12T19:41:10.368995 #13350] DEBUG -- : request-header: content-length => 322
+I, [2017-01-12T19:41:11.553654 #13350]  INFO -- : status: Net::HTTPFound 1.1 302 Found
+D, [2017-01-12T19:41:11.553806 #13350] DEBUG -- : response-header: content-length => 0
+D, [2017-01-12T19:41:11.553872 #13350] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2017-01-12T19:41:11.553930 #13350] DEBUG -- : response-header: date => Thu, 12 Jan 2017 18:41:11 GMT
+D, [2017-01-12T19:41:11.553986 #13350] DEBUG -- : response-header: expires => Thu, 01 Jan 1970 00:00:00 GMT
+D, [2017-01-12T19:41:11.554041 #13350] DEBUG -- : response-header: location => http://www.marktplaats.nl/
+D, [2017-01-12T19:41:11.554242 #13350] DEBUG -- : response-header: set-cookie => MpSession="";Version=1;Path=/;Expires=Thu, 01-Jan-1970 00:00:00 GMT;Max-Age=0, MpSession=8cf71dce-5aec-4b47-8254-611220a0f9ed;Path=/;Domain=.marktplaats.nl, luckynumber=1566501519;Path=/;Domain=.marktplaats.nl;Expires=Fri, 12-Jan-2018 18:41:11 GMT, MpSecurity=MjAyNjc2NTM6MTUxNTc4MjQ3MTUwMDo1MzBjNmZiYWI3YmNlODRjNTA0ZGYzMWExN2UyMGEyZjA0OGYzNzZi;Path=/;Domain=.marktplaats.nl;Expires=Fri, 12-Jan-2018 18:41:10 GMT;HttpOnly, MpSslSecurity=MjAyNjc2NTM6MTUxNTc4MjQ3MTUwMDphZjI3OTMxZWVmNzdkM2M1NzQwYzdmYzQyOTJhNzJhNzg3ZTMxMTI5;Path=/;Domain=.marktplaats.nl;Expires=Fri, 12-Jan-2018 18:41:10 GMT;Secure;HttpOnly, luid=/AVUYb/RFRe87FAbNU9VNBrwNWwIO3h8;Path=/;Domain=.marktplaats.nl;Expires=Sun, 10-Jan-2027 18:41:11 GMT;HttpOnly
+D, [2017-01-12T19:41:11.554426 #13350] DEBUG -- : Read 0 bytes (0 total)
+D, [2017-01-12T19:41:11.555379 #13350] DEBUG -- : saved cookie: MpSession=
+D, [2017-01-12T19:41:11.555679 #13350] DEBUG -- : saved cookie: MpSession=8cf71dce-5aec-4b47-8254-611220a0f9ed
+D, [2017-01-12T19:41:11.556079 #13350] DEBUG -- : saved cookie: luckynumber=1566501519
+D, [2017-01-12T19:41:11.556481 #13350] DEBUG -- : saved cookie: MpSecurity=MjAyNjc2NTM6MTUxNTc4MjQ3MTUwMDo1MzBjNmZiYWI3YmNlODRjNTA0ZGYzMWExN2UyMGEyZjA0OGYzNzZi
+D, [2017-01-12T19:41:11.556945 #13350] DEBUG -- : saved cookie: MpSslSecurity=MjAyNjc2NTM6MTUxNTc4MjQ3MTUwMDphZjI3OTMxZWVmNzdkM2M1NzQwYzdmYzQyOTJhNzJhNzg3ZTMxMTI5
+D, [2017-01-12T19:41:11.557337 #13350] DEBUG -- : saved cookie: luid=/AVUYb/RFRe87FAbNU9VNBrwNWwIO3h8
+I, [2017-01-12T19:41:11.557466 #13350]  INFO -- : follow redirect to: http://www.marktplaats.nl/
+I, [2017-01-12T19:41:11.558423 #13350]  INFO -- : Net::HTTP::Get: /
+D, [2017-01-12T19:41:11.558469 #13350] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-01-12T19:41:11.558508 #13350] DEBUG -- : request-header: accept => */*
+D, [2017-01-12T19:41:11.558541 #13350] DEBUG -- : request-header: user-agent => Mechanize/2.7.5 Ruby/2.3.0p0 (http://github.com/sparklemotion/mechanize/)
+D, [2017-01-12T19:41:11.558573 #13350] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-01-12T19:41:11.558604 #13350] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-01-12T19:41:11.558636 #13350] DEBUG -- : request-header: cookie => MpSecurity=MjAyNjc2NTM6MTUxNTc4MjQ3MTUwMDo1MzBjNmZiYWI3YmNlODRjNTA0ZGYzMWExN2UyMGEyZjA0OGYzNzZi; MpSession=8cf71dce-5aec-4b47-8254-611220a0f9ed; luckynumber=1566501519; luid=/AVUYb/RFRe87FAbNU9VNBrwNWwIO3h8
+D, [2017-01-12T19:41:11.558668 #13350] DEBUG -- : request-header: host => www.marktplaats.nl
+I, [2017-01-12T19:41:12.162769 #13350]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-01-12T19:41:12.162885 #13350] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-01-12T19:41:12.162932 #13350] DEBUG -- : response-header: content-language => en-US
+D, [2017-01-12T19:41:12.162983 #13350] DEBUG -- : response-header: content-length => 23994
+D, [2017-01-12T19:41:12.163026 #13350] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2017-01-12T19:41:12.163068 #13350] DEBUG -- : response-header: date => Thu, 12 Jan 2017 18:41:11 GMT
+D, [2017-01-12T19:41:12.163109 #13350] DEBUG -- : response-header: expires => Thu, 01 Jan 1970 00:00:00 GMT
+D, [2017-01-12T19:41:12.163192 #13350] DEBUG -- : response-header: set-cookie => luckynumber=1566501519;Path=/;Domain=.marktplaats.nl;Expires=Fri, 12-Jan-2018 18:41:11 GMT, MpSession="";Version=1;Path=/;Expires=Thu, 01-Jan-1970 00:00:00 GMT;Max-Age=0, MpSession=8cf71dce-5aec-4b47-8254-611220a0f9ed;Path=/;Domain=.marktplaats.nl, pc=1165LX;Path=/;Domain=.marktplaats.nl;Expires=Fri, 12-Jan-2018 18:41:11 GMT
+D, [2017-01-12T19:41:12.163240 #13350] DEBUG -- : response-header: vary => Accept-Encoding, User-Agent
+D, [2017-01-12T19:41:12.163281 #13350] DEBUG -- : response-header: x-frame-options => SAMEORIGIN
+D, [2017-01-12T19:41:12.163427 #13350] DEBUG -- : Read 3448 bytes (3448 total)
+D, [2017-01-12T19:41:12.163563 #13350] DEBUG -- : Read 7272 bytes (10720 total)
+D, [2017-01-12T19:41:12.209820 #13350] DEBUG -- : Read 2424 bytes (13144 total)
+D, [2017-01-12T19:41:12.210565 #13350] DEBUG -- : Read 1212 bytes (14356 total)
+D, [2017-01-12T19:41:12.210802 #13350] DEBUG -- : Read 2424 bytes (16780 total)
+D, [2017-01-12T19:41:12.211034 #13350] DEBUG -- : Read 2424 bytes (19204 total)
+D, [2017-01-12T19:41:12.211177 #13350] DEBUG -- : Read 2424 bytes (21628 total)
+D, [2017-01-12T19:41:12.211344 #13350] DEBUG -- : Read 2366 bytes (23994 total)
+D, [2017-01-12T19:41:12.211711 #13350] DEBUG -- : gzip response
+D, [2017-01-12T19:41:12.227161 #13350] DEBUG -- : saved cookie: luckynumber=1566501519
+D, [2017-01-12T19:41:12.227387 #13350] DEBUG -- : saved cookie: MpSession=
+D, [2017-01-12T19:41:12.227552 #13350] DEBUG -- : saved cookie: MpSession=8cf71dce-5aec-4b47-8254-611220a0f9ed
+D, [2017-01-12T19:41:12.227746 #13350] DEBUG -- : saved cookie: pc=1165LX
+I, [2017-01-12T19:44:15.557743 #13350]  INFO -- : Net::HTTP::Get: /account/login.html
+D, [2017-01-12T19:44:15.558117 #13350] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-01-12T19:44:15.558163 #13350] DEBUG -- : request-header: accept => */*
+D, [2017-01-12T19:44:15.558186 #13350] DEBUG -- : request-header: user-agent => Mechanize/2.7.5 Ruby/2.3.0p0 (http://github.com/sparklemotion/mechanize/)
+D, [2017-01-12T19:44:15.558208 #13350] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-01-12T19:44:15.558229 #13350] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-01-12T19:44:15.558249 #13350] DEBUG -- : request-header: host => www.marktplaats.nl
+I, [2017-01-12T19:44:16.626704 #13350]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-01-12T19:44:16.626792 #13350] DEBUG -- : response-header: cache-control => no-store
+D, [2017-01-12T19:44:16.626819 #13350] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-01-12T19:44:16.626844 #13350] DEBUG -- : response-header: content-language => en-US
+D, [2017-01-12T19:44:16.626866 #13350] DEBUG -- : response-header: content-length => 5919
+D, [2017-01-12T19:44:16.626888 #13350] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2017-01-12T19:44:16.626910 #13350] DEBUG -- : response-header: date => Thu, 12 Jan 2017 18:44:16 GMT
+D, [2017-01-12T19:44:16.626933 #13350] DEBUG -- : response-header: expires => Thu, 01 Jan 1970 00:00:00 GMT
+D, [2017-01-12T19:44:16.626955 #13350] DEBUG -- : response-header: pragma => no-cache
+D, [2017-01-12T19:44:16.626977 #13350] DEBUG -- : response-header: set-cookie => luckynumber=1789786009;Path=/;Domain=.marktplaats.nl;Expires=Fri, 12-Jan-2018 18:44:16 GMT, MpSession="";Version=1;Path=/;Expires=Thu, 01-Jan-1970 00:00:00 GMT;Max-Age=0, MpSession=dd21f22d-2973-4e29-8c38-ba1c963c1a00;Path=/;Domain=.marktplaats.nl
+D, [2017-01-12T19:44:16.626999 #13350] DEBUG -- : response-header: vary => Accept-Encoding, User-Agent
+D, [2017-01-12T19:44:16.627023 #13350] DEBUG -- : response-header: x-frame-options => SAMEORIGIN
+D, [2017-01-12T19:44:16.627122 #13350] DEBUG -- : Read 3497 bytes (3497 total)
+D, [2017-01-12T19:44:16.627265 #13350] DEBUG -- : Read 2422 bytes (5919 total)
+D, [2017-01-12T19:44:16.627409 #13350] DEBUG -- : gzip response
+D, [2017-01-12T19:44:16.629476 #13350] DEBUG -- : saved cookie: luckynumber=1789786009
+D, [2017-01-12T19:44:16.629687 #13350] DEBUG -- : saved cookie: MpSession=
+D, [2017-01-12T19:44:16.629802 #13350] DEBUG -- : saved cookie: MpSession=dd21f22d-2973-4e29-8c38-ba1c963c1a00
+I, [2017-01-12T19:44:16.635260 #13350]  INFO -- : form encoding: utf-8
+D, [2017-01-12T19:44:16.635566 #13350] DEBUG -- : query: "j_username=matthijs.h.j%40Live.nl&j_password=tijger1997&remember_me=true&success_url=http%3A%2F%2Fwww.marktplaats.nl%2F&failure_url=https%3A%2F%2Fwww.marktplaats.nl%2Faccount%2Flogin.html%3Ftarget%3Dhttp%253a%252f%252fwww.marktplaats.nl%252f&target=&nl.marktplaats.xsrf.token=1484246656528.883b623a28c45a93c26e132b60b690d5"
+I, [2017-01-12T19:44:16.636033 #13350]  INFO -- : Net::HTTP::Post: /accounts/authentication/login
+D, [2017-01-12T19:44:16.636068 #13350] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-01-12T19:44:16.636091 #13350] DEBUG -- : request-header: accept => */*
+D, [2017-01-12T19:44:16.636126 #13350] DEBUG -- : request-header: user-agent => Mechanize/2.7.5 Ruby/2.3.0p0 (http://github.com/sparklemotion/mechanize/)
+D, [2017-01-12T19:44:16.636148 #13350] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-01-12T19:44:16.636169 #13350] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-01-12T19:44:16.636189 #13350] DEBUG -- : request-header: cookie => MpSession=dd21f22d-2973-4e29-8c38-ba1c963c1a00; luckynumber=1789786009
+D, [2017-01-12T19:44:16.636209 #13350] DEBUG -- : request-header: host => auth.marktplaats.nl
+D, [2017-01-12T19:44:16.636242 #13350] DEBUG -- : request-header: referer => https://www.marktplaats.nl/account/login.html
+D, [2017-01-12T19:44:16.636295 #13350] DEBUG -- : request-header: content-type => application/x-www-form-urlencoded
+D, [2017-01-12T19:44:16.636316 #13350] DEBUG -- : request-header: content-length => 322
+I, [2017-01-12T19:44:18.072571 #13350]  INFO -- : status: Net::HTTPFound 1.1 302 Found
+D, [2017-01-12T19:44:18.072723 #13350] DEBUG -- : response-header: content-length => 0
+D, [2017-01-12T19:44:18.072791 #13350] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2017-01-12T19:44:18.072850 #13350] DEBUG -- : response-header: date => Thu, 12 Jan 2017 18:44:17 GMT
+D, [2017-01-12T19:44:18.072912 #13350] DEBUG -- : response-header: expires => Thu, 01 Jan 1970 00:00:00 GMT
+D, [2017-01-12T19:44:18.073028 #13350] DEBUG -- : response-header: location => http://www.marktplaats.nl/
+D, [2017-01-12T19:44:18.073137 #13350] DEBUG -- : response-header: set-cookie => MpSession="";Version=1;Path=/;Expires=Thu, 01-Jan-1970 00:00:00 GMT;Max-Age=0, MpSession=dd21f22d-2973-4e29-8c38-ba1c963c1a00;Path=/;Domain=.marktplaats.nl, luckynumber=1789786009;Path=/;Domain=.marktplaats.nl;Expires=Fri, 12-Jan-2018 18:44:17 GMT, MpSecurity=MjAyNjc2NTM6MTUxNTc4MjY1ODAyMDo4ZjJiNDJlZjEyZGE0YzE2YjQyMWU3MDhmYzJiMzk3YjdkNzE4MGU4;Path=/;Domain=.marktplaats.nl;Expires=Fri, 12-Jan-2018 18:44:17 GMT;HttpOnly, MpSslSecurity=MjAyNjc2NTM6MTUxNTc4MjY1ODAyMDo4MjZiNzlkNjg5OTU4NDFmNjljYjdjMjQ0MTIyZDNiOTM4M2ZjYzJm;Path=/;Domain=.marktplaats.nl;Expires=Fri, 12-Jan-2018 18:44:17 GMT;Secure;HttpOnly, luid=/AVUYb/RFRe87FAbNU9VNEvDy0wgzZ6W;Path=/;Domain=.marktplaats.nl;Expires=Sun, 10-Jan-2027 18:44:18 GMT;HttpOnly
+D, [2017-01-12T19:44:18.073332 #13350] DEBUG -- : Read 0 bytes (0 total)
+D, [2017-01-12T19:44:18.074674 #13350] DEBUG -- : saved cookie: MpSession=
+D, [2017-01-12T19:44:18.075012 #13350] DEBUG -- : saved cookie: MpSession=dd21f22d-2973-4e29-8c38-ba1c963c1a00
+D, [2017-01-12T19:44:18.075632 #13350] DEBUG -- : saved cookie: luckynumber=1789786009
+D, [2017-01-12T19:44:18.076048 #13350] DEBUG -- : saved cookie: MpSecurity=MjAyNjc2NTM6MTUxNTc4MjY1ODAyMDo4ZjJiNDJlZjEyZGE0YzE2YjQyMWU3MDhmYzJiMzk3YjdkNzE4MGU4
+D, [2017-01-12T19:44:18.076456 #13350] DEBUG -- : saved cookie: MpSslSecurity=MjAyNjc2NTM6MTUxNTc4MjY1ODAyMDo4MjZiNzlkNjg5OTU4NDFmNjljYjdjMjQ0MTIyZDNiOTM4M2ZjYzJm
+D, [2017-01-12T19:44:18.076937 #13350] DEBUG -- : saved cookie: luid=/AVUYb/RFRe87FAbNU9VNEvDy0wgzZ6W
+I, [2017-01-12T19:44:18.077063 #13350]  INFO -- : follow redirect to: http://www.marktplaats.nl/
+I, [2017-01-12T19:44:18.078134 #13350]  INFO -- : Net::HTTP::Get: /
+D, [2017-01-12T19:44:18.078193 #13350] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-01-12T19:44:18.078236 #13350] DEBUG -- : request-header: accept => */*
+D, [2017-01-12T19:44:18.078283 #13350] DEBUG -- : request-header: user-agent => Mechanize/2.7.5 Ruby/2.3.0p0 (http://github.com/sparklemotion/mechanize/)
+D, [2017-01-12T19:44:18.078326 #13350] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-01-12T19:44:18.078372 #13350] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-01-12T19:44:18.078414 #13350] DEBUG -- : request-header: cookie => MpSecurity=MjAyNjc2NTM6MTUxNTc4MjY1ODAyMDo4ZjJiNDJlZjEyZGE0YzE2YjQyMWU3MDhmYzJiMzk3YjdkNzE4MGU4; MpSession=dd21f22d-2973-4e29-8c38-ba1c963c1a00; luckynumber=1789786009; luid=/AVUYb/RFRe87FAbNU9VNEvDy0wgzZ6W
+D, [2017-01-12T19:44:18.078478 #13350] DEBUG -- : request-header: host => www.marktplaats.nl
+I, [2017-01-12T19:44:18.550415 #13350]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-01-12T19:44:18.550500 #13350] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-01-12T19:44:18.550524 #13350] DEBUG -- : response-header: content-language => en-US
+D, [2017-01-12T19:44:18.550545 #13350] DEBUG -- : response-header: content-length => 24019
+D, [2017-01-12T19:44:18.550566 #13350] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2017-01-12T19:44:18.550594 #13350] DEBUG -- : response-header: date => Thu, 12 Jan 2017 18:44:18 GMT
+D, [2017-01-12T19:44:18.550616 #13350] DEBUG -- : response-header: expires => Thu, 01 Jan 1970 00:00:00 GMT
+D, [2017-01-12T19:44:18.550637 #13350] DEBUG -- : response-header: set-cookie => luckynumber=1789786009;Path=/;Domain=.marktplaats.nl;Expires=Fri, 12-Jan-2018 18:44:18 GMT, MpSession="";Version=1;Path=/;Expires=Thu, 01-Jan-1970 00:00:00 GMT;Max-Age=0, MpSession=dd21f22d-2973-4e29-8c38-ba1c963c1a00;Path=/;Domain=.marktplaats.nl, pc=1165LX;Path=/;Domain=.marktplaats.nl;Expires=Fri, 12-Jan-2018 18:44:18 GMT
+D, [2017-01-12T19:44:18.550658 #13350] DEBUG -- : response-header: vary => Accept-Encoding, User-Agent
+D, [2017-01-12T19:44:18.550678 #13350] DEBUG -- : response-header: x-frame-options => SAMEORIGIN
+D, [2017-01-12T19:44:18.550763 #13350] DEBUG -- : Read 3448 bytes (3448 total)
+D, [2017-01-12T19:44:18.550841 #13350] DEBUG -- : Read 7272 bytes (10720 total)
+D, [2017-01-12T19:44:18.592113 #13350] DEBUG -- : Read 6060 bytes (16780 total)
+D, [2017-01-12T19:44:18.594239 #13350] DEBUG -- : Read 2424 bytes (19204 total)
+D, [2017-01-12T19:44:18.594389 #13350] DEBUG -- : Read 4815 bytes (24019 total)
+D, [2017-01-12T19:44:18.594524 #13350] DEBUG -- : gzip response
+D, [2017-01-12T19:44:18.605876 #13350] DEBUG -- : saved cookie: luckynumber=1789786009
+D, [2017-01-12T19:44:18.606083 #13350] DEBUG -- : saved cookie: MpSession=
+D, [2017-01-12T19:44:18.606227 #13350] DEBUG -- : saved cookie: MpSession=dd21f22d-2973-4e29-8c38-ba1c963c1a00
+D, [2017-01-12T19:44:18.606412 #13350] DEBUG -- : saved cookie: pc=1165LX
+I, [2017-01-12T19:49:48.794144 #13350]  INFO -- : Net::HTTP::Get: /account/login.html
+D, [2017-01-12T19:49:48.796062 #13350] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-01-12T19:49:48.796647 #13350] DEBUG -- : request-header: accept => */*
+D, [2017-01-12T19:49:48.796746 #13350] DEBUG -- : request-header: user-agent => Mechanize/2.7.5 Ruby/2.3.0p0 (http://github.com/sparklemotion/mechanize/)
+D, [2017-01-12T19:49:48.796797 #13350] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-01-12T19:49:48.796840 #13350] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-01-12T19:49:48.796879 #13350] DEBUG -- : request-header: host => www.marktplaats.nl
+I, [2017-01-12T19:49:49.506764 #13350]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-01-12T19:49:49.506863 #13350] DEBUG -- : response-header: cache-control => no-store
+D, [2017-01-12T19:49:49.506901 #13350] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-01-12T19:49:49.506934 #13350] DEBUG -- : response-header: content-language => en-US
+D, [2017-01-12T19:49:49.506966 #13350] DEBUG -- : response-header: content-length => 5883
+D, [2017-01-12T19:49:49.506999 #13350] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2017-01-12T19:49:49.507031 #13350] DEBUG -- : response-header: date => Thu, 12 Jan 2017 18:49:49 GMT
+D, [2017-01-12T19:49:49.507072 #13350] DEBUG -- : response-header: expires => Thu, 01 Jan 1970 00:00:00 GMT
+D, [2017-01-12T19:49:49.507105 #13350] DEBUG -- : response-header: pragma => no-cache
+D, [2017-01-12T19:49:49.507139 #13350] DEBUG -- : response-header: set-cookie => luckynumber=606811190;Path=/;Domain=.marktplaats.nl;Expires=Fri, 12-Jan-2018 18:49:49 GMT, MpSession="";Version=1;Path=/;Expires=Thu, 01-Jan-1970 00:00:00 GMT;Max-Age=0, MpSession=86cf7387-d3ee-4616-bcdd-31ab18a40bd0;Path=/;Domain=.marktplaats.nl
+D, [2017-01-12T19:49:49.507191 #13350] DEBUG -- : response-header: vary => Accept-Encoding, User-Agent
+D, [2017-01-12T19:49:49.507225 #13350] DEBUG -- : response-header: x-frame-options => SAMEORIGIN
+D, [2017-01-12T19:49:49.507335 #13350] DEBUG -- : Read 3498 bytes (3498 total)
+D, [2017-01-12T19:49:49.507802 #13350] DEBUG -- : Read 2385 bytes (5883 total)
+D, [2017-01-12T19:49:49.507961 #13350] DEBUG -- : gzip response
+D, [2017-01-12T19:49:49.511143 #13350] DEBUG -- : saved cookie: luckynumber=606811190
+D, [2017-01-12T19:49:49.511510 #13350] DEBUG -- : saved cookie: MpSession=
+D, [2017-01-12T19:49:49.511690 #13350] DEBUG -- : saved cookie: MpSession=86cf7387-d3ee-4616-bcdd-31ab18a40bd0
+I, [2017-01-12T19:50:25.972841 #13350]  INFO -- : Net::HTTP::Get: /account/login.html
+D, [2017-01-12T19:50:25.973006 #13350] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-01-12T19:50:25.973041 #13350] DEBUG -- : request-header: accept => */*
+D, [2017-01-12T19:50:25.973069 #13350] DEBUG -- : request-header: user-agent => Mechanize/2.7.5 Ruby/2.3.0p0 (http://github.com/sparklemotion/mechanize/)
+D, [2017-01-12T19:50:25.973093 #13350] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-01-12T19:50:25.973114 #13350] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-01-12T19:50:25.973135 #13350] DEBUG -- : request-header: host => www.marktplaats.nl
+I, [2017-01-12T19:50:26.679872 #13350]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-01-12T19:50:26.680005 #13350] DEBUG -- : response-header: cache-control => no-store
+D, [2017-01-12T19:50:26.680062 #13350] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-01-12T19:50:26.680105 #13350] DEBUG -- : response-header: content-language => en-US
+D, [2017-01-12T19:50:26.680146 #13350] DEBUG -- : response-header: content-length => 6200
+D, [2017-01-12T19:50:26.680188 #13350] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2017-01-12T19:50:26.680230 #13350] DEBUG -- : response-header: date => Thu, 12 Jan 2017 18:50:26 GMT
+D, [2017-01-12T19:50:26.680271 #13350] DEBUG -- : response-header: expires => Thu, 01 Jan 1970 00:00:00 GMT
+D, [2017-01-12T19:50:26.680311 #13350] DEBUG -- : response-header: pragma => no-cache
+D, [2017-01-12T19:50:26.680372 #13350] DEBUG -- : response-header: set-cookie => luckynumber=1340385901;Path=/;Domain=.marktplaats.nl;Expires=Fri, 12-Jan-2018 18:50:26 GMT, MpSession="";Version=1;Path=/;Expires=Thu, 01-Jan-1970 00:00:00 GMT;Max-Age=0, MpSession=62083f55-a6ca-46be-a96a-a1a607afefbd;Path=/;Domain=.marktplaats.nl
+D, [2017-01-12T19:50:26.680417 #13350] DEBUG -- : response-header: vary => Accept-Encoding, User-Agent
+D, [2017-01-12T19:50:26.680457 #13350] DEBUG -- : response-header: x-frame-options => SAMEORIGIN
+D, [2017-01-12T19:50:26.680587 #13350] DEBUG -- : Read 3497 bytes (3497 total)
+D, [2017-01-12T19:50:26.680716 #13350] DEBUG -- : Read 2703 bytes (6200 total)
+D, [2017-01-12T19:50:26.680889 #13350] DEBUG -- : gzip response
+D, [2017-01-12T19:50:26.684430 #13350] DEBUG -- : saved cookie: luckynumber=1340385901
+D, [2017-01-12T19:50:26.684957 #13350] DEBUG -- : saved cookie: MpSession=
+D, [2017-01-12T19:50:26.685320 #13350] DEBUG -- : saved cookie: MpSession=62083f55-a6ca-46be-a96a-a1a607afefbd
+I, [2017-01-12T19:50:26.695083 #13350]  INFO -- : form encoding: utf-8
+D, [2017-01-12T19:50:26.695579 #13350] DEBUG -- : query: "j_username=matthijs.h.j%40Live.nl&j_password=tijger1997&remember_me=true&success_url=https%3A%2F%2Fwww.marktplaats.nl%2Fsyi%2FplaatsAdvertentie.html&failure_url=https%3A%2F%2Fwww.marktplaats.nl%2Faccount%2Flogin.html%3Ftarget%3Dhttp%253a%252f%252fwww.marktplaats.nl%252f&target=&nl.marktplaats.xsrf.token=1484247026654.aa8b51b274b63d2f84df074a48bb455c"
+I, [2017-01-12T19:50:26.696450 #13350]  INFO -- : Net::HTTP::Post: /accounts/authentication/login
+D, [2017-01-12T19:50:26.696536 #13350] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-01-12T19:50:26.696562 #13350] DEBUG -- : request-header: accept => */*
+D, [2017-01-12T19:50:26.696605 #13350] DEBUG -- : request-header: user-agent => Mechanize/2.7.5 Ruby/2.3.0p0 (http://github.com/sparklemotion/mechanize/)
+D, [2017-01-12T19:50:26.696629 #13350] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-01-12T19:50:26.696655 #13350] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-01-12T19:50:26.696677 #13350] DEBUG -- : request-header: cookie => MpSession=62083f55-a6ca-46be-a96a-a1a607afefbd; luckynumber=1340385901
+D, [2017-01-12T19:50:26.696698 #13350] DEBUG -- : request-header: host => auth.marktplaats.nl
+D, [2017-01-12T19:50:26.696725 #13350] DEBUG -- : request-header: referer => https://www.marktplaats.nl/account/login.html
+D, [2017-01-12T19:50:26.696748 #13350] DEBUG -- : request-header: content-type => application/x-www-form-urlencoded
+D, [2017-01-12T19:50:26.696768 #13350] DEBUG -- : request-header: content-length => 351
+I, [2017-01-12T19:50:28.072302 #13350]  INFO -- : status: Net::HTTPFound 1.1 302 Found
+D, [2017-01-12T19:50:28.072464 #13350] DEBUG -- : response-header: content-length => 0
+D, [2017-01-12T19:50:28.072531 #13350] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2017-01-12T19:50:28.072598 #13350] DEBUG -- : response-header: date => Thu, 12 Jan 2017 18:50:27 GMT
+D, [2017-01-12T19:50:28.072668 #13350] DEBUG -- : response-header: expires => Thu, 01 Jan 1970 00:00:00 GMT
+D, [2017-01-12T19:50:28.072732 #13350] DEBUG -- : response-header: location => https://www.marktplaats.nl/syi/plaatsAdvertentie.html
+D, [2017-01-12T19:50:28.072795 #13350] DEBUG -- : response-header: set-cookie => MpSession="";Version=1;Path=/;Expires=Thu, 01-Jan-1970 00:00:00 GMT;Max-Age=0, MpSession=62083f55-a6ca-46be-a96a-a1a607afefbd;Path=/;Domain=.marktplaats.nl, luckynumber=1340385901;Path=/;Domain=.marktplaats.nl;Expires=Fri, 12-Jan-2018 18:50:27 GMT, MpSecurity=MjAyNjc2NTM6MTUxNTc4MzAyNzg5ODo0ZTNiOWVlNzhjNWQyOWRjNjNmYTVhOWE0ZGIxZGRjNGY2NWViOWUy;Path=/;Domain=.marktplaats.nl;Expires=Fri, 12-Jan-2018 18:50:26 GMT;HttpOnly, MpSslSecurity=MjAyNjc2NTM6MTUxNTc4MzAyNzg5ODo3NDZhYzA3N2U5YjliNzNhMGU5MjY1NWNjOGE0M2MyYWM3ZWY0NDBh;Path=/;Domain=.marktplaats.nl;Expires=Fri, 12-Jan-2018 18:50:26 GMT;Secure;HttpOnly, luid=/AVUYb/RFRe7yTj82QXdIRpODXgIyvIP;Path=/;Domain=.marktplaats.nl;Expires=Sun, 10-Jan-2027 18:50:27 GMT;HttpOnly
+D, [2017-01-12T19:50:28.072990 #13350] DEBUG -- : Read 0 bytes (0 total)
+D, [2017-01-12T19:50:28.073989 #13350] DEBUG -- : saved cookie: MpSession=
+D, [2017-01-12T19:50:28.074259 #13350] DEBUG -- : saved cookie: MpSession=62083f55-a6ca-46be-a96a-a1a607afefbd
+D, [2017-01-12T19:50:28.074692 #13350] DEBUG -- : saved cookie: luckynumber=1340385901
+D, [2017-01-12T19:50:28.075232 #13350] DEBUG -- : saved cookie: MpSecurity=MjAyNjc2NTM6MTUxNTc4MzAyNzg5ODo0ZTNiOWVlNzhjNWQyOWRjNjNmYTVhOWE0ZGIxZGRjNGY2NWViOWUy
+D, [2017-01-12T19:50:28.075879 #13350] DEBUG -- : saved cookie: MpSslSecurity=MjAyNjc2NTM6MTUxNTc4MzAyNzg5ODo3NDZhYzA3N2U5YjliNzNhMGU5MjY1NWNjOGE0M2MyYWM3ZWY0NDBh
+D, [2017-01-12T19:50:28.076425 #13350] DEBUG -- : saved cookie: luid=/AVUYb/RFRe7yTj82QXdIRpODXgIyvIP
+I, [2017-01-12T19:50:28.076573 #13350]  INFO -- : follow redirect to: https://www.marktplaats.nl/syi/plaatsAdvertentie.html
+I, [2017-01-12T19:50:28.078141 #13350]  INFO -- : Net::HTTP::Get: /syi/plaatsAdvertentie.html
+D, [2017-01-12T19:50:28.078215 #13350] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-01-12T19:50:28.078252 #13350] DEBUG -- : request-header: accept => */*
+D, [2017-01-12T19:50:28.078304 #13350] DEBUG -- : request-header: user-agent => Mechanize/2.7.5 Ruby/2.3.0p0 (http://github.com/sparklemotion/mechanize/)
+D, [2017-01-12T19:50:28.078339 #13350] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-01-12T19:50:28.078421 #13350] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-01-12T19:50:28.078457 #13350] DEBUG -- : request-header: cookie => MpSecurity=MjAyNjc2NTM6MTUxNTc4MzAyNzg5ODo0ZTNiOWVlNzhjNWQyOWRjNjNmYTVhOWE0ZGIxZGRjNGY2NWViOWUy; MpSession=62083f55-a6ca-46be-a96a-a1a607afefbd; MpSslSecurity=MjAyNjc2NTM6MTUxNTc4MzAyNzg5ODo3NDZhYzA3N2U5YjliNzNhMGU5MjY1NWNjOGE0M2MyYWM3ZWY0NDBh; luckynumber=1340385901; luid=/AVUYb/RFRe7yTj82QXdIRpODXgIyvIP
+D, [2017-01-12T19:50:28.078518 #13350] DEBUG -- : request-header: host => www.marktplaats.nl
+D, [2017-01-12T19:50:28.078587 #13350] DEBUG -- : request-header: referer => https://www.marktplaats.nl/account/login.html
+I, [2017-01-12T19:50:28.236690 #13350]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-01-12T19:50:28.236793 #13350] DEBUG -- : response-header: cache-control => no-store
+D, [2017-01-12T19:50:28.236859 #13350] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-01-12T19:50:28.236951 #13350] DEBUG -- : response-header: content-language => en-US
+D, [2017-01-12T19:50:28.237005 #13350] DEBUG -- : response-header: content-length => 7754
+D, [2017-01-12T19:50:28.237043 #13350] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2017-01-12T19:50:28.237098 #13350] DEBUG -- : response-header: date => Thu, 12 Jan 2017 18:50:28 GMT
+D, [2017-01-12T19:50:28.237146 #13350] DEBUG -- : response-header: expires => Thu, 01 Jan 1970 00:00:00 GMT
+D, [2017-01-12T19:50:28.237179 #13350] DEBUG -- : response-header: pragma => no-cache
+D, [2017-01-12T19:50:28.237225 #13350] DEBUG -- : response-header: set-cookie => luckynumber=1340385901;Path=/;Domain=.marktplaats.nl;Expires=Fri, 12-Jan-2018 18:50:28 GMT, MpSession="";Version=1;Path=/;Expires=Thu, 01-Jan-1970 00:00:00 GMT;Max-Age=0, MpSession=62083f55-a6ca-46be-a96a-a1a607afefbd;Path=/;Domain=.marktplaats.nl, pc=1165LX;Path=/;Domain=.marktplaats.nl;Expires=Fri, 12-Jan-2018 18:50:28 GMT
+D, [2017-01-12T19:50:28.237282 #13350] DEBUG -- : response-header: vary => Accept-Encoding, User-Agent
+D, [2017-01-12T19:50:28.237338 #13350] DEBUG -- : response-header: x-frame-options => SAMEORIGIN
+D, [2017-01-12T19:50:28.237485 #13350] DEBUG -- : Read 3406 bytes (3406 total)
+D, [2017-01-12T19:50:28.237649 #13350] DEBUG -- : Read 4348 bytes (7754 total)
+D, [2017-01-12T19:50:28.237853 #13350] DEBUG -- : gzip response
+D, [2017-01-12T19:50:28.241768 #13350] DEBUG -- : saved cookie: luckynumber=1340385901
+D, [2017-01-12T19:50:28.242111 #13350] DEBUG -- : saved cookie: MpSession=
+D, [2017-01-12T19:50:28.242286 #13350] DEBUG -- : saved cookie: MpSession=62083f55-a6ca-46be-a96a-a1a607afefbd
+D, [2017-01-12T19:50:28.242560 #13350] DEBUG -- : saved cookie: pc=1165LX
+I, [2017-01-12T20:10:57.077031 #13350]  INFO -- : Net::HTTP::Get: /account/login.html
+D, [2017-01-12T20:10:57.077424 #13350] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-01-12T20:10:57.077460 #13350] DEBUG -- : request-header: accept => */*
+D, [2017-01-12T20:10:57.077483 #13350] DEBUG -- : request-header: user-agent => Mechanize/2.7.5 Ruby/2.3.0p0 (http://github.com/sparklemotion/mechanize/)
+D, [2017-01-12T20:10:57.077505 #13350] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-01-12T20:10:57.077526 #13350] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-01-12T20:10:57.077545 #13350] DEBUG -- : request-header: host => www.marktplaats.nl
+I, [2017-01-12T20:10:57.417809 #13350]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-01-12T20:10:57.417926 #13350] DEBUG -- : response-header: cache-control => no-store
+D, [2017-01-12T20:10:57.417953 #13350] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-01-12T20:10:57.417977 #13350] DEBUG -- : response-header: content-language => en-US
+D, [2017-01-12T20:10:57.417998 #13350] DEBUG -- : response-header: content-length => 5895
+D, [2017-01-12T20:10:57.418022 #13350] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2017-01-12T20:10:57.418047 #13350] DEBUG -- : response-header: date => Thu, 12 Jan 2017 19:10:57 GMT
+D, [2017-01-12T20:10:57.418070 #13350] DEBUG -- : response-header: expires => Thu, 01 Jan 1970 00:00:00 GMT
+D, [2017-01-12T20:10:57.418093 #13350] DEBUG -- : response-header: pragma => no-cache
+D, [2017-01-12T20:10:57.418116 #13350] DEBUG -- : response-header: set-cookie => luckynumber=56075575;Path=/;Domain=.marktplaats.nl;Expires=Fri, 12-Jan-2018 19:10:57 GMT, MpSession="";Version=1;Path=/;Expires=Thu, 01-Jan-1970 00:00:00 GMT;Max-Age=0, MpSession=a10ca755-9260-4feb-87ca-eff4781f32de;Path=/;Domain=.marktplaats.nl
+D, [2017-01-12T20:10:57.418165 #13350] DEBUG -- : response-header: vary => Accept-Encoding, User-Agent
+D, [2017-01-12T20:10:57.418190 #13350] DEBUG -- : response-header: x-frame-options => SAMEORIGIN
+D, [2017-01-12T20:10:57.418299 #13350] DEBUG -- : Read 3499 bytes (3499 total)
+D, [2017-01-12T20:10:57.418415 #13350] DEBUG -- : Read 2396 bytes (5895 total)
+D, [2017-01-12T20:10:57.418524 #13350] DEBUG -- : gzip response
+D, [2017-01-12T20:10:57.420585 #13350] DEBUG -- : saved cookie: luckynumber=56075575
+D, [2017-01-12T20:10:57.420801 #13350] DEBUG -- : saved cookie: MpSession=
+D, [2017-01-12T20:10:57.420972 #13350] DEBUG -- : saved cookie: MpSession=a10ca755-9260-4feb-87ca-eff4781f32de
+I, [2017-01-12T20:10:57.426597 #13350]  INFO -- : form encoding: utf-8
+D, [2017-01-12T20:10:57.427031 #13350] DEBUG -- : query: "j_username=matthijs.h.j%40Live.nl&j_password=tijger1997&remember_me=true&success_url=https%3A%2F%2Fwww.marktplaats.nl%2Fsyi%2FplaatsAdvertentie.html&failure_url=https%3A%2F%2Fwww.marktplaats.nl%2Faccount%2Flogin.html%3Ftarget%3Dhttp%253a%252f%252fwww.marktplaats.nl%252f&target=&nl.marktplaats.xsrf.token=1484248257393.d9b147c716102438b7d9637e3673b431"
+I, [2017-01-12T20:10:57.427557 #13350]  INFO -- : Net::HTTP::Post: /accounts/authentication/login
+D, [2017-01-12T20:10:57.427598 #13350] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-01-12T20:10:57.427621 #13350] DEBUG -- : request-header: accept => */*
+D, [2017-01-12T20:10:57.427642 #13350] DEBUG -- : request-header: user-agent => Mechanize/2.7.5 Ruby/2.3.0p0 (http://github.com/sparklemotion/mechanize/)
+D, [2017-01-12T20:10:57.427663 #13350] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-01-12T20:10:57.427683 #13350] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-01-12T20:10:57.427704 #13350] DEBUG -- : request-header: cookie => MpSession=a10ca755-9260-4feb-87ca-eff4781f32de; luckynumber=56075575
+D, [2017-01-12T20:10:57.427724 #13350] DEBUG -- : request-header: host => auth.marktplaats.nl
+D, [2017-01-12T20:10:57.427749 #13350] DEBUG -- : request-header: referer => https://www.marktplaats.nl/account/login.html
+D, [2017-01-12T20:10:57.427884 #13350] DEBUG -- : request-header: content-type => application/x-www-form-urlencoded
+D, [2017-01-12T20:10:57.427904 #13350] DEBUG -- : request-header: content-length => 351
+I, [2017-01-12T20:10:57.917093 #13350]  INFO -- : status: Net::HTTPFound 1.1 302 Found
+D, [2017-01-12T20:10:57.917176 #13350] DEBUG -- : response-header: content-length => 0
+D, [2017-01-12T20:10:57.917201 #13350] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2017-01-12T20:10:57.917221 #13350] DEBUG -- : response-header: date => Thu, 12 Jan 2017 19:10:57 GMT
+D, [2017-01-12T20:10:57.917241 #13350] DEBUG -- : response-header: expires => Thu, 01 Jan 1970 00:00:00 GMT
+D, [2017-01-12T20:10:57.917261 #13350] DEBUG -- : response-header: location => https://www.marktplaats.nl/syi/plaatsAdvertentie.html
+D, [2017-01-12T20:10:57.917283 #13350] DEBUG -- : response-header: set-cookie => MpSession="";Version=1;Path=/;Expires=Thu, 01-Jan-1970 00:00:00 GMT;Max-Age=0, MpSession=a10ca755-9260-4feb-87ca-eff4781f32de;Path=/;Domain=.marktplaats.nl, luckynumber=56075575;Path=/;Domain=.marktplaats.nl;Expires=Fri, 12-Jan-2018 19:10:57 GMT, MpSecurity=MjAyNjc2NTM6MTUxNTc4NDI1Nzg3NTpkMzVmZTExYTIxY2FiY2QxYTAzMTFiYmRiMWE1MzE3NWE1YzhiZWYx;Path=/;Domain=.marktplaats.nl;Expires=Fri, 12-Jan-2018 19:10:56 GMT;HttpOnly, MpSslSecurity=MjAyNjc2NTM6MTUxNTc4NDI1Nzg3NTplYzJhNDI5NzQ5ZjYyYmI2YWYzZDVmYjVkZDhiNTk5YmFkNWJkNGU5;Path=/;Domain=.marktplaats.nl;Expires=Fri, 12-Jan-2018 19:10:56 GMT;Secure;HttpOnly, luid=/AVUYb/RFReCRsfTpsjx3Olbhod6lphI;Path=/;Domain=.marktplaats.nl;Expires=Sun, 10-Jan-2027 19:10:57 GMT;HttpOnly
+D, [2017-01-12T20:10:57.917368 #13350] DEBUG -- : Read 0 bytes (0 total)
+D, [2017-01-12T20:10:57.917968 #13350] DEBUG -- : saved cookie: MpSession=
+D, [2017-01-12T20:10:57.918089 #13350] DEBUG -- : saved cookie: MpSession=a10ca755-9260-4feb-87ca-eff4781f32de
+D, [2017-01-12T20:10:57.918288 #13350] DEBUG -- : saved cookie: luckynumber=56075575
+D, [2017-01-12T20:10:57.918484 #13350] DEBUG -- : saved cookie: MpSecurity=MjAyNjc2NTM6MTUxNTc4NDI1Nzg3NTpkMzVmZTExYTIxY2FiY2QxYTAzMTFiYmRiMWE1MzE3NWE1YzhiZWYx
+D, [2017-01-12T20:10:57.918682 #13350] DEBUG -- : saved cookie: MpSslSecurity=MjAyNjc2NTM6MTUxNTc4NDI1Nzg3NTplYzJhNDI5NzQ5ZjYyYmI2YWYzZDVmYjVkZDhiNTk5YmFkNWJkNGU5
+D, [2017-01-12T20:10:57.918969 #13350] DEBUG -- : saved cookie: luid=/AVUYb/RFReCRsfTpsjx3Olbhod6lphI
+I, [2017-01-12T20:10:57.919029 #13350]  INFO -- : follow redirect to: https://www.marktplaats.nl/syi/plaatsAdvertentie.html
+I, [2017-01-12T20:10:57.919554 #13350]  INFO -- : Net::HTTP::Get: /syi/plaatsAdvertentie.html
+D, [2017-01-12T20:10:57.919581 #13350] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-01-12T20:10:57.919602 #13350] DEBUG -- : request-header: accept => */*
+D, [2017-01-12T20:10:57.919622 #13350] DEBUG -- : request-header: user-agent => Mechanize/2.7.5 Ruby/2.3.0p0 (http://github.com/sparklemotion/mechanize/)
+D, [2017-01-12T20:10:57.919642 #13350] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-01-12T20:10:57.919661 #13350] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-01-12T20:10:57.919680 #13350] DEBUG -- : request-header: cookie => MpSecurity=MjAyNjc2NTM6MTUxNTc4NDI1Nzg3NTpkMzVmZTExYTIxY2FiY2QxYTAzMTFiYmRiMWE1MzE3NWE1YzhiZWYx; MpSession=a10ca755-9260-4feb-87ca-eff4781f32de; MpSslSecurity=MjAyNjc2NTM6MTUxNTc4NDI1Nzg3NTplYzJhNDI5NzQ5ZjYyYmI2YWYzZDVmYjVkZDhiNTk5YmFkNWJkNGU5; luckynumber=56075575; luid=/AVUYb/RFReCRsfTpsjx3Olbhod6lphI
+D, [2017-01-12T20:10:57.919699 #13350] DEBUG -- : request-header: host => www.marktplaats.nl
+D, [2017-01-12T20:10:57.919722 #13350] DEBUG -- : request-header: referer => https://www.marktplaats.nl/account/login.html
+I, [2017-01-12T20:10:58.005928 #13350]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-01-12T20:10:58.006020 #13350] DEBUG -- : response-header: cache-control => no-store
+D, [2017-01-12T20:10:58.006058 #13350] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-01-12T20:10:58.006097 #13350] DEBUG -- : response-header: content-language => en-US
+D, [2017-01-12T20:10:58.006136 #13350] DEBUG -- : response-header: content-length => 7697
+D, [2017-01-12T20:10:58.006170 #13350] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2017-01-12T20:10:58.006203 #13350] DEBUG -- : response-header: date => Thu, 12 Jan 2017 19:10:57 GMT
+D, [2017-01-12T20:10:58.006235 #13350] DEBUG -- : response-header: expires => Thu, 01 Jan 1970 00:00:00 GMT
+D, [2017-01-12T20:10:58.006267 #13350] DEBUG -- : response-header: pragma => no-cache
+D, [2017-01-12T20:10:58.006301 #13350] DEBUG -- : response-header: set-cookie => luckynumber=56075575;Path=/;Domain=.marktplaats.nl;Expires=Fri, 12-Jan-2018 19:10:57 GMT, MpSession="";Version=1;Path=/;Expires=Thu, 01-Jan-1970 00:00:00 GMT;Max-Age=0, MpSession=a10ca755-9260-4feb-87ca-eff4781f32de;Path=/;Domain=.marktplaats.nl, pc=1165LX;Path=/;Domain=.marktplaats.nl;Expires=Fri, 12-Jan-2018 19:10:57 GMT
+D, [2017-01-12T20:10:58.006334 #13350] DEBUG -- : response-header: vary => Accept-Encoding, User-Agent
+D, [2017-01-12T20:10:58.006366 #13350] DEBUG -- : response-header: x-frame-options => SAMEORIGIN
+D, [2017-01-12T20:10:58.006470 #13350] DEBUG -- : Read 3408 bytes (3408 total)
+D, [2017-01-12T20:10:58.006607 #13350] DEBUG -- : Read 4289 bytes (7697 total)
+D, [2017-01-12T20:10:58.006717 #13350] DEBUG -- : gzip response
+D, [2017-01-12T20:10:58.010606 #13350] DEBUG -- : saved cookie: luckynumber=56075575
+D, [2017-01-12T20:10:58.010904 #13350] DEBUG -- : saved cookie: MpSession=
+D, [2017-01-12T20:10:58.011066 #13350] DEBUG -- : saved cookie: MpSession=a10ca755-9260-4feb-87ca-eff4781f32de
+D, [2017-01-12T20:10:58.011345 #13350] DEBUG -- : saved cookie: pc=1165LX
+I, [2017-01-12T20:11:23.099168 #13350]  INFO -- : Net::HTTP::Get: /account/login.html
+D, [2017-01-12T20:11:23.099392 #13350] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-01-12T20:11:23.099432 #13350] DEBUG -- : request-header: accept => */*
+D, [2017-01-12T20:11:23.099456 #13350] DEBUG -- : request-header: user-agent => Mechanize/2.7.5 Ruby/2.3.0p0 (http://github.com/sparklemotion/mechanize/)
+D, [2017-01-12T20:11:23.099479 #13350] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-01-12T20:11:23.099501 #13350] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-01-12T20:11:23.099522 #13350] DEBUG -- : request-header: host => www.marktplaats.nl
+I, [2017-01-12T20:11:23.400206 #13350]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-01-12T20:11:23.400331 #13350] DEBUG -- : response-header: cache-control => no-store
+D, [2017-01-12T20:11:23.400372 #13350] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-01-12T20:11:23.400406 #13350] DEBUG -- : response-header: content-language => en-US
+D, [2017-01-12T20:11:23.400439 #13350] DEBUG -- : response-header: content-length => 5904
+D, [2017-01-12T20:11:23.400472 #13350] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2017-01-12T20:11:23.400506 #13350] DEBUG -- : response-header: date => Thu, 12 Jan 2017 19:11:23 GMT
+D, [2017-01-12T20:11:23.400538 #13350] DEBUG -- : response-header: expires => Thu, 01 Jan 1970 00:00:00 GMT
+D, [2017-01-12T20:11:23.400571 #13350] DEBUG -- : response-header: pragma => no-cache
+D, [2017-01-12T20:11:23.400628 #13350] DEBUG -- : response-header: set-cookie => luckynumber=1847636571;Path=/;Domain=.marktplaats.nl;Expires=Fri, 12-Jan-2018 19:11:23 GMT, MpSession="";Version=1;Path=/;Expires=Thu, 01-Jan-1970 00:00:00 GMT;Max-Age=0, MpSession=c7dad913-eea9-4fdb-b2c4-d5ea5913ee3c;Path=/;Domain=.marktplaats.nl
+D, [2017-01-12T20:11:23.400664 #13350] DEBUG -- : response-header: vary => Accept-Encoding, User-Agent
+D, [2017-01-12T20:11:23.400697 #13350] DEBUG -- : response-header: x-frame-options => SAMEORIGIN
+D, [2017-01-12T20:11:23.400803 #13350] DEBUG -- : Read 3497 bytes (3497 total)
+D, [2017-01-12T20:11:23.400919 #13350] DEBUG -- : Read 2407 bytes (5904 total)
+D, [2017-01-12T20:11:23.401053 #13350] DEBUG -- : gzip response
+D, [2017-01-12T20:11:23.403867 #13350] DEBUG -- : saved cookie: luckynumber=1847636571
+D, [2017-01-12T20:11:23.404167 #13350] DEBUG -- : saved cookie: MpSession=
+D, [2017-01-12T20:11:23.404343 #13350] DEBUG -- : saved cookie: MpSession=c7dad913-eea9-4fdb-b2c4-d5ea5913ee3c
+I, [2017-01-12T20:11:23.410165 #13350]  INFO -- : form encoding: utf-8
+D, [2017-01-12T20:11:23.410447 #13350] DEBUG -- : query: "j_username=matthijs.h.j%40Live.nl&j_password=tijger1997&remember_me=true&success_url=https%3A%2F%2Fwww.marktplaats.nl%2Fsyi%2FplaatsAdvertentie.html&failure_url=https%3A%2F%2Fwww.marktplaats.nl%2Faccount%2Flogin.html%3Ftarget%3Dhttp%253a%252f%252fwww.marktplaats.nl%252f&target=&nl.marktplaats.xsrf.token=1484248283374.2c4bc51af8081e036a524a88b15c582c"
+I, [2017-01-12T20:11:23.410995 #13350]  INFO -- : Net::HTTP::Post: /accounts/authentication/login
+D, [2017-01-12T20:11:23.411040 #13350] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-01-12T20:11:23.411066 #13350] DEBUG -- : request-header: accept => */*
+D, [2017-01-12T20:11:23.411090 #13350] DEBUG -- : request-header: user-agent => Mechanize/2.7.5 Ruby/2.3.0p0 (http://github.com/sparklemotion/mechanize/)
+D, [2017-01-12T20:11:23.411113 #13350] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-01-12T20:11:23.411135 #13350] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-01-12T20:11:23.411158 #13350] DEBUG -- : request-header: cookie => MpSession=c7dad913-eea9-4fdb-b2c4-d5ea5913ee3c; luckynumber=1847636571
+D, [2017-01-12T20:11:23.411179 #13350] DEBUG -- : request-header: host => auth.marktplaats.nl
+D, [2017-01-12T20:11:23.411231 #13350] DEBUG -- : request-header: referer => https://www.marktplaats.nl/account/login.html
+D, [2017-01-12T20:11:23.411258 #13350] DEBUG -- : request-header: content-type => application/x-www-form-urlencoded
+D, [2017-01-12T20:11:23.411280 #13350] DEBUG -- : request-header: content-length => 351
+I, [2017-01-12T20:11:23.850108 #13350]  INFO -- : status: Net::HTTPFound 1.1 302 Found
+D, [2017-01-12T20:11:23.850176 #13350] DEBUG -- : response-header: content-length => 0
+D, [2017-01-12T20:11:23.850201 #13350] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2017-01-12T20:11:23.850223 #13350] DEBUG -- : response-header: date => Thu, 12 Jan 2017 19:11:23 GMT
+D, [2017-01-12T20:11:23.850245 #13350] DEBUG -- : response-header: expires => Thu, 01 Jan 1970 00:00:00 GMT
+D, [2017-01-12T20:11:23.850266 #13350] DEBUG -- : response-header: location => https://www.marktplaats.nl/syi/plaatsAdvertentie.html
+D, [2017-01-12T20:11:23.850289 #13350] DEBUG -- : response-header: set-cookie => MpSession="";Version=1;Path=/;Expires=Thu, 01-Jan-1970 00:00:00 GMT;Max-Age=0, MpSession=c7dad913-eea9-4fdb-b2c4-d5ea5913ee3c;Path=/;Domain=.marktplaats.nl, luckynumber=1847636571;Path=/;Domain=.marktplaats.nl;Expires=Fri, 12-Jan-2018 19:11:23 GMT, MpSecurity=MjAyNjc2NTM6MTUxNTc4NDI4Mzc5NTo1OWUxZDFiNGNlYjJlMGRkY2ZjOWU2ZmQzN2ViZjQzYTVkN2JkMjUy;Path=/;Domain=.marktplaats.nl;Expires=Fri, 12-Jan-2018 19:11:22 GMT;HttpOnly, MpSslSecurity=MjAyNjc2NTM6MTUxNTc4NDI4Mzc5NToxODFjYzQ0MmI3YjA1NzNjOTdlOGNmMTU5MzBmZWE0MjMwMTlkMDNk;Path=/;Domain=.marktplaats.nl;Expires=Fri, 12-Jan-2018 19:11:22 GMT;Secure;HttpOnly, luid=/AVUYb/RFReCRsfTpsjx3J+qufv439r2;Path=/;Domain=.marktplaats.nl;Expires=Sun, 10-Jan-2027 19:11:23 GMT;HttpOnly
+D, [2017-01-12T20:11:23.850362 #13350] DEBUG -- : Read 0 bytes (0 total)
+D, [2017-01-12T20:11:23.850881 #13350] DEBUG -- : saved cookie: MpSession=
+D, [2017-01-12T20:11:23.851012 #13350] DEBUG -- : saved cookie: MpSession=c7dad913-eea9-4fdb-b2c4-d5ea5913ee3c
+D, [2017-01-12T20:11:23.851217 #13350] DEBUG -- : saved cookie: luckynumber=1847636571
+D, [2017-01-12T20:11:23.851425 #13350] DEBUG -- : saved cookie: MpSecurity=MjAyNjc2NTM6MTUxNTc4NDI4Mzc5NTo1OWUxZDFiNGNlYjJlMGRkY2ZjOWU2ZmQzN2ViZjQzYTVkN2JkMjUy
+D, [2017-01-12T20:11:23.851637 #13350] DEBUG -- : saved cookie: MpSslSecurity=MjAyNjc2NTM6MTUxNTc4NDI4Mzc5NToxODFjYzQ0MmI3YjA1NzNjOTdlOGNmMTU5MzBmZWE0MjMwMTlkMDNk
+D, [2017-01-12T20:11:23.851842 #13350] DEBUG -- : saved cookie: luid=/AVUYb/RFReCRsfTpsjx3J+qufv439r2
+I, [2017-01-12T20:11:23.851908 #13350]  INFO -- : follow redirect to: https://www.marktplaats.nl/syi/plaatsAdvertentie.html
+I, [2017-01-12T20:11:23.852482 #13350]  INFO -- : Net::HTTP::Get: /syi/plaatsAdvertentie.html
+D, [2017-01-12T20:11:23.852514 #13350] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-01-12T20:11:23.852537 #13350] DEBUG -- : request-header: accept => */*
+D, [2017-01-12T20:11:23.852558 #13350] DEBUG -- : request-header: user-agent => Mechanize/2.7.5 Ruby/2.3.0p0 (http://github.com/sparklemotion/mechanize/)
+D, [2017-01-12T20:11:23.852579 #13350] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-01-12T20:11:23.852601 #13350] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-01-12T20:11:23.852621 #13350] DEBUG -- : request-header: cookie => MpSecurity=MjAyNjc2NTM6MTUxNTc4NDI4Mzc5NTo1OWUxZDFiNGNlYjJlMGRkY2ZjOWU2ZmQzN2ViZjQzYTVkN2JkMjUy; MpSession=c7dad913-eea9-4fdb-b2c4-d5ea5913ee3c; MpSslSecurity=MjAyNjc2NTM6MTUxNTc4NDI4Mzc5NToxODFjYzQ0MmI3YjA1NzNjOTdlOGNmMTU5MzBmZWE0MjMwMTlkMDNk; luckynumber=1847636571; luid=/AVUYb/RFReCRsfTpsjx3J+qufv439r2
+D, [2017-01-12T20:11:23.852643 #13350] DEBUG -- : request-header: host => www.marktplaats.nl
+D, [2017-01-12T20:11:23.852668 #13350] DEBUG -- : request-header: referer => https://www.marktplaats.nl/account/login.html
+I, [2017-01-12T20:11:23.939600 #13350]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-01-12T20:11:23.939716 #13350] DEBUG -- : response-header: cache-control => no-store
+D, [2017-01-12T20:11:23.939743 #13350] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-01-12T20:11:23.939786 #13350] DEBUG -- : response-header: content-language => en-US
+D, [2017-01-12T20:11:23.939809 #13350] DEBUG -- : response-header: content-length => 7712
+D, [2017-01-12T20:11:23.939832 #13350] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2017-01-12T20:11:23.939855 #13350] DEBUG -- : response-header: date => Thu, 12 Jan 2017 19:11:23 GMT
+D, [2017-01-12T20:11:23.939879 #13350] DEBUG -- : response-header: expires => Thu, 01 Jan 1970 00:00:00 GMT
+D, [2017-01-12T20:11:23.939902 #13350] DEBUG -- : response-header: pragma => no-cache
+D, [2017-01-12T20:11:23.939927 #13350] DEBUG -- : response-header: set-cookie => luckynumber=1847636571;Path=/;Domain=.marktplaats.nl;Expires=Fri, 12-Jan-2018 19:11:23 GMT, MpSession="";Version=1;Path=/;Expires=Thu, 01-Jan-1970 00:00:00 GMT;Max-Age=0, MpSession=c7dad913-eea9-4fdb-b2c4-d5ea5913ee3c;Path=/;Domain=.marktplaats.nl, pc=1165LX;Path=/;Domain=.marktplaats.nl;Expires=Fri, 12-Jan-2018 19:11:23 GMT
+D, [2017-01-12T20:11:23.939953 #13350] DEBUG -- : response-header: vary => Accept-Encoding, User-Agent
+D, [2017-01-12T20:11:23.939974 #13350] DEBUG -- : response-header: x-frame-options => SAMEORIGIN
+D, [2017-01-12T20:11:23.940073 #13350] DEBUG -- : Read 3406 bytes (3406 total)
+D, [2017-01-12T20:11:23.940226 #13350] DEBUG -- : Read 4306 bytes (7712 total)
+D, [2017-01-12T20:11:23.940344 #13350] DEBUG -- : gzip response
+D, [2017-01-12T20:11:23.943722 #13350] DEBUG -- : saved cookie: luckynumber=1847636571
+D, [2017-01-12T20:11:23.944137 #13350] DEBUG -- : saved cookie: MpSession=
+D, [2017-01-12T20:11:23.944310 #13350] DEBUG -- : saved cookie: MpSession=c7dad913-eea9-4fdb-b2c4-d5ea5913ee3c
+D, [2017-01-12T20:11:23.944540 #13350] DEBUG -- : saved cookie: pc=1165LX
+I, [2017-01-12T20:11:52.011379 #13350]  INFO -- : Net::HTTP::Get: /account/login.html
+D, [2017-01-12T20:11:52.011691 #13350] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-01-12T20:11:52.011781 #13350] DEBUG -- : request-header: accept => */*
+D, [2017-01-12T20:11:52.011815 #13350] DEBUG -- : request-header: user-agent => Mechanize/2.7.5 Ruby/2.3.0p0 (http://github.com/sparklemotion/mechanize/)
+D, [2017-01-12T20:11:52.011839 #13350] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-01-12T20:11:52.011897 #13350] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-01-12T20:11:52.011949 #13350] DEBUG -- : request-header: host => www.marktplaats.nl
+I, [2017-01-12T20:11:52.755909 #13350]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-01-12T20:11:52.756014 #13350] DEBUG -- : response-header: cache-control => no-store
+D, [2017-01-12T20:11:52.756040 #13350] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-01-12T20:11:52.756062 #13350] DEBUG -- : response-header: content-language => en-US
+D, [2017-01-12T20:11:52.756091 #13350] DEBUG -- : response-header: content-length => 6802
+D, [2017-01-12T20:11:52.756114 #13350] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2017-01-12T20:11:52.756136 #13350] DEBUG -- : response-header: date => Thu, 12 Jan 2017 19:11:52 GMT
+D, [2017-01-12T20:11:52.756157 #13350] DEBUG -- : response-header: expires => Thu, 01 Jan 1970 00:00:00 GMT
+D, [2017-01-12T20:11:52.756178 #13350] DEBUG -- : response-header: pragma => no-cache
+D, [2017-01-12T20:11:52.756201 #13350] DEBUG -- : response-header: set-cookie => luckynumber=1251502991;Path=/;Domain=.marktplaats.nl;Expires=Fri, 12-Jan-2018 19:11:52 GMT, MpSession="";Version=1;Path=/;Expires=Thu, 01-Jan-1970 00:00:00 GMT;Max-Age=0, MpSession=1bd1b252-d332-4a70-a445-f94993016727;Path=/;Domain=.marktplaats.nl
+D, [2017-01-12T20:11:52.756224 #13350] DEBUG -- : response-header: vary => Accept-Encoding, User-Agent
+D, [2017-01-12T20:11:52.756246 #13350] DEBUG -- : response-header: x-frame-options => SAMEORIGIN
+D, [2017-01-12T20:11:52.756358 #13350] DEBUG -- : Read 3497 bytes (3497 total)
+D, [2017-01-12T20:11:52.757005 #13350] DEBUG -- : Read 3305 bytes (6802 total)
+D, [2017-01-12T20:11:52.757221 #13350] DEBUG -- : gzip response
+D, [2017-01-12T20:11:52.759818 #13350] DEBUG -- : saved cookie: luckynumber=1251502991
+D, [2017-01-12T20:11:52.760076 #13350] DEBUG -- : saved cookie: MpSession=
+D, [2017-01-12T20:11:52.760212 #13350] DEBUG -- : saved cookie: MpSession=1bd1b252-d332-4a70-a445-f94993016727
+I, [2017-01-12T20:11:52.767265 #13350]  INFO -- : form encoding: utf-8
+D, [2017-01-12T20:11:52.767524 #13350] DEBUG -- : query: "j_username=matthijs.h.j%40Live.nl&j_password=tijger1997&remember_me=true&success_url=https%3A%2F%2Fwww.marktplaats.nl%2Fsyi%2FplaatsAdvertentie.html&failure_url=https%3A%2F%2Fwww.marktplaats.nl%2Faccount%2Flogin.html%3Ftarget%3Dhttp%253a%252f%252fwww.marktplaats.nl%252f&target=&nl.marktplaats.xsrf.token=1484248312731.4a68a58fcc0c9be64388e417526c6036"
+I, [2017-01-12T20:11:52.768057 #13350]  INFO -- : Net::HTTP::Post: /accounts/authentication/login
+D, [2017-01-12T20:11:52.768089 #13350] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-01-12T20:11:52.768112 #13350] DEBUG -- : request-header: accept => */*
+D, [2017-01-12T20:11:52.768133 #13350] DEBUG -- : request-header: user-agent => Mechanize/2.7.5 Ruby/2.3.0p0 (http://github.com/sparklemotion/mechanize/)
+D, [2017-01-12T20:11:52.768154 #13350] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-01-12T20:11:52.768174 #13350] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-01-12T20:11:52.768194 #13350] DEBUG -- : request-header: cookie => MpSession=1bd1b252-d332-4a70-a445-f94993016727; luckynumber=1251502991
+D, [2017-01-12T20:11:52.768217 #13350] DEBUG -- : request-header: host => auth.marktplaats.nl
+D, [2017-01-12T20:11:52.768243 #13350] DEBUG -- : request-header: referer => https://www.marktplaats.nl/account/login.html
+D, [2017-01-12T20:11:52.768265 #13350] DEBUG -- : request-header: content-type => application/x-www-form-urlencoded
+D, [2017-01-12T20:11:52.768285 #13350] DEBUG -- : request-header: content-length => 351
+I, [2017-01-12T20:11:53.640536 #13350]  INFO -- : status: Net::HTTPFound 1.1 302 Found
+D, [2017-01-12T20:11:53.640684 #13350] DEBUG -- : response-header: content-length => 0
+D, [2017-01-12T20:11:53.640749 #13350] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2017-01-12T20:11:53.640806 #13350] DEBUG -- : response-header: date => Thu, 12 Jan 2017 19:11:53 GMT
+D, [2017-01-12T20:11:53.640861 #13350] DEBUG -- : response-header: expires => Thu, 01 Jan 1970 00:00:00 GMT
+D, [2017-01-12T20:11:53.640917 #13350] DEBUG -- : response-header: location => https://www.marktplaats.nl/syi/plaatsAdvertentie.html
+D, [2017-01-12T20:11:53.640988 #13350] DEBUG -- : response-header: set-cookie => MpSession="";Version=1;Path=/;Expires=Thu, 01-Jan-1970 00:00:00 GMT;Max-Age=0, MpSession=1bd1b252-d332-4a70-a445-f94993016727;Path=/;Domain=.marktplaats.nl, luckynumber=1251502991;Path=/;Domain=.marktplaats.nl;Expires=Fri, 12-Jan-2018 19:11:53 GMT, MpSecurity=MjAyNjc2NTM6MTUxNTc4NDMxMzU5NTo4NjY0ZDAwMWNiZGYxYzRhYWI4ZjY5ODk1NjRjOGZiZTcwYzgxOTA2;Path=/;Domain=.marktplaats.nl;Expires=Fri, 12-Jan-2018 19:11:52 GMT;HttpOnly, MpSslSecurity=MjAyNjc2NTM6MTUxNTc4NDMxMzU5NTo5ZTMwZWU4OGM5YTMwMTc5MDI3YjgzMzc4NDczZDM2NmI2MGRjNTVl;Path=/;Domain=.marktplaats.nl;Expires=Fri, 12-Jan-2018 19:11:52 GMT;Secure;HttpOnly, luid=/AVUYb/RFReCRsfTpsjx3GTUFUJvvOOh;Path=/;Domain=.marktplaats.nl;Expires=Sun, 10-Jan-2027 19:11:53 GMT;HttpOnly
+D, [2017-01-12T20:11:53.641158 #13350] DEBUG -- : Read 0 bytes (0 total)
+D, [2017-01-12T20:11:53.642140 #13350] DEBUG -- : saved cookie: MpSession=
+D, [2017-01-12T20:11:53.642395 #13350] DEBUG -- : saved cookie: MpSession=1bd1b252-d332-4a70-a445-f94993016727
+D, [2017-01-12T20:11:53.642795 #13350] DEBUG -- : saved cookie: luckynumber=1251502991
+D, [2017-01-12T20:11:53.643196 #13350] DEBUG -- : saved cookie: MpSecurity=MjAyNjc2NTM6MTUxNTc4NDMxMzU5NTo4NjY0ZDAwMWNiZGYxYzRhYWI4ZjY5ODk1NjRjOGZiZTcwYzgxOTA2
+D, [2017-01-12T20:11:53.643601 #13350] DEBUG -- : saved cookie: MpSslSecurity=MjAyNjc2NTM6MTUxNTc4NDMxMzU5NTo5ZTMwZWU4OGM5YTMwMTc5MDI3YjgzMzc4NDczZDM2NmI2MGRjNTVl
+D, [2017-01-12T20:11:53.644017 #13350] DEBUG -- : saved cookie: luid=/AVUYb/RFReCRsfTpsjx3GTUFUJvvOOh
+I, [2017-01-12T20:11:53.644145 #13350]  INFO -- : follow redirect to: https://www.marktplaats.nl/syi/plaatsAdvertentie.html
+I, [2017-01-12T20:11:53.645137 #13350]  INFO -- : Net::HTTP::Get: /syi/plaatsAdvertentie.html
+D, [2017-01-12T20:11:53.645183 #13350] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-01-12T20:11:53.645216 #13350] DEBUG -- : request-header: accept => */*
+D, [2017-01-12T20:11:53.645254 #13350] DEBUG -- : request-header: user-agent => Mechanize/2.7.5 Ruby/2.3.0p0 (http://github.com/sparklemotion/mechanize/)
+D, [2017-01-12T20:11:53.645287 #13350] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-01-12T20:11:53.645318 #13350] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-01-12T20:11:53.645350 #13350] DEBUG -- : request-header: cookie => MpSecurity=MjAyNjc2NTM6MTUxNTc4NDMxMzU5NTo4NjY0ZDAwMWNiZGYxYzRhYWI4ZjY5ODk1NjRjOGZiZTcwYzgxOTA2; MpSession=1bd1b252-d332-4a70-a445-f94993016727; MpSslSecurity=MjAyNjc2NTM6MTUxNTc4NDMxMzU5NTo5ZTMwZWU4OGM5YTMwMTc5MDI3YjgzMzc4NDczZDM2NmI2MGRjNTVl; luckynumber=1251502991; luid=/AVUYb/RFReCRsfTpsjx3GTUFUJvvOOh
+D, [2017-01-12T20:11:53.645382 #13350] DEBUG -- : request-header: host => www.marktplaats.nl
+D, [2017-01-12T20:11:53.645420 #13350] DEBUG -- : request-header: referer => https://www.marktplaats.nl/account/login.html
+I, [2017-01-12T20:11:53.732553 #13350]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-01-12T20:11:53.732677 #13350] DEBUG -- : response-header: cache-control => no-store
+D, [2017-01-12T20:11:53.732723 #13350] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-01-12T20:11:53.732763 #13350] DEBUG -- : response-header: content-language => en-US
+D, [2017-01-12T20:11:53.732810 #13350] DEBUG -- : response-header: content-length => 7714
+D, [2017-01-12T20:11:53.732852 #13350] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2017-01-12T20:11:53.732893 #13350] DEBUG -- : response-header: date => Thu, 12 Jan 2017 19:11:53 GMT
+D, [2017-01-12T20:11:53.732933 #13350] DEBUG -- : response-header: expires => Thu, 01 Jan 1970 00:00:00 GMT
+D, [2017-01-12T20:11:53.732972 #13350] DEBUG -- : response-header: pragma => no-cache
+D, [2017-01-12T20:11:53.733014 #13350] DEBUG -- : response-header: set-cookie => luckynumber=1251502991;Path=/;Domain=.marktplaats.nl;Expires=Fri, 12-Jan-2018 19:11:53 GMT, MpSession="";Version=1;Path=/;Expires=Thu, 01-Jan-1970 00:00:00 GMT;Max-Age=0, MpSession=1bd1b252-d332-4a70-a445-f94993016727;Path=/;Domain=.marktplaats.nl, pc=1165LX;Path=/;Domain=.marktplaats.nl;Expires=Fri, 12-Jan-2018 19:11:53 GMT
+D, [2017-01-12T20:11:53.733055 #13350] DEBUG -- : response-header: vary => Accept-Encoding, User-Agent
+D, [2017-01-12T20:11:53.733095 #13350] DEBUG -- : response-header: x-frame-options => SAMEORIGIN
+D, [2017-01-12T20:11:53.733234 #13350] DEBUG -- : Read 3406 bytes (3406 total)
+D, [2017-01-12T20:11:53.733386 #13350] DEBUG -- : Read 4308 bytes (7714 total)
+D, [2017-01-12T20:11:53.733541 #13350] DEBUG -- : gzip response
+D, [2017-01-12T20:11:53.737749 #13350] DEBUG -- : saved cookie: luckynumber=1251502991
+D, [2017-01-12T20:11:53.738082 #13350] DEBUG -- : saved cookie: MpSession=
+D, [2017-01-12T20:11:53.738266 #13350] DEBUG -- : saved cookie: MpSession=1bd1b252-d332-4a70-a445-f94993016727
+D, [2017-01-12T20:11:53.738569 #13350] DEBUG -- : saved cookie: pc=1165LX
+I, [2017-01-12T20:14:39.906161 #13350]  INFO -- : Net::HTTP::Get: /account/login.html
+D, [2017-01-12T20:14:39.906430 #13350] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-01-12T20:14:39.906468 #13350] DEBUG -- : request-header: accept => */*
+D, [2017-01-12T20:14:39.906491 #13350] DEBUG -- : request-header: user-agent => Mechanize/2.7.5 Ruby/2.3.0p0 (http://github.com/sparklemotion/mechanize/)
+D, [2017-01-12T20:14:39.906512 #13350] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-01-12T20:14:39.906544 #13350] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-01-12T20:14:39.906565 #13350] DEBUG -- : request-header: host => www.marktplaats.nl
+I, [2017-01-12T20:14:40.573278 #13350]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-01-12T20:14:40.573414 #13350] DEBUG -- : response-header: cache-control => no-store
+D, [2017-01-12T20:14:40.573456 #13350] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-01-12T20:14:40.573490 #13350] DEBUG -- : response-header: content-language => en-US
+D, [2017-01-12T20:14:40.573523 #13350] DEBUG -- : response-header: content-length => 5897
+D, [2017-01-12T20:14:40.573557 #13350] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2017-01-12T20:14:40.573591 #13350] DEBUG -- : response-header: date => Thu, 12 Jan 2017 19:14:40 GMT
+D, [2017-01-12T20:14:40.573624 #13350] DEBUG -- : response-header: expires => Thu, 01 Jan 1970 00:00:00 GMT
+D, [2017-01-12T20:14:40.573657 #13350] DEBUG -- : response-header: pragma => no-cache
+D, [2017-01-12T20:14:40.573691 #13350] DEBUG -- : response-header: set-cookie => luckynumber=71310870;Path=/;Domain=.marktplaats.nl;Expires=Fri, 12-Jan-2018 19:14:40 GMT, MpSession="";Version=1;Path=/;Expires=Thu, 01-Jan-1970 00:00:00 GMT;Max-Age=0, MpSession=b655598a-1aaf-4abc-91ca-3d2081b509c0;Path=/;Domain=.marktplaats.nl
+D, [2017-01-12T20:14:40.573726 #13350] DEBUG -- : response-header: vary => Accept-Encoding, User-Agent
+D, [2017-01-12T20:14:40.573758 #13350] DEBUG -- : response-header: x-frame-options => SAMEORIGIN
+D, [2017-01-12T20:14:40.573875 #13350] DEBUG -- : Read 3499 bytes (3499 total)
+D, [2017-01-12T20:14:40.573995 #13350] DEBUG -- : Read 2398 bytes (5897 total)
+D, [2017-01-12T20:14:40.574376 #13350] DEBUG -- : gzip response
+D, [2017-01-12T20:14:40.577555 #13350] DEBUG -- : saved cookie: luckynumber=71310870
+D, [2017-01-12T20:14:40.578136 #13350] DEBUG -- : saved cookie: MpSession=
+D, [2017-01-12T20:14:40.578303 #13350] DEBUG -- : saved cookie: MpSession=b655598a-1aaf-4abc-91ca-3d2081b509c0
+I, [2017-01-12T20:14:40.584870 #13350]  INFO -- : form encoding: utf-8
+D, [2017-01-12T20:14:40.585273 #13350] DEBUG -- : query: "j_username=matthijs.h.j%40Live.nl&j_password=tijger1997&remember_me=true&success_url=https%3A%2F%2Fwww.marktplaats.nl%2Fsyi%2FplaatsAdvertentie.html&failure_url=https%3A%2F%2Fwww.marktplaats.nl%2Faccount%2Flogin.html%3Ftarget%3Dhttp%253a%252f%252fwww.marktplaats.nl%252f&target=&nl.marktplaats.xsrf.token=1484248480547.dc673e91a895ba40618c6d3a5e4289ee"
+I, [2017-01-12T20:14:40.585899 #13350]  INFO -- : Net::HTTP::Post: /accounts/authentication/login
+D, [2017-01-12T20:14:40.585932 #13350] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-01-12T20:14:40.585954 #13350] DEBUG -- : request-header: accept => */*
+D, [2017-01-12T20:14:40.585974 #13350] DEBUG -- : request-header: user-agent => Mechanize/2.7.5 Ruby/2.3.0p0 (http://github.com/sparklemotion/mechanize/)
+D, [2017-01-12T20:14:40.585994 #13350] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-01-12T20:14:40.586013 #13350] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-01-12T20:14:40.586033 #13350] DEBUG -- : request-header: cookie => MpSession=b655598a-1aaf-4abc-91ca-3d2081b509c0; luckynumber=71310870
+D, [2017-01-12T20:14:40.586056 #13350] DEBUG -- : request-header: host => auth.marktplaats.nl
+D, [2017-01-12T20:14:40.586090 #13350] DEBUG -- : request-header: referer => https://www.marktplaats.nl/account/login.html
+D, [2017-01-12T20:14:40.586112 #13350] DEBUG -- : request-header: content-type => application/x-www-form-urlencoded
+D, [2017-01-12T20:14:40.586133 #13350] DEBUG -- : request-header: content-length => 351
+I, [2017-01-12T20:14:41.470961 #13350]  INFO -- : status: Net::HTTPFound 1.1 302 Found
+D, [2017-01-12T20:14:41.471032 #13350] DEBUG -- : response-header: content-length => 0
+D, [2017-01-12T20:14:41.471057 #13350] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2017-01-12T20:14:41.471079 #13350] DEBUG -- : response-header: date => Thu, 12 Jan 2017 19:14:41 GMT
+D, [2017-01-12T20:14:41.471117 #13350] DEBUG -- : response-header: expires => Thu, 01 Jan 1970 00:00:00 GMT
+D, [2017-01-12T20:14:41.471139 #13350] DEBUG -- : response-header: location => https://www.marktplaats.nl/syi/plaatsAdvertentie.html
+D, [2017-01-12T20:14:41.471163 #13350] DEBUG -- : response-header: set-cookie => MpSession="";Version=1;Path=/;Expires=Thu, 01-Jan-1970 00:00:00 GMT;Max-Age=0, MpSession=b655598a-1aaf-4abc-91ca-3d2081b509c0;Path=/;Domain=.marktplaats.nl, luckynumber=71310870;Path=/;Domain=.marktplaats.nl;Expires=Fri, 12-Jan-2018 19:14:41 GMT, MpSecurity=MjAyNjc2NTM6MTUxNTc4NDQ4MTQxNjoyZjZmY2Y0NGFkZDI4ZTk2ZTg1YTVjNjZjM2VkNWRkNDIwNmY3Yzcw;Path=/;Domain=.marktplaats.nl;Expires=Fri, 12-Jan-2018 19:14:40 GMT;HttpOnly, MpSslSecurity=MjAyNjc2NTM6MTUxNTc4NDQ4MTQxNjpkNmRmZmEwZjk5ZjcxMDBjMmZlZGI3Y2NkZGVhY2FlYmQ0NjBkMjM5;Path=/;Domain=.marktplaats.nl;Expires=Fri, 12-Jan-2018 19:14:40 GMT;Secure;HttpOnly, luid=/AVUYb/RFReCRsfTpsjx3NmT5CiDyf+N;Path=/;Domain=.marktplaats.nl;Expires=Sun, 10-Jan-2027 19:14:41 GMT;HttpOnly
+D, [2017-01-12T20:14:41.471236 #13350] DEBUG -- : Read 0 bytes (0 total)
+D, [2017-01-12T20:14:41.471892 #13350] DEBUG -- : saved cookie: MpSession=
+D, [2017-01-12T20:14:41.472015 #13350] DEBUG -- : saved cookie: MpSession=b655598a-1aaf-4abc-91ca-3d2081b509c0
+D, [2017-01-12T20:14:41.472226 #13350] DEBUG -- : saved cookie: luckynumber=71310870
+D, [2017-01-12T20:14:41.472588 #13350] DEBUG -- : saved cookie: MpSecurity=MjAyNjc2NTM6MTUxNTc4NDQ4MTQxNjoyZjZmY2Y0NGFkZDI4ZTk2ZTg1YTVjNjZjM2VkNWRkNDIwNmY3Yzcw
+D, [2017-01-12T20:14:41.472807 #13350] DEBUG -- : saved cookie: MpSslSecurity=MjAyNjc2NTM6MTUxNTc4NDQ4MTQxNjpkNmRmZmEwZjk5ZjcxMDBjMmZlZGI3Y2NkZGVhY2FlYmQ0NjBkMjM5
+D, [2017-01-12T20:14:41.473021 #13350] DEBUG -- : saved cookie: luid=/AVUYb/RFReCRsfTpsjx3NmT5CiDyf+N
+I, [2017-01-12T20:14:41.473099 #13350]  INFO -- : follow redirect to: https://www.marktplaats.nl/syi/plaatsAdvertentie.html
+I, [2017-01-12T20:14:41.473813 #13350]  INFO -- : Net::HTTP::Get: /syi/plaatsAdvertentie.html
+D, [2017-01-12T20:14:41.473847 #13350] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-01-12T20:14:41.473869 #13350] DEBUG -- : request-header: accept => */*
+D, [2017-01-12T20:14:41.473890 #13350] DEBUG -- : request-header: user-agent => Mechanize/2.7.5 Ruby/2.3.0p0 (http://github.com/sparklemotion/mechanize/)
+D, [2017-01-12T20:14:41.473911 #13350] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-01-12T20:14:41.473932 #13350] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-01-12T20:14:41.473953 #13350] DEBUG -- : request-header: cookie => MpSecurity=MjAyNjc2NTM6MTUxNTc4NDQ4MTQxNjoyZjZmY2Y0NGFkZDI4ZTk2ZTg1YTVjNjZjM2VkNWRkNDIwNmY3Yzcw; MpSession=b655598a-1aaf-4abc-91ca-3d2081b509c0; MpSslSecurity=MjAyNjc2NTM6MTUxNTc4NDQ4MTQxNjpkNmRmZmEwZjk5ZjcxMDBjMmZlZGI3Y2NkZGVhY2FlYmQ0NjBkMjM5; luckynumber=71310870; luid=/AVUYb/RFReCRsfTpsjx3NmT5CiDyf+N
+D, [2017-01-12T20:14:41.473974 #13350] DEBUG -- : request-header: host => www.marktplaats.nl
+D, [2017-01-12T20:14:41.474141 #13350] DEBUG -- : request-header: referer => https://www.marktplaats.nl/account/login.html
+I, [2017-01-12T20:14:41.674053 #13350]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-01-12T20:14:41.674170 #13350] DEBUG -- : response-header: cache-control => no-store
+D, [2017-01-12T20:14:41.674219 #13350] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-01-12T20:14:41.674261 #13350] DEBUG -- : response-header: content-language => en-US
+D, [2017-01-12T20:14:41.674303 #13350] DEBUG -- : response-header: content-length => 7712
+D, [2017-01-12T20:14:41.674345 #13350] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2017-01-12T20:14:41.674388 #13350] DEBUG -- : response-header: date => Thu, 12 Jan 2017 19:14:41 GMT
+D, [2017-01-12T20:14:41.674430 #13350] DEBUG -- : response-header: expires => Thu, 01 Jan 1970 00:00:00 GMT
+D, [2017-01-12T20:14:41.674738 #13350] DEBUG -- : response-header: pragma => no-cache
+D, [2017-01-12T20:14:41.674808 #13350] DEBUG -- : response-header: set-cookie => luckynumber=71310870;Path=/;Domain=.marktplaats.nl;Expires=Fri, 12-Jan-2018 19:14:41 GMT, MpSession="";Version=1;Path=/;Expires=Thu, 01-Jan-1970 00:00:00 GMT;Max-Age=0, MpSession=b655598a-1aaf-4abc-91ca-3d2081b509c0;Path=/;Domain=.marktplaats.nl, pc=1165LX;Path=/;Domain=.marktplaats.nl;Expires=Fri, 12-Jan-2018 19:14:41 GMT
+D, [2017-01-12T20:14:41.674854 #13350] DEBUG -- : response-header: vary => Accept-Encoding, User-Agent
+D, [2017-01-12T20:14:41.674895 #13350] DEBUG -- : response-header: x-frame-options => SAMEORIGIN
+D, [2017-01-12T20:14:41.675030 #13350] DEBUG -- : Read 3408 bytes (3408 total)
+D, [2017-01-12T20:14:41.675168 #13350] DEBUG -- : Read 4304 bytes (7712 total)
+D, [2017-01-12T20:14:41.675322 #13350] DEBUG -- : gzip response
+D, [2017-01-12T20:14:41.679549 #13350] DEBUG -- : saved cookie: luckynumber=71310870
+D, [2017-01-12T20:14:41.680114 #13350] DEBUG -- : saved cookie: MpSession=
+D, [2017-01-12T20:14:41.680277 #13350] DEBUG -- : saved cookie: MpSession=b655598a-1aaf-4abc-91ca-3d2081b509c0
+D, [2017-01-12T20:14:41.680540 #13350] DEBUG -- : saved cookie: pc=1165LX
+I, [2017-01-12T20:28:49.451090 #13350]  INFO -- : Net::HTTP::Get: /account/login.html
+D, [2017-01-12T20:28:49.451301 #13350] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-01-12T20:28:49.451339 #13350] DEBUG -- : request-header: accept => */*
+D, [2017-01-12T20:28:49.451363 #13350] DEBUG -- : request-header: user-agent => Mechanize/2.7.5 Ruby/2.3.0p0 (http://github.com/sparklemotion/mechanize/)
+D, [2017-01-12T20:28:49.451386 #13350] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-01-12T20:28:49.451408 #13350] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-01-12T20:28:49.451429 #13350] DEBUG -- : request-header: host => www.marktplaats.nl
+I, [2017-01-12T20:28:50.047689 #13350]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-01-12T20:28:50.047761 #13350] DEBUG -- : response-header: cache-control => no-store
+D, [2017-01-12T20:28:50.047786 #13350] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-01-12T20:28:50.047808 #13350] DEBUG -- : response-header: content-language => en-US
+D, [2017-01-12T20:28:50.047829 #13350] DEBUG -- : response-header: content-length => 5882
+D, [2017-01-12T20:28:50.047850 #13350] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2017-01-12T20:28:50.047872 #13350] DEBUG -- : response-header: date => Thu, 12 Jan 2017 19:28:50 GMT
+D, [2017-01-12T20:28:50.047894 #13350] DEBUG -- : response-header: expires => Thu, 01 Jan 1970 00:00:00 GMT
+D, [2017-01-12T20:28:50.047915 #13350] DEBUG -- : response-header: pragma => no-cache
+D, [2017-01-12T20:28:50.047936 #13350] DEBUG -- : response-header: set-cookie => luckynumber=1098060106;Path=/;Domain=.marktplaats.nl;Expires=Fri, 12-Jan-2018 19:28:50 GMT, MpSession="";Version=1;Path=/;Expires=Thu, 01-Jan-1970 00:00:00 GMT;Max-Age=0, MpSession=6bf03db0-dbc3-4c5a-a5f9-bd384761ed94;Path=/;Domain=.marktplaats.nl
+D, [2017-01-12T20:28:50.047958 #13350] DEBUG -- : response-header: vary => Accept-Encoding, User-Agent
+D, [2017-01-12T20:28:50.047980 #13350] DEBUG -- : response-header: x-frame-options => SAMEORIGIN
+D, [2017-01-12T20:28:50.048052 #13350] DEBUG -- : Read 3497 bytes (3497 total)
+D, [2017-01-12T20:28:50.048110 #13350] DEBUG -- : Read 2385 bytes (5882 total)
+D, [2017-01-12T20:28:50.048205 #13350] DEBUG -- : gzip response
+D, [2017-01-12T20:28:50.050380 #13350] DEBUG -- : saved cookie: luckynumber=1098060106
+D, [2017-01-12T20:28:50.050929 #13350] DEBUG -- : saved cookie: MpSession=
+D, [2017-01-12T20:28:50.051064 #13350] DEBUG -- : saved cookie: MpSession=6bf03db0-dbc3-4c5a-a5f9-bd384761ed94
+I, [2017-01-12T20:28:50.057506 #13350]  INFO -- : form encoding: utf-8
+D, [2017-01-12T20:28:50.058050 #13350] DEBUG -- : query: "j_username=matthijs.h.j%40Live.nl&j_password=tijger1997&remember_me=true&success_url=https%3A%2F%2Fwww.marktplaats.nl%2Fsyi%2FplaatsAdvertentie.html&failure_url=https%3A%2F%2Fwww.marktplaats.nl%2Faccount%2Flogin.html%3Ftarget%3Dhttp%253a%252f%252fwww.marktplaats.nl%252f&target=&nl.marktplaats.xsrf.token=1484249330022.a25a37b8ecec7c1b5b34b6cc2946328"
+I, [2017-01-12T20:28:50.058762 #13350]  INFO -- : Net::HTTP::Post: /accounts/authentication/login
+D, [2017-01-12T20:28:50.058797 #13350] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-01-12T20:28:50.058819 #13350] DEBUG -- : request-header: accept => */*
+D, [2017-01-12T20:28:50.058839 #13350] DEBUG -- : request-header: user-agent => Mechanize/2.7.5 Ruby/2.3.0p0 (http://github.com/sparklemotion/mechanize/)
+D, [2017-01-12T20:28:50.058860 #13350] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-01-12T20:28:50.058879 #13350] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-01-12T20:28:50.058909 #13350] DEBUG -- : request-header: cookie => MpSession=6bf03db0-dbc3-4c5a-a5f9-bd384761ed94; luckynumber=1098060106
+D, [2017-01-12T20:28:50.058931 #13350] DEBUG -- : request-header: host => auth.marktplaats.nl
+D, [2017-01-12T20:28:50.058957 #13350] DEBUG -- : request-header: referer => https://www.marktplaats.nl/account/login.html
+D, [2017-01-12T20:28:50.059309 #13350] DEBUG -- : request-header: content-type => application/x-www-form-urlencoded
+D, [2017-01-12T20:28:50.059337 #13350] DEBUG -- : request-header: content-length => 350
+I, [2017-01-12T20:28:50.950437 #13350]  INFO -- : status: Net::HTTPFound 1.1 302 Found
+D, [2017-01-12T20:28:50.950516 #13350] DEBUG -- : response-header: content-length => 0
+D, [2017-01-12T20:28:50.950542 #13350] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2017-01-12T20:28:50.950564 #13350] DEBUG -- : response-header: date => Thu, 12 Jan 2017 19:28:50 GMT
+D, [2017-01-12T20:28:50.950585 #13350] DEBUG -- : response-header: expires => Thu, 01 Jan 1970 00:00:00 GMT
+D, [2017-01-12T20:28:50.950607 #13350] DEBUG -- : response-header: location => https://www.marktplaats.nl/syi/plaatsAdvertentie.html
+D, [2017-01-12T20:28:50.950631 #13350] DEBUG -- : response-header: set-cookie => MpSession="";Version=1;Path=/;Expires=Thu, 01-Jan-1970 00:00:00 GMT;Max-Age=0, MpSession=6bf03db0-dbc3-4c5a-a5f9-bd384761ed94;Path=/;Domain=.marktplaats.nl, luckynumber=1098060106;Path=/;Domain=.marktplaats.nl;Expires=Fri, 12-Jan-2018 19:28:50 GMT, MpSecurity=MjAyNjc2NTM6MTUxNTc4NTMzMDg5MTozYzIzMWIyZGViZTA4ZmQ4ZWQwYTNjNWZhZDIzYTE1MTU0M2U5YjY2;Path=/;Domain=.marktplaats.nl;Expires=Fri, 12-Jan-2018 19:28:49 GMT;HttpOnly, MpSslSecurity=MjAyNjc2NTM6MTUxNTc4NTMzMDg5MToxZmQyODY0NTFiMDBiMGY1ODYzYTNmYmZiNTZjNzFmZjkwOGY0N2Jm;Path=/;Domain=.marktplaats.nl;Expires=Fri, 12-Jan-2018 19:28:49 GMT;Secure;HttpOnly, luid=/AVUYb/RFReD42y0A3p9rN6l8U3kX//l;Path=/;Domain=.marktplaats.nl;Expires=Sun, 10-Jan-2027 19:28:50 GMT;HttpOnly
+D, [2017-01-12T20:28:50.950705 #13350] DEBUG -- : Read 0 bytes (0 total)
+D, [2017-01-12T20:28:50.951224 #13350] DEBUG -- : saved cookie: MpSession=
+D, [2017-01-12T20:28:50.951928 #13350] DEBUG -- : saved cookie: MpSession=6bf03db0-dbc3-4c5a-a5f9-bd384761ed94
+D, [2017-01-12T20:28:50.952143 #13350] DEBUG -- : saved cookie: luckynumber=1098060106
+D, [2017-01-12T20:28:50.952349 #13350] DEBUG -- : saved cookie: MpSecurity=MjAyNjc2NTM6MTUxNTc4NTMzMDg5MTozYzIzMWIyZGViZTA4ZmQ4ZWQwYTNjNWZhZDIzYTE1MTU0M2U5YjY2
+D, [2017-01-12T20:28:50.952651 #13350] DEBUG -- : saved cookie: MpSslSecurity=MjAyNjc2NTM6MTUxNTc4NTMzMDg5MToxZmQyODY0NTFiMDBiMGY1ODYzYTNmYmZiNTZjNzFmZjkwOGY0N2Jm
+D, [2017-01-12T20:28:50.952852 #13350] DEBUG -- : saved cookie: luid=/AVUYb/RFReD42y0A3p9rN6l8U3kX//l
+I, [2017-01-12T20:28:50.952920 #13350]  INFO -- : follow redirect to: https://www.marktplaats.nl/syi/plaatsAdvertentie.html
+I, [2017-01-12T20:28:50.953641 #13350]  INFO -- : Net::HTTP::Get: /syi/plaatsAdvertentie.html
+D, [2017-01-12T20:28:50.953674 #13350] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-01-12T20:28:50.953696 #13350] DEBUG -- : request-header: accept => */*
+D, [2017-01-12T20:28:50.953718 #13350] DEBUG -- : request-header: user-agent => Mechanize/2.7.5 Ruby/2.3.0p0 (http://github.com/sparklemotion/mechanize/)
+D, [2017-01-12T20:28:50.953754 #13350] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-01-12T20:28:50.953777 #13350] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-01-12T20:28:50.953798 #13350] DEBUG -- : request-header: cookie => MpSecurity=MjAyNjc2NTM6MTUxNTc4NTMzMDg5MTozYzIzMWIyZGViZTA4ZmQ4ZWQwYTNjNWZhZDIzYTE1MTU0M2U5YjY2; MpSession=6bf03db0-dbc3-4c5a-a5f9-bd384761ed94; MpSslSecurity=MjAyNjc2NTM6MTUxNTc4NTMzMDg5MToxZmQyODY0NTFiMDBiMGY1ODYzYTNmYmZiNTZjNzFmZjkwOGY0N2Jm; luckynumber=1098060106; luid=/AVUYb/RFReD42y0A3p9rN6l8U3kX//l
+D, [2017-01-12T20:28:50.953820 #13350] DEBUG -- : request-header: host => www.marktplaats.nl
+D, [2017-01-12T20:28:50.953846 #13350] DEBUG -- : request-header: referer => https://www.marktplaats.nl/account/login.html
+I, [2017-01-12T20:28:51.044658 #13350]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-01-12T20:28:51.044731 #13350] DEBUG -- : response-header: cache-control => no-store
+D, [2017-01-12T20:28:51.044755 #13350] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-01-12T20:28:51.044789 #13350] DEBUG -- : response-header: content-language => en-US
+D, [2017-01-12T20:28:51.044811 #13350] DEBUG -- : response-header: content-length => 7693
+D, [2017-01-12T20:28:51.044832 #13350] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2017-01-12T20:28:51.044854 #13350] DEBUG -- : response-header: date => Thu, 12 Jan 2017 19:28:50 GMT
+D, [2017-01-12T20:28:51.044874 #13350] DEBUG -- : response-header: expires => Thu, 01 Jan 1970 00:00:00 GMT
+D, [2017-01-12T20:28:51.044895 #13350] DEBUG -- : response-header: pragma => no-cache
+D, [2017-01-12T20:28:51.044916 #13350] DEBUG -- : response-header: set-cookie => luckynumber=1098060106;Path=/;Domain=.marktplaats.nl;Expires=Fri, 12-Jan-2018 19:28:50 GMT, MpSession="";Version=1;Path=/;Expires=Thu, 01-Jan-1970 00:00:00 GMT;Max-Age=0, MpSession=6bf03db0-dbc3-4c5a-a5f9-bd384761ed94;Path=/;Domain=.marktplaats.nl, pc=1165LX;Path=/;Domain=.marktplaats.nl;Expires=Fri, 12-Jan-2018 19:28:51 GMT
+D, [2017-01-12T20:28:51.044937 #13350] DEBUG -- : response-header: vary => Accept-Encoding, User-Agent
+D, [2017-01-12T20:28:51.044958 #13350] DEBUG -- : response-header: x-frame-options => SAMEORIGIN
+D, [2017-01-12T20:28:51.045041 #13350] DEBUG -- : Read 3406 bytes (3406 total)
+D, [2017-01-12T20:28:51.045139 #13350] DEBUG -- : Read 4287 bytes (7693 total)
+D, [2017-01-12T20:28:51.045485 #13350] DEBUG -- : gzip response
+D, [2017-01-12T20:28:51.048038 #13350] DEBUG -- : saved cookie: luckynumber=1098060106
+D, [2017-01-12T20:28:51.048270 #13350] DEBUG -- : saved cookie: MpSession=
+D, [2017-01-12T20:28:51.048390 #13350] DEBUG -- : saved cookie: MpSession=6bf03db0-dbc3-4c5a-a5f9-bd384761ed94
+D, [2017-01-12T20:28:51.048855 #13350] DEBUG -- : saved cookie: pc=1165LX

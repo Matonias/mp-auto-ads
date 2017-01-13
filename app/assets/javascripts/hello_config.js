@@ -1,93 +1,93 @@
-hello.init({
-  marktplaats: ""
-});
+// hello.init({
+//   marktplaats: ""
+// });
 
 
-hello().login().then(function() {
-    alert('You are signed in to Facebook');
-}, function(e) {
-    alert('Signin error: ' + e.error.message);
-});
+// hello().login().then(function() {
+//     alert('You are signed in to Facebook');
+// }, function(e) {
+//     alert('Signin error: ' + e.error.message);
+// });
 
-(function(hello) {
-  hello.init({
-    marktplaats: {
-      name: 'Marktplaats',
+// (function(hello) {
+//   hello.init({
+//     marktplaats: {
+//       name: 'Marktplaats',
 
-      oauth: {
-        version: 2,
-        auth: 'https://auth.demo.qa-mp.so/accounts/oauth/authorize',
-        grant: 'https://auth.demo.qa-mp.so/accounts/oauth/token'
-      },
+//       oauth: {
+//         version: 2,
+//         auth: 'https://auth.demo.qa-mp.so/accounts/oauth/authorize',
+//         grant: 'https://auth.demo.qa-mp.so/accounts/oauth/token'
+//       },
 
-      // Request path translated
-      base: 'https://api.soundcloud.com/',
-      get: {
-        me: 'me.json',
+//       // Request path translated
+//       base: 'https://api.soundcloud.com/',
+//       get: {
+//         me: 'me.json',
 
-        // Http://developers.soundcloud.com/docs/api/reference#me
-        'me/friends': 'me/followings.json',
-        'me/followers': 'me/followers.json',
-        'me/following': 'me/followings.json',
+//         // Http://developers.soundcloud.com/docs/api/reference#me
+//         'me/friends': 'me/followings.json',
+//         'me/followers': 'me/followers.json',
+//         'me/following': 'me/followings.json',
 
-        // See: http://developers.soundcloud.com/docs/api/reference#activities
-        'default': function(p, callback) {
+//         // See: http://developers.soundcloud.com/docs/api/reference#activities
+//         'default': function(p, callback) {
 
-          // Include '.json at the end of each request'
-          callback(p.path + '.json');
-        }
-      },
+//           // Include '.json at the end of each request'
+//           callback(p.path + '.json');
+//         }
+//       },
 
-      // Response handlers
-      wrap: {
-        me: function(o) {
-          formatUser(o);
-          return o;
-        },
+//       // Response handlers
+//       wrap: {
+//         me: function(o) {
+//           formatUser(o);
+//           return o;
+//         },
 
-        'default': function(o) {
-          if (Array.isArray(o)) {
-            o = {
-              data: o.map(formatUser)
-            };
-          }
+//         'default': function(o) {
+//           if (Array.isArray(o)) {
+//             o = {
+//               data: o.map(formatUser)
+//             };
+//           }
 
-          paging(o);
-          return o;
-        }
-      },
+//           paging(o);
+//           return o;
+//         }
+//       },
 
-      xhr: formatRequest,
-      jsonp: formatRequest
-    }
-  });
+//       xhr: formatRequest,
+//       jsonp: formatRequest
+//     }
+//   });
 
-  function formatRequest(p, qs) {
-    // Alter the querystring
-    var token = qs.access_token;
-    delete qs.access_token;
-    qs.oauth_token = token;
-    qs['_status_code_map[302]'] = 200;
-    return true;
-  }
+//   function formatRequest(p, qs) {
+//     // Alter the querystring
+//     var token = qs.access_token;
+//     delete qs.access_token;
+//     qs.oauth_token = token;
+//     qs['_status_code_map[302]'] = 200;
+//     return true;
+//   }
 
-  function formatUser(o) {
-    if (o.id) {
-      o.picture = o.avatar_url;
-      o.thumbnail = o.avatar_url;
-      o.name = o.username || o.full_name;
-    }
+//   function formatUser(o) {
+//     if (o.id) {
+//       o.picture = o.avatar_url;
+//       o.thumbnail = o.avatar_url;
+//       o.name = o.username || o.full_name;
+//     }
 
-    return o;
-  }
+//     return o;
+//   }
 
-  // See: http://developers.soundcloud.com/docs/api/reference#activities
-  function paging(res) {
-    if ('next_href' in res) {
-      res.paging = {
-        next: res.next_href
-      };
-    }
-  }
+//   // See: http://developers.soundcloud.com/docs/api/reference#activities
+//   function paging(res) {
+//     if ('next_href' in res) {
+//       res.paging = {
+//         next: res.next_href
+//       };
+//     }
+//   }
 
-})(hello);
+// })(hello);

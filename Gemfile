@@ -9,6 +9,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'redis'
 gem 'devise'
 gem 'omniauth'
+gem 'figaro'
 
 gem 'sass-rails'
 gem 'jquery-rails'
@@ -18,6 +19,8 @@ gem 'font-awesome-sass'
 gem 'simple_form'
 gem 'autoprefixer-rails'
 gem 'slim'
+gem 'mechanize'
+gem 'nokogiri'
 
 group :development, :test do
   gem 'binding_of_caller'
